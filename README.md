@@ -16,7 +16,7 @@
  - 循环；
  - 条件判断
  -
- - 
+ - computed与watch与$watch
  -
  - 
  -
