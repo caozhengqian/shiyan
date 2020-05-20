@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    test branch test branch test branch test branch
   </div>
 </template>
 

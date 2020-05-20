@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
- <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+    <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
   <el-form-item label="活动名称" prop="name">
     <el-input v-model="ruleForm.name"></el-input>
   </el-form-item>
@@ -69,6 +69,22 @@ export default {
           resource: '',
           desc: ''
         },
+         options: [{
+          value: '选项1',
+          label: '黄金糕'
+        }, {
+          value: '选项2',
+          label: '双皮奶'
+        }, {
+          value: '选项3',
+          label: '蚵仔煎'
+        }, {
+          value: '选项4',
+          label: '龙须面'
+        }, {
+          value: '选项5',
+          label: '北京烤鸭'
+        }],
         rules: {
           name: [
             { required: true, message: '请输入活动名称', trigger: 'blur' },
@@ -90,7 +106,7 @@ export default {
             { required: true, message: '请选择活动资源', trigger: 'change' }
           ],
           desc: [
-            { required: true, message: '请填写活动形sss式', trigger: 'blur' }
+            { required: true, message: '请填写活动形式', trigger: 'blur' }
           ]
         }
       };
