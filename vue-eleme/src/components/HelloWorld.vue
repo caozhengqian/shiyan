@@ -90,7 +90,7 @@ export default {
             { required: true, message: '请选择活动资源', trigger: 'change' }
           ],
           desc: [
-            { required: true, message: '请填写活动形式', trigger: 'blur' }
+            { required: true, message: '请填写活动形sss式', trigger: 'blur' }
           ]
         }
       };
