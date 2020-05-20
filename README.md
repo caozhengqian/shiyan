@@ -17,34 +17,14 @@
  - 条件判断
  -
  - computed与watch与$watch
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
- -
- - 
 
-*2、antdUI、elemeUI
->>用于实验antdegin和elemeUI的组件功能。  
 
+2、elemeUI  
+- 用于实验antdegin和elemeUI的组件功能。  
+  > aaa
+  >> bbb
+
+antdUI
 *3、css实验室  
 
 *4、js实验室
