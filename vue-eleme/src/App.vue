@@ -3,7 +3,7 @@
     <!--<HelloWorld/>-->
     <!--<br/>-->
     <!--<checkboxE/>-->
-    <inputE/>
+    <selectE/>
   </div>
 </template>
 
@@ -14,8 +14,9 @@ export default {
   components: {
     // HelloWorld:()=>import("./components/HelloWorld"),
     // radioE:()=>import('./components/radio'),
-    //   checkboxE:()=>import('./components/checkbox')
-      inputE:()=>import('./components/input')
+    //   checkboxE:()=>import('./components/checkbox'),
+    //   inputE:()=>import('./components/input'),
+      selectE:()=>import('./components/select')
 
   }
 }
