@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <!--<HelloWorld/>-->
+    <!--<br/>-->
     <checkboxE/>
   </div>
 </template>
@@ -9,9 +11,10 @@
 export default {
   name: 'App',
   components: {
-    // HelloWorld:()=>import("./components/HelloWorld")
+    // HelloWorld:()=>import("./components/HelloWorld"),
     // radioE:()=>import('./components/radio'),
       checkboxE:()=>import('./components/checkbox')
+
   }
 }
 </script>
