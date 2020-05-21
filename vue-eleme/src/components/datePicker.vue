@@ -11,7 +11,7 @@
         <el-date-picker
                 v-model="ruleForm.dateV"
                 type="date"
-                format="yyyy"
+                value-format="yyyy-MM-dd"
                 placeholder="选择日期">
         </el-date-picker>
       </el-form-item>
@@ -33,6 +33,7 @@ export default {
     return {
       ruleForm: {
           dateV: ""
+
       },
       rules: {
           dateV: [
@@ -44,7 +45,7 @@ export default {
   methods: {
     submitForm(formName) {
       this.$refs[formName].validate(valid => {
-        console.info(this.ruleForm);
+        console.info(this.ruleForm.dateV);
         if (valid) {
             console.log("ok submit!!");
         } else {
