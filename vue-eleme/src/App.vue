@@ -4,7 +4,8 @@
     <!--<br/>-->
     <!--<checkboxE/>-->
     <!--<selectE/>-->
-    <timeSelectE/>
+    <!--<timeSelectE/>-->
+    <datePicker/>
   </div>
 </template>
 
@@ -18,7 +19,8 @@ export default {
     //   checkboxE:()=>import('./components/checkbox'),
     //   inputE:()=>import('./components/input'),
     //   selectE:()=>import('./components/select'),
-      timeSelectE:()=>import('./components/timeSelect'),
+    //   timeSelectE:()=>import('./components/timeSelect'),
+      datePicker:()=>import('./components/datePicker'),
 
   }
 }
