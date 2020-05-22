@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    OnePage
+    <p>OnePage</p>
+    <button @click="toRouter">跳转到TwoPage</button>
   </div>
 </template>
 
@@ -9,7 +10,12 @@ export default {
   name: 'OnePage',
   props: {
     msg: String
-  }
+  },
+    methods:{
+        toRouter(){
+            this.$router.push({ name: 'onetwo', params: { "a":"b" }})
+        },
+    }
 }
 </script>
 
