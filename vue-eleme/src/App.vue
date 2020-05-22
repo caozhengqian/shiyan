@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<HelloWorld/>-->
+    <!--<checkboxE/>-->
+    <!--<selectE/>-->
+    <!--<timeSelectE/>-->
+    <datePicker/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld:()=>import("./components/HelloWorld"),
+    // radioE:()=>import('./components/radio'),
+    //   checkboxE:()=>import('./components/checkbox'),
+    //   inputE:()=>import('./components/input'),
+    //   selectE:()=>import('./components/select'),
+    //   timeSelectE:()=>import('./components/timeSelect'),
+      datePicker:()=>import('./components/datePicker'),
+
   }
 }
 </script>
