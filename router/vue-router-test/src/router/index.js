@@ -6,71 +6,73 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/',
-        component: () => import('../views/OnePage'),
+        component: () => import('../views/Home'),
         meta: {
-            title: 'OnePageTitle'
+            title: '八大菜系介绍'
         }
     },
     {
-        path: '/TwoPagePath',
-        component: () => import('../views/TwoPage'),
+        path: '/luCai',
+        component: () => import('../views/luCai'),
         meta: {
-            title: 'TwoPageTitle'
+            title: '鲁菜'
         },
         children: [
             {
-                path: 'TwoOnePagePath',
-                component: () => import('../components/twos/TwoOnePage'),
+                path: 'history',
+                component: () => import('../views/luCai/history/index'),
                 meta: {
-                    title: 'TwoOnePageTitle'
-                }
+                    title: '发展历史'
+                },
+                children: [
+                    {
+                        path: 'qinAndHan',
+                        component: () => import('../views/luCai/history/qinAndHanDynasties'),
+                        meta: {
+                            title: '秦汉时期'
+                        }
+                    },
+                    {
+                        path: 'northernWei',
+                        component: () => import('../views/luCai/history/northernWeiDynasty'),
+                        meta: {
+                            title: '北魏时期'
+                        }
+                    }
+                ]
             },
             {
-                path: 'TwoTwoPagePath',
-                component: () => import('../components/twos/TwoTwoPage'),
+                path: 'features',
+                component: () => import('../views/luCai/features'),
                 meta: {
-                    title: 'TwoTwoPageTitle'
-                }
-            },
-            {
-                path: 'TwoThreePagePath',
-                component: () => import('../components/twos/TwoThreePage'),
-                meta: {
-                    title: 'TwoThreePageTitle'
+                    title: '风味特色'
                 }
             }
         ]
     },
     {
-        path: '/ThreePagePath',
-        component: () => import('../views/ThreePage'),
+        path: '/chuanCai',
+        component: () => import('../views/chuanCai'),
         meta: {
-            title: 'ThreePageTitle'
+            title: '川菜'
         },
         children: [
             {
-                path: 'ThreeOnePagePath',
-                component: () => import('../components/threes/ThreeOnePage'),
+                path: 'introduction',
+                component: () => import('../views/chuanCai/introduction'),
                 meta: {
-                    title: 'ThreeOnePageTitle'
+                    title: '川菜概论'
                 }
             },
             {
-                path: 'ThreeTwoPagePath',
-                component: () => import('../components/threes/ThreeTwoPage'),
+                path: 'history',
+                component: () => import('../views/chuanCai/history'),
                 meta: {
-                    title: 'ThreeTwoPageTitle'
-                }
-            },
-            {
-                path: 'ThreeThreePagePath',
-                component: () => import('../components/threes/ThreeThreePage'),
-                meta: {
-                    title: 'ThreeThreePageTitle'
+                    title: '发展历史'
                 }
             }
         ]
-    },
+    }
 ]
 
 const router = new VueRouter({
