@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/.idea/antd-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/antd-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/css/antd-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/antd-demo/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/css/antd-demo/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +20,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/antd-demo/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="1449">
+              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -34,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/css/antd-demo/yarn.lock">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -152,13 +148,6 @@
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -221,7 +210,7 @@
       <workItem from="1591157474516" duration="917000" />
       <workItem from="1591160016976" duration="933000" />
       <workItem from="1591175655484" duration="869000" />
-      <workItem from="1591200630977" duration="4675000" />
+      <workItem from="1591200630977" duration="5107000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue">
       <created>1589898699167</created>
@@ -293,11 +282,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591253084941</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="webpack新增react">
+      <created>1591254609076</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591254609076</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52666000" />
+    <option name="totallyTimeSpent" value="53098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -645,15 +641,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/antd-demo/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="1449">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/antd-demo/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
