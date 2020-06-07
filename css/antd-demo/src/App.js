@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.less';
-import { Button } from 'antd';
+import BasicLayout from "./layouts/BasicLayout"
 function App() {
   return (
     <div className="App">
-         <Button type="primary">Button</Button>
+         <BasicLayout/>
     </div>
   );
 }
