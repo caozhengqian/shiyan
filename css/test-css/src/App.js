@@ -6,14 +6,18 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
-import Vh from "./components/Vh"
+import Index from "./components/Vh/index"
+import Layout from "./layout/Layout"
 
 function App() {
   return (
       <Router>
           <Switch>
               <Route exact path="/">
-                  <Vh/>
+                  <Layout/>
+              </Route>
+              <Route exact path="/vh">
+                  <Index/>
               </Route>
           </Switch>
       </Router>
