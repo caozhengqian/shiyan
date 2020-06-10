@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
+    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="使用慕课网redux和redux插件">
+      <change afterPath="$PROJECT_DIR$/css/test-css/src/utils/util.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/test-css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/layout/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/layout/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,25 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/App.js">
+      <file leaf-file-name="util.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/test-css/src/utils/util.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="23">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/App.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="66">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -47,16 +56,19 @@
         <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/antd-demo/config/webpack.config.js">
+      <file leaf-file-name="Layout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="82" column="43" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="43" />
+            <state relative-caret-position="319">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +95,9 @@
       <find>authority</find>
       <find>GlobalHe</find>
       <find>css-loader</find>
+      <find>getStyleLoaders</find>
+      <find>less</find>
+      <find>style-loader</find>
     </findStrings>
     <dirStrings>
       <dir>F:\webstorm\shiyan</dir>
@@ -99,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/antd-demo/src/layouts/11.http" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/redux/store.js" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/redux/reducers/todos.js" />
@@ -135,21 +149,22 @@
         <option value="$PROJECT_DIR$/css/antd-demo/src/components/LayoutHeader/index.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/FlexHeight/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/FlexHeight/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/layout/index.less" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/components/LayoutHeader/index.js" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/layouts/BasicLayout.js" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/App.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/App.js" />
-        <option value="$PROJECT_DIR$/css/test-css/src/layout/Layout.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" />
         <option value="$PROJECT_DIR$/react-compent/src/App.js" />
         <option value="$PROJECT_DIR$/react-compent/src/App.css" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less" />
+        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" />
+        <option value="$PROJECT_DIR$/css/test-css/src/layout/index.less" />
+        <option value="$PROJECT_DIR$/css/test-css/src/layout/Layout.js" />
+        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" />
+        <option value="$PROJECT_DIR$/css/test-css/src/utils/util.less" />
       </list>
     </option>
   </component>
@@ -240,6 +255,13 @@
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="test-css" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="test-css" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,6 +280,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="LessStyle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="test-css" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="test-css" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
@@ -343,7 +381,7 @@
       <workItem from="1591365681042" duration="18819000" />
       <workItem from="1591461563718" duration="32281000" />
       <workItem from="1591613818401" duration="7953000" />
-      <workItem from="1591690263175" duration="29783000" />
+      <workItem from="1591690263175" duration="34725000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue">
       <created>1589898699167</created>
@@ -506,11 +544,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591800650318</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="使用慕课网redux和redux插件">
+      <created>1591801513406</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591801513406</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152959000" />
+    <option name="totallyTimeSpent" value="157901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -562,26 +607,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用慕课网redux和redux插件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/redux/reducers/visibilityFilter.js" />
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/styles.css" />
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/constants.js" />
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="2" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/antd-demo/src/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -619,20 +644,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/craco.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -755,23 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/node_modules/classnames/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -855,9 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/antd-demo/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -865,20 +856,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less">
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="112">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/craco.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2510">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/config/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2809">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/config/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="66">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/utils/util.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
