@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +31,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -47,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.module.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less">
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="46">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/antd-demo/config/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="82" column="43" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -77,6 +82,7 @@
       <find>react-router-dom</find>
       <find>authority</find>
       <find>GlobalHe</find>
+      <find>css-loader</find>
     </findStrings>
     <dirStrings>
       <dir>F:\webstorm\shiyan</dir>
@@ -214,6 +220,19 @@
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="test-css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,14 +258,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="LessStyle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="test-css" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +343,7 @@
       <workItem from="1591365681042" duration="18819000" />
       <workItem from="1591461563718" duration="32281000" />
       <workItem from="1591613818401" duration="7953000" />
-      <workItem from="1591690263175" duration="28780000" />
+      <workItem from="1591690263175" duration="29783000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue">
       <created>1589898699167</created>
@@ -488,15 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591799907433</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="使用慕课网redux和redux插件">
+      <created>1591800650318</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591800650318</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151956000" />
+    <option name="totallyTimeSpent" value="152959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -630,13 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-299">
           <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="669" lean-forward="true" selection-start-line="669" selection-end-line="669" />
         </state>
       </provider>
     </entry>
@@ -848,20 +858,27 @@
     <entry file="file://$PROJECT_DIR$/css/test-css/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
+    <entry file="file://$PROJECT_DIR$/css/antd-demo/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="82" column="43" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less">
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="46">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
