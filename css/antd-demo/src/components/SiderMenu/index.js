@@ -1,16 +1,21 @@
 import React from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu } from 'antd';
+import menuData from "../../common/menu"
 
 const { Sider } = Layout;
-const { SubMenu } = Menu;
 export default class SiderMenu extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            collapsed: false,
+        };
     }
 
     componentDidMount() {
-
+        menuData.map((v,k)=>{
+            console.info(v);
+            console.info(k);
+        })
     }
 
     render() {
@@ -19,9 +24,9 @@ export default class SiderMenu extends React.Component {
                 style={{
                     overflow: 'auto',
                     height: '100vh',
-                    position: 'fixed',
-                    left: 0,
                 }}
+                collapsible
+                collapsed={this.state.collapsed}
             >
                 <div className="logo" />
                 <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>

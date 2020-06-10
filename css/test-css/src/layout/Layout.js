@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-
+import "./index.less";
 export default class Layout extends React.Component {
     constructor(props) {
         super(props);
@@ -13,8 +13,25 @@ export default class Layout extends React.Component {
 
     render() {
         return (
-            <div>
-                <Link to="/vh" >vh100,上下3个div，中间div高度100%。</Link>
+            <div className="Layout-div">
+                <div>
+                    <Link to="/vh" >
+                        vh100,上下3个div，中间div高度100%。
+                        <span>(flex:0 0 200px;flex 1)</span>
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/flexHeight" >
+                        span等内联无法控制高度
+                        <span>(设置less的display:inline)</span>
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/lessStyle" >
+                        LessStyle
+                        <span>(设置less的display:inline)</span>
+                    </Link>
+                </div>
             </div>
         );
     }

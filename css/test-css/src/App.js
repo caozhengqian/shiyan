@@ -6,7 +6,9 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
-import Index from "./components/Vh/index"
+import Vh from "./components/Vh"
+import FlexHeight from "./components/FlexHeight"
+import LessStyle from "./components/LessStyle"
 import Layout from "./layout/Layout"
 
 function App() {
@@ -17,7 +19,13 @@ function App() {
                   <Layout/>
               </Route>
               <Route exact path="/vh">
-                  <Index/>
+                  <Vh/>
+              </Route>
+              <Route exact path="/flexHeight">
+                  <FlexHeight/>
+              </Route>
+              <Route exact path="/lessStyle">
+                  <LessStyle/>
               </Route>
           </Switch>
       </Router>

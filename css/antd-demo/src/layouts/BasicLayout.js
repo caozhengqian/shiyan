@@ -1,5 +1,6 @@
 import React from 'react';
 import SiderMenu from "../components/SiderMenu"
+import LayoutHeader from "../components/LayoutHeader"
 import { Layout} from 'antd';
 const { Content, Header, Footer,Sider } = Layout;
 export default class BasicLayout extends React.Component{
@@ -13,11 +14,15 @@ export default class BasicLayout extends React.Component{
     render() {
 
         return (
-            <Layout>
+            <Layout className="basicLayout">
                 <SiderMenu/>
-                <Layout style={{height:'100vh'}}>
-                    <Header>Header</Header>
-                    <Content style={{height:'100%',backgroundColor:'yellow'}}>Content</Content>
+                <Layout>
+                    <Header  style={{backgroundColor:"#FFF",fontSize:"16px"}}>
+                        <div className="header">
+                            <LayoutHeader/>
+                        </div>
+                    </Header>
+                    <Content style={{height:'100%'}}>Content</Content>
                     <Footer>Footer</Footer>
                 </Layout>
             </Layout>
