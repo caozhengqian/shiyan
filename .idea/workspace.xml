@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/src/common/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/src/components/LayoutHeader/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/src/components/LayoutHeader/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/antd-demo/src/layouts/BasicLayout.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/FlexHeight/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/FlexHeight/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/test-css/src/layout/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/App.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/antd-demo/src/App.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/components/SiderMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/antd-demo/src/components/SiderMenu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/antd-demo/src/layouts/BasicLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/Vh/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/Vh/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,20 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/test-css/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="230">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/test-css/src/App.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="253">
+              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -57,36 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js">
+      <file leaf-file-name="index.module.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.less">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -128,10 +93,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/antd-demo/craco.config.js" />
-        <option value="$PROJECT_DIR$/webpack/react-webpack/.gitignore" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/layouts/11.http" />
-        <option value="$PROJECT_DIR$/react-compent/src/App.js" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/redux/store.js" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/css/antd-demo/src/redux/reducers/todos.js" />
@@ -173,12 +135,15 @@
         <option value="$PROJECT_DIR$/css/antd-demo/src/App.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/App.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/layout/Layout.js" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" />
+        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" />
+        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" />
+        <option value="$PROJECT_DIR$/react-compent/src/App.js" />
+        <option value="$PROJECT_DIR$/react-compent/src/App.css" />
+        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" />
+        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less" />
       </list>
     </option>
   </component>
@@ -249,67 +214,7 @@
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LayoutHeader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="antd-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="test-css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="test-css" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="test-css" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="classnames" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
@@ -334,26 +239,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="LessStyle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="test-css" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LessStyle" type="462c0819:PsiDirectoryNode" />
-              <item name="One" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="test-css" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LessStyle" type="462c0819:PsiDirectoryNode" />
-              <item name="Two" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
@@ -362,6 +247,17 @@
               <item name="test-css" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-compent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-compent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,7 +332,7 @@
       <workItem from="1591365681042" duration="18819000" />
       <workItem from="1591461563718" duration="32281000" />
       <workItem from="1591613818401" duration="7953000" />
-      <workItem from="1591690263175" duration="24786000" />
+      <workItem from="1591690263175" duration="28780000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue">
       <created>1589898699167</created>
@@ -578,14 +474,29 @@
       <option name="project" value="LOCAL" />
       <updated>1591553726362</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="使用慕课网redux和redux插件">
+      <created>1591792757081</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591792757082</updated>
+    </task>
+    <task id="LOCAL-00022" summary="使用慕课网redux和redux插件">
+      <created>1591799907433</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591799907433</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147962000" />
+    <option name="totallyTimeSpent" value="151956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -634,11 +545,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用慕课网redux和redux插件" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/redux/store.js" />
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/redux/selectors.js" />
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/redux/actionTypes.js" />
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/components/AddTodo.js" />
-    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/TodoApp.js" />
     <entry file="file://$PROJECT_DIR$/css/antd-demo/src/redux/reducers/visibilityFilter.js" />
     <entry file="file://$PROJECT_DIR$/css/antd-demo/src/styles.css" />
     <entry file="file://$PROJECT_DIR$/css/antd-demo/src/constants.js" />
@@ -768,9 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/FlexHeight/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -842,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -875,22 +771,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.less">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -902,19 +784,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="181">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/App.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

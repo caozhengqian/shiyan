@@ -13,8 +13,14 @@ export default class Two extends React.Component {
 
     render() {
         return (
-            <div className="">
-                ddiv
+            <div className="two-div">
+                <div className="two-one">
+                    two-one
+                    <div className="lessStyle-div">
+                        ddiv
+                    </div>
+                </div>
+                two-div
             </div>
         );
     }
