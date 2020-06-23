@@ -9,6 +9,7 @@ import Vh from "./components/Vh"
 import FlexHeight from "./components/FlexHeight"
 import LessStyle from "./components/LessStyle"
 import BoxSizing from "./components/BoxSizing"
+import Extends from "./components/Extends"
 import Layout from "./layout/Layout"
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
               </Route>
               <Route exact path="/boxSizing">
                   <BoxSizing/>
+              </Route>
+              <Route exact path="/extends">
+                  <Extends/>
               </Route>
           </Switch>
       </Router>

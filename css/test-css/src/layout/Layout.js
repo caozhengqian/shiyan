@@ -38,6 +38,12 @@ export default class Layout extends React.Component {
                         <span>(设置context-box,border-box)</span>
                     </Link>
                 </div>
+                <div>
+                    <Link to="/extends" >
+                        属性继承
+                        <span>(设置context-box,border-box)</span>
+                    </Link>
+                </div>
             </div>
         );
     }
