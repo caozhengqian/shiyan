@@ -1,6 +1,14 @@
 .two-div{
-  .two-one{
-
+ >p{//当前div下的p，内部的p不会改变
+   color:red;
+ }
+  .two-three{
+    width:50px;
+    //height:50px;
+    //background-color: red;
+    //border-radius: 100%;
   }
-
+  & > *{//two-div里面第一层的所有元素,相对于two-div
+    padding-left: 40px ;
+  }
 }
