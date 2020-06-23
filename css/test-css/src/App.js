@@ -8,6 +8,7 @@ import {
 import Vh from "./components/Vh"
 import FlexHeight from "./components/FlexHeight"
 import LessStyle from "./components/LessStyle"
+import BoxSizing from "./components/BoxSizing"
 import Layout from "./layout/Layout"
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
               </Route>
               <Route exact path="/lessStyle">
                   <LessStyle/>
+              </Route>
+              <Route exact path="/boxSizing">
+                  <BoxSizing/>
               </Route>
           </Switch>
       </Router>

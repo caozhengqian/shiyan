@@ -32,6 +32,12 @@ export default class Layout extends React.Component {
                         <span>(设置less的display:inline)</span>
                     </Link>
                 </div>
+                <div>
+                    <Link to="/boxSizing" >
+                        box-sizing
+                        <span>(设置context-box,border-box)</span>
+                    </Link>
+                </div>
             </div>
         );
     }
