@@ -11,6 +11,7 @@ import LessStyle from "./components/LessStyle"
 import BoxSizing from "./components/BoxSizing"
 import Extends from "./components/Extends"
 import Layout from "./layout/Layout"
+import Choice from "./components/Choice";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
               </Route>
               <Route exact path="/extends">
                   <Extends/>
+              </Route>
+              <Route exact path="/choice">
+                  <Choice/>
               </Route>
           </Switch>
       </Router>

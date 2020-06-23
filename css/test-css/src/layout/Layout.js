@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import "./index.less";
+import Choice from "../components/Choice";
 export default class Layout extends React.Component {
     constructor(props) {
         super(props);
@@ -41,7 +42,11 @@ export default class Layout extends React.Component {
                 <div>
                     <Link to="/extends" >
                         属性继承
-                        <span>(设置context-box,border-box)</span>
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/choice" >
+                        选择器
                     </Link>
                 </div>
             </div>
