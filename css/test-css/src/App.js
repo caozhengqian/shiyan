@@ -41,7 +41,7 @@ function App() {
                   <Choice/>
               </Route>
               <Route exact path="/childChoice">
-                  <Choice/>
+                  <ChildChoice/>
               </Route>
               <Route exact path="/weiLei">
                   <WeiLei/>
