@@ -1,9 +1,35 @@
 .choice {
-  .one{
-    div,p{
+  .he{
+    padding:20px;
+    div{
       color:red
     }
-
   }
-
+  .inAll div{
+    border:1px solid red;
+  }
+  .inAll{
+    padding:20px;
+  }
+  .father>div{
+    border:1px solid red;
+  }
+  .father{
+    padding:20px;
+  }
+  //.fa+div{
+  //  border:1px solid red;
+  //}
+  .fa{
+    padding:20px;
+    p+div{
+      border:1px solid blue;
+    }
+  }
+  .fa1{
+    padding:20px;
+    p~div{
+      border:1px solid blue;
+    }
+  }
 }

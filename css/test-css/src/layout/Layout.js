@@ -49,6 +49,15 @@ export default class Layout extends React.Component {
                         选择器
                     </Link>
                 </div>
+                <div className="pointer">
+                    浏览器&lt; p &gt;标签自带margin<br/>
+                    &lt 代表 &lt; &gt 代表 &gt;
+                </div>
+                <div>
+                    <Link to="/weilei" >
+                        伪类选择器
+                    </Link>
+                </div>
             </div>
         );
     }
