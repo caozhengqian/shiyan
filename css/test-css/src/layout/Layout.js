@@ -55,7 +55,7 @@ export default class Layout extends React.Component {
                 </div>
                 <div>
                     <Link to="/weiLei" >
-                        伪类选择器
+                        a标签伪类选择器
                     </Link>
                 </div>
             </div>
