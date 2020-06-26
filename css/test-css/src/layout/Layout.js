@@ -54,7 +54,7 @@ export default class Layout extends React.Component {
                     &lt 代表 &lt; &gt 代表 &gt;
                 </div>
                 <div>
-                    <Link to="/weilei" >
+                    <Link to="/weiLei" >
                         伪类选择器
                     </Link>
                 </div>
