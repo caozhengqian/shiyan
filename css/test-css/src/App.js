@@ -12,6 +12,7 @@ import BoxSizing from "./components/BoxSizing"
 import Extends from "./components/Extends"
 import Layout from "./layout/Layout"
 import Choice from "./components/Choice";
+import ChildChoice from "./components/ChildChoice";
 import WeiLei from "./components/WeiLei";
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
                   <Extends/>
               </Route>
               <Route exact path="/choice">
+                  <Choice/>
+              </Route>
+              <Route exact path="/childChoice">
                   <Choice/>
               </Route>
               <Route exact path="/weiLei">

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import "./index.less";
-import Choice from "../components/Choice";
+import ChildChoice from "../components/ChildChoice";
 export default class Layout extends React.Component {
     constructor(props) {
         super(props);
@@ -47,6 +47,11 @@ export default class Layout extends React.Component {
                 <div>
                     <Link to="/choice" >
                         选择器
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/childChoice" >
+                        循环child选择器
                     </Link>
                 </div>
                 <div className="pointer">
