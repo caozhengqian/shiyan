@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import "./index.less";
-import ChildChoice from "../components/ChildChoice";
 export default class Layout extends React.Component {
     constructor(props) {
         super(props);
@@ -61,6 +60,21 @@ export default class Layout extends React.Component {
                 <div>
                     <Link to="/weiLei" >
                         a标签伪类选择器
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/youXian" >
+                        css优先级
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/juZhong" >
+                        居中div
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/position" >
+                        position定位
                     </Link>
                 </div>
             </div>

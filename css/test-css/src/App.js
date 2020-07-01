@@ -14,6 +14,8 @@ import Layout from "./layout/Layout"
 import Choice from "./components/Choice";
 import ChildChoice from "./components/ChildChoice";
 import WeiLei from "./components/WeiLei";
+import YouXian from "./components/YouXian";//css优先选择
+import Position from "./components/Position";//css优先选择
 
 function App() {
   return (
@@ -45,6 +47,12 @@ function App() {
               </Route>
               <Route exact path="/weiLei">
                   <WeiLei/>
+              </Route>
+              <Route exact path="/youXian">
+                  <YouXian/>
+              </Route>
+              <Route exact path="/position">
+                  <Position/>
               </Route>
           </Switch>
       </Router>
