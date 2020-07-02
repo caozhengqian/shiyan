@@ -77,6 +77,31 @@ export default class Layout extends React.Component {
                         position定位
                     </Link>
                 </div>
+                <div>
+                    <Link to="/divMore" >
+                        div超出
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/juZhong" >
+                        居中
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/float" >
+                        浮动
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/display" >
+                        display
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/flex" >
+                        flex
+                    </Link>
+                </div>
             </div>
         );
     }

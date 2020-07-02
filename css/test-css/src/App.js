@@ -15,7 +15,13 @@ import Choice from "./components/Choice";
 import ChildChoice from "./components/ChildChoice";
 import WeiLei from "./components/WeiLei";
 import YouXian from "./components/YouXian";//css优先选择
-import Position from "./components/Position";//css优先选择
+import Position from "./components/Position";//position定位
+import DivMore from "./components/DivMore";//div超出
+import JuZhong from "./components/JuZhong";//居中
+import Float from "./components/Float";//float浮动研究
+import Display from "./components/Display";//display研究
+import Flex from "./components/Flex";//display研究
+
 
 function App() {
   return (
@@ -53,6 +59,21 @@ function App() {
               </Route>
               <Route exact path="/position">
                   <Position/>
+              </Route>
+              <Route exact path="/divMore">
+                  <DivMore/>
+              </Route>
+              <Route exact path="/juZhong">
+                  <JuZhong/>
+              </Route>
+              <Route exact path="/float">
+                  <Float/>
+              </Route>
+              <Route exact path="/display">
+                  <Display/>
+              </Route>
+              <Route exact path="/flex">
+                  <Flex/>
               </Route>
           </Switch>
       </Router>
