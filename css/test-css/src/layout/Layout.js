@@ -102,6 +102,11 @@ export default class Layout extends React.Component {
                         flex
                     </Link>
                 </div>
+                <div>
+                    <Link to="/test" >
+                        Test
+                    </Link>
+                </div>
             </div>
         );
     }

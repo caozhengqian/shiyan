@@ -20,7 +20,8 @@ import DivMore from "./components/DivMore";//div超出
 import JuZhong from "./components/JuZhong";//居中
 import Float from "./components/Float";//float浮动研究
 import Display from "./components/Display";//display研究
-import Flex from "./components/Flex";//display研究
+import Flex from "./components/Flex";//Flex
+import Test from "./components/Test";//Test
 
 
 function App() {
@@ -74,6 +75,9 @@ function App() {
               </Route>
               <Route exact path="/flex">
                   <Flex/>
+              </Route>
+              <Route exact path="/test">
+                  <Test/>
               </Route>
           </Switch>
       </Router>
