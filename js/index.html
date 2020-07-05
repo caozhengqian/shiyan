@@ -2,21 +2,31 @@
 <html lang="en">
 <link rel="stylesheet" href="css/index.css" />
 <script type="text/javascript" src="js/index.js" ></script>
+<script type="text/javascript" src="js/for.js" ></script>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
     <p class="desc">
-        abc()   //打印abc
-        function abc() {
+        <span class="green">abc()</span>  <span class="red">//打印abc</span>
+        function <span class="green">abc()</span> {
             console.info('abc');
         }
 
-        abcd()  //abcd is not defined
-        abcd = ()=>{
+        <span class="green">abcd()</span>  <span class="red">//报错：abcd is not defined</span>
+        <span class="green">abcd</span> = ()=>{
             console.info('abcd')
         }
+    </p>
+    <p>---------------------------------------------------------------------------------------</p>
+    <p class="desc">
+        for(var i = 0; i < 5; i++){
+           setTimeout(function () {
+               console.info(i)
+              console.info(new Date())
+           },3000)
+        <span class="red">//5 时间 5 时间 5 时间5 时间5 时间</span>
     </p>
 </body>
 </html>
