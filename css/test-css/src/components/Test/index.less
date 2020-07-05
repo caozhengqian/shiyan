@@ -71,10 +71,10 @@
     .text{
       line-height: 30px;
       width:50px;
-      overflow: visible;
-      text-overflow:ellipsis;
-      white-space: pre-wrap;//pre 保留空白+不换行，nowrap 不换行、pre-wrap 空白+换行、
-      word-wrap:break-word;//break-word、normal
+      overflow: visible;/*hidden、scroll、auto、visible 默认会呈现在元素框外面*/
+      text-overflow:ellipsis;/*ellipsis 省略号，clip 裁剪*/
+      white-space: pre-wrap;/*pre 保留空白+不换行，nowrap 不换行、pre-wrap 空白+换行、*/
+      word-wrap:break-word;/*break-word、normal*/
       vertical-align: text-top;
       display: inline-block;
     }
