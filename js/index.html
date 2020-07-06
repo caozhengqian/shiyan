@@ -11,7 +11,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<script>
+   function goto(){
+       // window.location.href="stringArray.html";//可以返回
+       // window.navigate("stringArray.html");
+       self.location='stringArray.html';
+    }
+</script>
 <body>
+<div class="goto" onclick="goto()">跳转到ArrayString</div>
     1、（）=》｛｝和普通方法区别
     <p class="desc">
         <span class="green">abc()</span>  <span class="red">//打印abc</span>

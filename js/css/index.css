@@ -17,3 +17,10 @@ p{
 .green{
     color:greenyellow;
 }
+.goto{
+    position: fixed;
+    top:10px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
