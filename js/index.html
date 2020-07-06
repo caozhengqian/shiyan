@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="css/index.css" />
-<script type="text/javascript" src="js/index.js" ></script>
-<script type="text/javascript" src="js/for.js" ></script>
+<script type="text/javascript" src="js/index/index.js" ></script>
+<script type="text/javascript" src="js/index/for.js" ></script>
+<script type="text/javascript" src="js/index/arrayOne.js" ></script>
+<script type="text/javascript" src="js/index/maoPao.js" ></script>
+<script type="text/javascript" src="js/index/promiseSort.js" ></script>
+<script type="text/javascript" src="js/index/promise.js" ></script>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+    1、（）=》｛｝和普通方法区别
     <p class="desc">
         <span class="green">abc()</span>  <span class="red">//打印abc</span>
         function <span class="green">abc()</span> {
@@ -20,6 +25,7 @@
         }
     </p>
     <p>---------------------------------------------------------------------------------------</p>
+    2、循环后的变量
     <p class="desc">
         for(var i = 0; i < 5; i++){
            setTimeout(function () {
@@ -28,5 +34,72 @@
            },3000)
         <span class="red">//5 时间 5 时间 5 时间5 时间5 时间</span>
     </p>
+    <p>---------------------------------------------------------------------------------------</p>
+    3、数组去重复
+    <p class="desc">
+        var arr=[1,2,2,3,4,4,4]
+        var reslut = Array.from(new Set(arr))
+        <span class="red">   [1, 2, 3, 4]</span>
+    </p>
+    <p class="desc">
+        var arr1 = [{a:1,a:1,b:2,c:3}]
+        var reslut1 = Array.from(new Set(arr1));
+        <span class="red">  [{a: 1, b: 2, c: 3}]</span>
+    </p>
+    <p class="desc">
+        var arr2 = [{a:1},{a:1,{b:2},{c:3}}]
+        var reslut2 = Array.from(new Set(arr2));
+        <span class="red"> 没有去重复 [{a:1},{a:1,{b:2},{c:3}]</span>
+    </p>
+
+    <p>---------------------------------------------------------------------------------------</p>
+    <p class="desc">
+    4、冒泡排序
+    function sortNumber(a,b)
+    {
+    return a - b
+    }
+
+    var arr = [10,5,40,25,1000,1,1]
+
+    console.info(arr);<span class="red">  [10, 5, 40, 25, 1000, 1, 1]</span>
+        console.info(<span class="green">arr.sort(sortNumber)</span>);<span class="red">  [1, 1, 5, 10, 25, 40, 1000]</span>
+    console.info(arr);<span class="red">[1, 1, 5, 10, 25, 40, 1000] </span>
+    </p>
+    <p>---------------------------------------------------------------------------------------</p>
+    <p class="desc">
+    5、promise与普通方法执行顺序
+        const promise = new Promise((resolve,reject)=>{
+        console.log(1)
+        resolve()
+        console.log(2)
+        })
+        <span class="green">
+        promise.then(()=>{
+        console.info(3)
+        })
+        </span>
+        aa()
+        console.info(4)
+        function aa() {
+        console.info('aa')
+        }
+        <span class="red">1 2 aa 4 3 </span>
+
+        setTimeout(function () {
+        console.info(1)
+        },0)
+        new Promise(function executor(resolve){
+        console.info(2);
+        for(var i=0;i<10000;i++){
+        i==9999 && resolve();
+        }
+        console.info(3);
+        }). <span class="green">then(()=>{
+        console.info(4);
+        })</span>
+        console.info(5)
+        <span class="red">2 3 5 4 1 </span>
+    </>
 </body>
 </html>
