@@ -17,9 +17,16 @@ p{
 .green{
     color:greenyellow;
 }
-.goto{
+.gotoArrayString{
     position: fixed;
     top:10px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+.gotoNull{
+    position: fixed;
+    top:40px;
     right:10px;
     background-color: burlywood;
     cursor:pointer;

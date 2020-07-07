@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    let abc;//undefined
+    if(abc){
+        console.info(abc)
+        console.info("abc,true")
+    }else{
+        //走false这里
+        console.info(abc)
+        console.info("abc,false")
+    }
+
+    let abc5 = null;
+    if(abc5){
+        console.info(abc5)
+        console.info("abc5,true")
+    }else{
+        //走false这里
+        console.info(abc5)
+        console.info("abc5,false")
+    }
+
+    let abc6 = "";
+    if(abc6){
+        console.info(abc6)
+        console.info("abc6,true")
+    }else{
+        //走false这里
+        console.info(abc6)
+        console.info("abc6,false")
+    }
+
+    let abc7 = 0;
+    if(abc7){
+        console.info(abc7)
+        console.info("abc7,true")
+    }else{
+        //走false这里
+        console.info(abc7)
+        console.info("abc7,false")
+    }
+
+    let abc8 = "0";
+    if(abc8){
+        console.info(abc8)
+        console.info("abc8,true")
+    }else{
+        //走false这里
+        console.info(abc8)
+        console.info("abc8,false")
+    }
+
+    let abc9 = "false";
+    if(abc9){//走这里
+        console.info(abc9)
+        console.info("abc9,true")
+    }else{
+        console.info(abc9)
+        console.info("abc9,false")
+    }
+
+    let array1 = [];
+    if(array1){
+        console.info("array1[]为true")
+    }else{
+        console.info("array1[]当array为false")
+    }
+
+    let object1={};
+    if(object1){
+        console.info("object1{}为true")
+    }else{
+        console.info("object1{}为false")
+    }
+</script>
+<body>
+        <p class="desc">
+           共8种 1、未定义
+            let <span class="green">abc</span>;//undefined
+            if(<span class="green">abc</span>){
+                console.info(abc)
+                console.info("abc,true")
+            } <span class="red">else{//走fase
+                console.info(abc)//undefined
+                 console.info("abc,false")
+            }</span>
+        </p>
+        <p>-------------------------------------------------------------------------</p>
+        <p class="desc">
+            2、定义null
+            let <span class="green">abc5</span> = null;
+            if(<span class="green">abc5</span>){
+                console.info(abc5)
+                console.info("abc5,true")
+            } <span class="red">else{
+                //走false这里
+                console.info(abc5)
+                console.info("abc5,false")
+            }</span>
+        </p>
+        <p>-------------------------------------------------------------------------</p>
+        <p class="desc">
+            3、定义空字符串“”
+            let <span class="green">abc6</span> = "";
+            if(<span class="green">abc6</span>){
+                console.info(abc6)
+                console.info("abc6,true")
+            }<span class="red">else{
+                //走false这里
+                console.info(abc6)
+                console.info("abc6,false")
+            }</span>
+        </p>
+        <p>-------------------------------------------------------------------------</p>
+        <p class="desc">
+            4、定义 0
+            let  <span class="green">abc7</span> = 0;
+            if( <span class="green">abc7</span>){
+                console.info(abc7)
+                console.info("abc7,true")
+            }<span class="red">else{
+                //走false这里
+                console.info(abc7)
+                console.info("abc7,false")
+            }</span>
+        </p>
+        <p>-------------------------------------------------------------------------</p>
+        <p class="desc">
+            5、定义字符串 "0"
+            let <span class="green">abc8</span> = "0";
+            if(<span class="green">abc8</span>){
+                console.info(abc8)
+                console.info("abc8,true")
+            }<span class="red">else{
+                //走false这里
+                console.info(abc8)
+                console.info("abc8,false")
+            }</span>
+        </p>
+        <p>-------------------------------------------------------------------------</p>
+        <p class="desc">
+            6、定义字符串 "false"
+            let  <span class="green">abc9</span> = "false";
+            if( <span class="green">abc9</span>){
+            <span class="red">
+                //走true这里
+                console.info(abc9)
+                console.info("abc9,true")
+            </span>
+            }else{
+                console.info(abc9)
+                console.info("abc9,false")
+            }
+        </p>
+        <p>-------------------------------------------------------------------------</p>
+        <p class="desc">
+            7、空数组
+            let <span class="green">array1</span> = [];
+            if( <span class="green">array1</span>){
+            <span class="red"> console.info("array1[]为true")</span>
+            }else{
+              console.info("array1[]当array为false")
+            }
+        </p>
+        <p>-------------------------------------------------------------------------</p>
+        <p class="desc">
+            8、空对象
+            let <span class="green">object1</span>={};
+            if(<span class="green">object1</span>){
+            <span class="red"> console.info("object1{}为true")</span>
+            }else{
+             console.info("object1{}为false")
+            }
+        </p>
+</body>
+</html>
