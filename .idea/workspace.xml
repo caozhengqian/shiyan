@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js/null.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/array.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/stringArray.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/stringArray.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/stringArray.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/string.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,17 +29,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="for.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/js/index/for.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="138">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.html">
+      <file leaf-file-name="null.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/null.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
@@ -47,20 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="null.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/null.html">
+      <file leaf-file-name="string.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/string.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2056">
-              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="75">
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringArray.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/stringArray.html">
+      <file leaf-file-name="array.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/array.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -104,8 +104,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="181">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -161,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/FlexHeight/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" />
@@ -208,10 +206,12 @@
         <option value="$PROJECT_DIR$/js/js/promiseSort.js" />
         <option value="$PROJECT_DIR$/js/js/promise.js" />
         <option value="$PROJECT_DIR$/js/js/stringArray.html" />
-        <option value="$PROJECT_DIR$/js/stringArray.html" />
-        <option value="$PROJECT_DIR$/js/index.html" />
-        <option value="$PROJECT_DIR$/js/css/index.css" />
         <option value="$PROJECT_DIR$/js/null.html" />
+        <option value="$PROJECT_DIR$/js/stringArray.html" />
+        <option value="$PROJECT_DIR$/js/string.html" />
+        <option value="$PROJECT_DIR$/js/css/index.css" />
+        <option value="$PROJECT_DIR$/js/index.html" />
+        <option value="$PROJECT_DIR$/js/array.html" />
       </list>
     </option>
   </component>
@@ -410,7 +410,7 @@
       <workItem from="1593575046537" duration="45140000" />
       <workItem from="1593762770663" duration="33875000" />
       <workItem from="1593945786081" duration="31730000" />
-      <workItem from="1594086428247" duration="6409000" />
+      <workItem from="1594086428247" duration="32548000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue">
       <created>1589898699167</created>
@@ -706,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594059053944</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="js逻辑判断为null">
+      <created>1594099367687</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594099367687</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369729000" />
+    <option name="totallyTimeSpent" value="395868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -765,16 +772,10 @@
     <MESSAGE value="伪类选择器" />
     <MESSAGE value="position" />
     <MESSAGE value="js逻辑面试题" />
-    <option name="LAST_COMMIT_MESSAGE" value="js逻辑面试题" />
+    <MESSAGE value="js逻辑判断为null" />
+    <option name="LAST_COMMIT_MESSAGE" value="js逻辑判断为null" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/FlexHeight/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1079,31 +1080,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/stringArray.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.html">
+    <entry file="file://$PROJECT_DIR$/js/null.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/null.html">
+    <entry file="file://$PROJECT_DIR$/js/string.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2056">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="75">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>

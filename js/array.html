@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    let arr1 = ['a','b'];
+    let arr2 = ['c','d'];
+    console.info(arr1.concat(arr2));//浅拷贝，如果数组是对象，则只拷贝引用
+    console.info([...arr1,...arr2]);//浅拷贝，要注意
+
+    const a1 = [1, 2];
+    const a2 = a1;//复制指针
+    a2[0] = 2;
+    console.info(a2);//[2, 2]
+
+    const a3 = [1, 2];
+    const a4 = a3.concat();//克隆一个新的数组对象
+    const a5 = [...a3];//克隆一个新的数组对象
+    a3[0] = 2;
+    console.info(a4);// [1, 2]
+    console.info(a5);// [1, 2]
+</script>
+<body>
+    <p class="desc">
+        let arr1 = ['a','b'];
+        let arr2 = ['c','d'];
+        console.info(arr1.<span class="red">concat</span> (arr2));//浅拷贝，如果数组是对象，则只拷贝引用
+        console.info(<span class="red">[...arr1,...arr2]</span>);//浅拷贝，如果数组是对象，则只拷贝引用
+    </p>
+    <p class="desc">
+        const a1 = [1, 2];
+        <span class="red">const a2 = a1;//复制指针</span>
+        a2[0] = 2;
+        console.info(a2);// <span class="red">[2, 2]</span>
+
+        const a3 = [1, 2];
+        <span class="red">const a4 = a3.concat();//克隆一个新的数组对象</span>
+        <span class="red">const a5 = [...a3];//克隆一个新的数组对象</span>
+        a3[0] = 2;
+        console.info(a4);<span class="red">//[1, 2]</span>
+        console.info(a5);<span class="red">// [1, 2]</span>
+    </p>
+</body>
+</html>
