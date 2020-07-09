@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    let a1 = function (abc){
+        return  new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                resolve("第一步==="+abc);
+            },3000)
+        });
+    };
+    let a2 = function (abc){
+        return  new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                resolve("第二步+第一步的值（"+abc+"）");
+            },3000)
+        });
+    };
+  async function abc() {
+        const f1 = await a1('第一步');
+        console.info(f1);//3秒后打印   第一步===第一步
+        const f2 = await a2(f1);//再过3秒后打印  第二步+第一步的值（第一步===第一步）
+         console.info(f2);
+    };
+    abc();
+
+    function a3() {
+        setTimeout(()=>{
+            console.info("普通方法a3")
+        },3000)
+    }
+    function a4() {
+        setTimeout(()=>{
+            console.info("普通方法a4")
+        },3000)
+    }
+    async function abc1() {
+        //3秒后同时打印：普通方法a3 和 普通方法a4 ，await也没用
+         await a3();
+         await a4();
+    };
+    abc1();
+
+    function a5(v) {
+        setTimeout(()=>{
+            return v;
+        },3000)
+    }
+    function a6(v) {
+        setTimeout(()=>{
+            return "a6"+v;
+        },3000)
+    }
+    async function abc2() {
+        //瞬间打印：undefind  undefind
+        let tmp1 =  await a5('a5方法');
+        console.info(tmp1);//undefind
+        let tmp2 =  await a6(tmp1);
+        console.info(tmp2)//undefind
+    };
+    abc2();
+</script>
+<body>
+    <p class="desc">
+        正确的使用promise方法参与async
+
+        let a1 = function (<span class="red">abc</span>){
+            <span class="red">return</span>  new <span class="red">Promise</span> ((resolve, reject) => {
+                setTimeout(()=>{
+                      resolve("第一步==="+abc);
+                },3000)
+            });
+        };
+        let a2 = function (abc){
+            <span class="red">return</span>   new <span class="red">Promise</span> ((resolve, reject) => {
+                setTimeout(()=>{
+                resolve("第二步+第一步的值（"+abc+"）");
+                },3000)
+            });
+        };
+        <span class="red">async</span> function abc() {
+        const f1 = <span class="red">await</span> a1('第一步');
+        console.info(f1);//<span class="red">3秒后打印</span>   第一步===第一步
+        const f2 = <span class="red">await</span> a2(f1);
+        console.info(f2);//<span class="red">再过3秒后打印</span>  第二步+第一步的值（第一步===第一步）
+        };
+        abc();
+    </p>
+<p>-----------------------------------------------------------------------</p>
+    <p class="desc">
+        不能用普通方法
+
+        <span class="red">function a3()</span> {
+            setTimeout(()=>{
+                 console.info("普通方法a3")
+            },3000)
+        }
+        <span class="red">function a4()</span> {
+            setTimeout(()=>{
+                 console.info("普通方法a4")
+            },3000)
+        }
+        <span class="red"> async</span> function abc1() {
+        <span class="red">//3秒后同时打印：普通方法a3 和 普通方法a4 ，await也没用</span>
+        <span class="red">await</span> a3();
+       <span class="red"> await</span> a4();
+        };
+        abc1();
+    </p>
+    <p>-----------------------------------------------------------------------</p>
+    <p class="desc">
+        不能用普通方法2
+
+        <span class="red"> function a5(v)</span> {
+            setTimeout(()=>{
+              return v;
+            },3000)
+        }
+        <span class="red">function a6(v)</span> {
+            setTimeout(()=>{
+                return "a6"+v;
+            },3000)
+        }
+        <span class="red">async </span>function abc2() {
+        <span class="red">//瞬间打印：undefind  undefind</span>
+        let tmp1 =  <span class="red">await </span>a5('a5方法');
+        console.info(tmp1);//undefind
+        let tmp2 =  <span class="red">await</span> a6(tmp1);
+        console.info(tmp2)//undefind
+        };
+        abc2();
+    </p>
+
+
+</body>
+</html>

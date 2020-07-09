@@ -45,3 +45,17 @@ p{
     background-color: burlywood;
     cursor:pointer;
 }
+.gotoPromise{
+    position: fixed;
+    top:130px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+.gotoasync{
+    position: fixed;
+    top:160px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
