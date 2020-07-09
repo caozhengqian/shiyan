@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/js/object.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,77 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="object.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/object.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="117" column="7" lean-forward="true" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/react-webpack/src/App.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/react-webpack/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/test-css/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="null.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/null.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/string.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-753">
-              <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="549">
+              <caret line="54" column="98" lean-forward="true" selection-start-line="54" selection-start-column="98" selection-end-line="54" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -95,8 +41,8 @@
       <file leaf-file-name="array.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/array.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="145">
+              <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -153,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/Two/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/LessStyle/One/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/BoxSizing/index.less" />
@@ -200,10 +145,11 @@
         <option value="$PROJECT_DIR$/js/null.html" />
         <option value="$PROJECT_DIR$/js/stringArray.html" />
         <option value="$PROJECT_DIR$/js/string.html" />
-        <option value="$PROJECT_DIR$/js/css/index.css" />
-        <option value="$PROJECT_DIR$/js/array.html" />
-        <option value="$PROJECT_DIR$/js/index.html" />
         <option value="$PROJECT_DIR$/css/test-css/README.md" />
+        <option value="$PROJECT_DIR$/js/array.html" />
+        <option value="$PROJECT_DIR$/js/css/index.css" />
+        <option value="$PROJECT_DIR$/js/index.html" />
+        <option value="$PROJECT_DIR$/js/object.html" />
       </list>
     </option>
   </component>
@@ -246,10 +192,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="17" />
-    <option name="y" value="60" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -273,8 +219,13 @@
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="test-css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
@@ -285,17 +236,6 @@
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
-              <item name="react-webpack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,19 +254,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\webstorm\shiyan\js" />
-      <recent name="F:\webstorm\shiyan\js\js\index" />
-      <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test" />
-      <recent name="F:\webstorm\shiyan\css\test-css\src\components\Vh" />
-      <recent name="F:\webstorm\shiyan\css\test-css\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\webstorm\shiyan\js" />
       <recent name="F:\webstorm\shiyan\js\js" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test\img" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\LessStyle\Two" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\LessStyle\One" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\webstorm\shiyan\js" />
+      <recent name="F:\webstorm\shiyan\js\js\index" />
+      <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test" />
+      <recent name="F:\webstorm\shiyan\css\test-css\src\components\Vh" />
+      <recent name="F:\webstorm\shiyan\css\test-css\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -381,7 +321,7 @@
       <workItem from="1593762770663" duration="33875000" />
       <workItem from="1593945786081" duration="31730000" />
       <workItem from="1594086428247" duration="32595000" />
-      <workItem from="1594174285062" duration="18429000" />
+      <workItem from="1594174285062" duration="33618000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue">
       <created>1589898699167</created>
@@ -705,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594234934222</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="array结束">
+      <created>1594273581518</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1594273581518</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414344000" />
+    <option name="totallyTimeSpent" value="429533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -770,9 +717,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="array结束" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/BoxSizing/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1040,41 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/array.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/null.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/string.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="117" column="7" lean-forward="true" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1106,8 +1015,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="184">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/null.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/string.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="54" column="98" lean-forward="true" selection-start-line="54" selection-start-column="98" selection-end-line="54" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -38,3 +38,10 @@ p{
     background-color: burlywood;
     cursor:pointer;
 }
+.gotoObject{
+    position: fixed;
+    top:100px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}

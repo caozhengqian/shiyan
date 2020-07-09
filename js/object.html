@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Object</title>
+</head>
+<script>
+    const o1 = { a: 1, b: 2 };
+    const o2 = { b: 4, c: 5 };
+    const o3 = Object.assign(o1, o2);
+    console.info(o1)//{a: 1, b: 4, c: 5}
+    console.info(o3)//{a: 1, b: 4, c: 5}
+
+    const o4 = { a: 1, b: 2 };
+    const o5 = { a: 1, b: 2 };
+    console.info(Object.is(o4, o5));//false
+
+    const o6 = {'key1':'value1','key2':'value2','key3':'value3'};
+    console.info(Object.keys(o6));// ["key1", "key2", "key3"]
+    console.info(Object.values(o6))//["value1", "value2", "value3"]
+    console.info(Object.entries(o6));//[["key1", "value1"], ["key2", "value2"],["key3", "value3"]]
+    for (let elem of Object.keys(o6)) {
+        console.log(elem);//key1  key2  key3
+    }
+    for (let elem of Object.values(o6)) {
+        console.log(elem);//value1 value2 value3
+    }
+    for (let [index, elem] of Object.entries(o6)) {
+        console.log(index, elem);//key1 value1  key2 value2  key3 value3
+    }
+
+    const o7 = {'key1':'value1','key2':'value2','key3':'value3'};
+    const key = 'key2';
+    console.info(o7[key]);
+</script>
+<body>
+<p class="desc">
+    1、 合并源对象 + 返回新对象。
+
+    const o1 = { a: 1, b: 2 };
+    const o2 = { b: 4, c: 5 };
+    const o3 = <span class="red">Object.assign(o1, o2);</span>
+    console.info(o1)<span class="red">//{a: 1, b: 4, c: 5}</span>
+    console.info(o3)<span class="red">//{a: 1, b: 4, c: 5}</span>
+</p>
+<p>---------------------------------------------------------------------------------------</p>
+<p class="desc">
+    2、合并源对象 + 返回新对象。
+
+    const o1 = { a: 1, b: 2 };
+    const o2 = { b: 4, c: 5 };
+    const o3 = <span class="red">Object.assign(o1, o2);</span>
+    console.info(o1)<span class="red">//{a: 1, b: 4, c: 5}</span>
+    console.info(o3)<span class="red">//{a: 1, b: 4, c: 5}</span>
+</p>
+<p>---------------------------------------------------------------------------------------</p>
+<p class="desc">
+    3、超越===的比较
+
+    const o4 = { a: 1, b: 2 };
+    const o5 = { a: 1, b: 2 };
+    console.info(Object.<span class="red">is</span>(o4, o5));<span class="red">//false</span>
+</p>
+<p>---------------------------------------------------------------------------------------</p>
+<p class="desc">
+    4、对象获取key、value
+
+    const o6 = {'key1':'value1','key2':'value2','key3':'value3'};
+    console.info(<span class="red">Object.keys(o6));// ["key1", "key2", "key3"]</span>
+    console.info(<span class="red">Object.values(o6))//["value1", "value2", "value3"]</span>
+    console.info(<span class="red">Object.entries(o6));//[["key1", "value1"], ["key2", "value2"],["key3", "value3"]]</span>
+    for (let elem of <span class="red">Object.keys(o6)</span>) {
+    console.log(elem);<span class="red">//key1  key2  key3</span>
+    }
+    for (let elem of <span class="red">Object.values(o6)</span>) {
+    console.log(elem);<span class="red">//value1 value2 value3</span>
+    }
+    for (let [index, elem] of <span class="red">Object.entries(o6)</span>) {
+    console.log(index, elem);<span class="red">//key1 value1  key2 value2  key3 value3</span>
+    }
+</p>
+<p>---------------------------------------------------------------------------------------</p>
+<p class="desc">
+    5、动态获取object的值
+
+    const o7 = {'key1':'value1','key2':'value2','key3':'value3'};
+    const key = 'key2';
+    console.info(o7[key]);//value2
+</p>
+</body>
+</html>
