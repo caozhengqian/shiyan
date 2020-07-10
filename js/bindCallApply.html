@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>gotoBindCallApply</title>
+</head>
+<script>
+    var person = {
+        fullName: function() {
+            return this.firstName + " " + this.lastName;
+        }
+    };
+    var person1 = {
+        firstName:"John",
+        lastName: "Doe",
+    };
+    var person2 = {
+        firstName:"Mary",
+        lastName: "Doe",
+    };
+
+    console.info(person.fullName.call(person1));//John Doe
+    console.info(person.fullName.apply(person2));//Mary Doe
+
+    ////////////////////////////////////////////////////////////////
+    var person3 = {
+        fullName: function(city, country) {
+            return this.firstName + " " + this.lastName + "," + city + "," + country;
+        }
+    }
+    console.info(person3.fullName.call(person1,'JS','Doe'));//John Doe,JS,Doe
+    console.info(person3.fullName.apply(person2,['My','Doe']));//Mary Doe,My,Doe
+
+    ////////////////////////////////////////////////////////////////////
+
+    var a = {
+        b: function() {
+            console.log(this.c); //hello
+            var func = function() {
+                console.log(this.c); //undefined
+            }
+            func();
+        },
+        c: 'hello'
+    };
+    a.b();
+
+    var b = {
+        b: function() {
+            console.log(this.c); //hello
+            var func = function() {
+                console.log(this.c); //hello
+            }.bind(this)
+            func();
+        },
+        c: 'hello'
+    };
+    b.b();
+</script>
+<body>
+<p>-------------------------------------------------------------------------</p>
+<p class="desc">
+    call 和apply 编写能够在不同对象上使用的方法
+
+    var <span class="green">person</span> = {
+        fullName: function() {
+          return this.<span class="red">firstName</span> + " " + this.<span class="red">lastName</span>;
+        }
+    };
+    var <span class="green">person1</span> = {
+        <span class="red"> firstName:"John",</span>
+        <span class="red">lastName: "Doe",</span>
+    };
+    var <span class="green">person2</span> = {
+        <span class="red">firstName:"Mary",</span>
+        <span class="red">lastName: "Doe",</span>
+    };
+
+    console.info(<span class="red">person.fullName.call</span>(<span class="green">person1</span>));<span class="red">//John Doe</span>
+    console.info(<span class="red">person.fullName.apply</span>(<span class="green">person2</span>));<span class="red">//Mary Doe</span>
+</p>
+<p>-------------------------------------------------------------------------</p>
+<p class="desc">
+    call 和apply 区别，第二三个参数apply可以用数组
+
+    var person3 = {
+    fullName: function(city, country) {
+    return this.firstName + " " + this.lastName + ","<span class="red"> + city + "," + country</span>;
+    }
+    }
+    console.info(person3.fullName.<span class="red">call(person1,'JS','Doe'));//John Doe,JS,Doe</span>
+    console.info(person3.fullName.<span class="red">apply(person2,['My','Doe']));//Mary Doe,My,Doe</span>
+</p>
+<p>-------------------------------------------------------------------------</p>
+<p class="desc">
+    bind 可以把this对象bind到方法上
+    var a = {
+            b: function() {
+                 console.log(<span class="red">this.c</span>); <span class="red">//hello</span>
+                var func = function() {
+                    console.log(<span class="red">this.c</span>); //<span class="red">undefined</span>
+             }
+             <span class="green">func();</span>
+            },
+            c: 'hello'
+        };
+    a.b();
+
+    var b = {
+         b: function() {
+                console.log(<span class="red">this.c</span>); <span class="red">//hello</span>
+                var func = function() {
+                        console.log(<span class="red">this.c); <span class="red">//hello</span>
+                    }.<span class="red">bind(this)</span>
+                <span class="green">func();</span>
+            },
+         c: 'hello'
+         };
+    b.b();
+</p>
+</body>
+</html>

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/js/bindCallApply.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/this.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/this.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +19,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="this.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="this.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/this.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bindCallApply.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/bindCallApply.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="null.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/null.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="93" selection-start-line="93" selection-end-line="94" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="68" column="18" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -79,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Extends/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/utils/util.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/Choice/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/Choice/index.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/WeiLei/index.js" />
@@ -122,14 +157,16 @@
         <option value="$PROJECT_DIR$/js/object.html" />
         <option value="$PROJECT_DIR$/js/promise.html" />
         <option value="$PROJECT_DIR$/js/async.html" />
-        <option value="$PROJECT_DIR$/js/css/index.css" />
-        <option value="$PROJECT_DIR$/js/index.html" />
         <option value="$PROJECT_DIR$/css/test-css/src/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/BoxSizing/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/App.js" />
         <option value="$PROJECT_DIR$/css/test-css/public/index.html" />
         <option value="$PROJECT_DIR$/css/test-css/src/layout/Layout.js" />
         <option value="$PROJECT_DIR$/js/this.html" />
+        <option value="$PROJECT_DIR$/js/bind.html" />
+        <option value="$PROJECT_DIR$/js/index.html" />
+        <option value="$PROJECT_DIR$/js/css/index.css" />
+        <option value="$PROJECT_DIR$/js/bindCallApply.html" />
       </list>
     </option>
   </component>
@@ -254,19 +291,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\webstorm\shiyan\js" />
-      <recent name="F:\webstorm\shiyan\js\js" />
-      <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test\img" />
-      <recent name="F:\webstorm\shiyan\css\test-css\src\components\LessStyle\Two" />
-      <recent name="F:\webstorm\shiyan\css\test-css\src\components\LessStyle\One" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\webstorm\shiyan\js" />
       <recent name="F:\webstorm\shiyan\js\js\index" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\Vh" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\webstorm\shiyan\js" />
+      <recent name="F:\webstorm\shiyan\js\js" />
+      <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test\img" />
+      <recent name="F:\webstorm\shiyan\css\test-css\src\components\LessStyle\Two" />
+      <recent name="F:\webstorm\shiyan\css\test-css\src\components\LessStyle\One" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,14 +359,7 @@
       <workItem from="1593945786081" duration="31730000" />
       <workItem from="1594086428247" duration="32595000" />
       <workItem from="1594174285062" duration="52984000" />
-      <workItem from="1594355609409" duration="5517000" />
-    </task>
-    <task id="LOCAL-00002" summary="初始化react">
-      <created>1589900562129</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1589900562129</updated>
+      <workItem from="1594355609409" duration="18011000" />
     </task>
     <task id="LOCAL-00003" summary="备份router基本跳转">
       <created>1590325847369</created>
@@ -667,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594324453415</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="this结束">
+      <created>1594386409091</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1594386409098</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454416000" />
+    <option name="totallyTimeSpent" value="466910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -732,16 +769,10 @@
     <MESSAGE value="object结束" />
     <MESSAGE value="promise和async" />
     <MESSAGE value="this开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="this开始" />
+    <MESSAGE value="this结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="this结束" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/WeiLei/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/WeiLei/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -990,13 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/null.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/object.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1978">
@@ -1015,20 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2001">
           <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1075,8 +1085,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/this.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/null.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="93" selection-start-line="93" selection-end-line="94" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bindCallApply.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -66,3 +66,10 @@ p{
     background-color: burlywood;
     cursor:pointer;
 }
+.gotoBindCallApply{
+    position: fixed;
+    top:220px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
