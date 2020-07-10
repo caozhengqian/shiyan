@@ -6,7 +6,57 @@
     <title>Title</title>
 </head>
 <script>
-    console.info(this)
+    console.info(this);//window
+
+    function f1(){
+        console.info(this);//window 或者node里的global
+        return this;
+    }
+    f1();
+
+    function f2(){
+        "use strict";
+        console.info(this);//undefined
+        return this;
+    }
+    f2();
+
+    foo =()=>{
+        console.info(this);//window
+    };
+    foo();
 </script>
-<body></body>
+<body>
+    <p class="desc">
+        全局为window
+
+        console.info(this);<span class="red">//window</span>
+    </p>
+    <p>------------------------------------------------------------</p>
+    <p class="desc">
+        f1();
+        function f1(){
+            console.info(this);<span class="red">//window 或者node里的global</span>
+            return this;
+        }
+    </p>
+    <p>------------------------------------------------------------</p>
+    <p class="desc">
+        function f2(){
+        <span class="red">"use strict";</span>
+            console.info(this);<span class="red">//undefined</span>
+            return this;
+        }
+        f2();
+    </p>
+    <p>------------------------------------------------------------</p>
+    <p class="desc">
+        <span class="red"> 与封闭词法环境的this保持一致</span>
+
+        foo =()=>{
+         console.info(this);//window
+        };
+        foo();
+    </p>
+</body>
 </html>
