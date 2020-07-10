@@ -73,3 +73,10 @@ p{
     background-color: burlywood;
     cursor:pointer;
 }
+.gotoBiBao{
+    position: fixed;
+    top:250px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
