@@ -1,11 +1,7 @@
 .App {
-  text-align: left;
-  color:red
+  text-align: center;
 }
-.aaa{
-  color: red;
-  font-size: 100px;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
