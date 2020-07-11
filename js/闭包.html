@@ -5,13 +5,113 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<script></script>
+<script>
+    var pet = function(name) {          //外部函数定义了一个变量"name"
+        var getName = function() {
+            //内部函数可以访问 外部函数定义的"name"
+            return name;
+        }
+        //返回这个内部函数，从而将其暴露在外部函数作用域
+        return getName;
+    };
+    myPet = pet("Vivie");
+    myPet();//myPet是一个内部函数，所有要加（）
+    console.info(myPet());//Vivie
+///////////////////////////////////////////////////////
+
+    var createPet = function(name) {
+        var sex;
+
+        return {
+            setName: function(newName) {
+                name = newName;
+            },
+
+            getName: function() {
+                return name;
+            },
+
+            getSex: function() {
+                return sex;
+            },
+
+            setSex: function(newSex) {
+                if(typeof newSex == "string"
+                    && (newSex.toLowerCase() == "male" || newSex.toLowerCase() == "female")) {
+                    sex = newSex;
+                }
+            }
+        }
+    }
+
+    var pet = createPet("Vivie");
+    pet.getName();                  // Vivie
+    console.info(pet.getName());  // Vivie
+
+    pet.setSex("male");
+    pet.getSex();                   // male
+    console.info(pet.getSex()); // male
+
+    pet.setName("Oliver");
+    pet.getName();//Oliver
+    console.info(pet.getName());//Oliver
+
+</script>
 <body>
     <p class="desc">
         JavaScript 允许函数嵌套，内部函数可访问外部函数的变量和函数，以及外部函数能访问的所有变量和函数。
+
+        var pet = function(name) {          //外部变量"name"
+            var getName = function() {
+                //内部访问 外部"name"
+                return name;
+            }
+            //返回这个内部函数，将其暴露在外部函数作用域
+            return <span class="red">getName;</span>
+        };
+        myPet = <span class="red">pet("Vivie");</span>
+        myPet<span class="red">();//myPet是一个内部函数，所有要加（）</span>
+        console.info(myPet<span class="red">()</span>);//<span class="red">Vivie</span>
     </p>
 <p>-----------------------------------------------------------------------</p>
-    <p class="desc"></p>
+    <p class="desc">
+        var createPet = function(name) {
+            var sex;
+
+            return {
+             <span class="red">setName</span>: function(newName) {
+                    name = newName;
+                },
+
+             <span class="red">getName</span>: function() {
+                     return name;
+                },
+
+             <span class="red">getSex</span>: function() {
+                    return sex;
+                },
+
+              <span class="red">setSex</span>: function(newSex) {
+                    if(typeof newSex == "string"
+                    && (newSex.toLowerCase() == "male" || newSex.toLowerCase() == "female")) {
+                         sex = newSex;
+                    }
+                }
+            }
+        }
+
+        var <span class="red">pet = createPet("Vivie")</span>;
+        <span class="red">pet.getName();// Vivie</span>
+        console.info(<span class="red">pet.getName());// Vivie</span>
+
+        <span class="red">pet.setSex("male");</span>
+       <span class="red"> pet.getSex();// male</span>
+        console.info(<span class="red">pet.getSex()); // male</span>
+
+       <span class="red"> pet.setName("Oliver");</span>
+       <span class="red"> pet.getName();//Oliver</span>
+        console.info(<span class="red">pet.getName()</span>);//Oliver
+    </p>
     <p>-----------------------------------------------------------------------</p>
     <p class="desc"></p>
 
