@@ -17,10 +17,10 @@ export default class OneOne extends React.Component {
         console.info("================>OneOne--componentDidMount");
     }
 
-    //更新前
-    shouldComponentUpdate(nextProps, nextState){
-        console.info("================>OneOne--shouldComponentUpdate");
-    }
+    //更新前，不返回会报错
+    // shouldComponentUpdate(nextProps, nextState){
+    //     console.info("================>OneOne--shouldComponentUpdate");
+    // }
 
     //更新render后，
     getSnapshotBeforeUpdate(){

@@ -7,7 +7,9 @@ import Two from "./Two"
 export default class All extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            change:true
+        };
     }
     //新建、更新，都会走
     static getDerivedStateFromProps(){
@@ -19,10 +21,10 @@ export default class All extends React.Component {
         console.info("=>All--componentDidMount");
     }
 
-    //更新前
-    shouldComponentUpdate(nextProps, nextState){
-        console.info("=>All--shouldComponentUpdate");
-    }
+    //更新前,不返回会报错
+    // shouldComponentUpdate(nextProps, nextState){
+    //     console.info("=>All--shouldComponentUpdate");
+    // }
     //更新render后，
     getSnapshotBeforeUpdate(){
         console.info("=>All--getSnapshotBeforeUpdate");
@@ -37,10 +39,14 @@ export default class All extends React.Component {
         console.info("=>All--componentWillUnmount");
     }
 
+    handleClick = (e)=>{
+        console.info("ee=",e)
+        this.setState({change:!this.state.change})
+    };
     render() {
         return (
-            <div className="All-div">
-                All
+            <div className="All-div" onClick={this.handleClick}>
+                <p className="p-point">{this.state.change+''}</p>
                 <One/>
                 <Two/>
             </div>

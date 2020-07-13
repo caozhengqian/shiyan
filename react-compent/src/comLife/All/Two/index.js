@@ -16,10 +16,10 @@ export default class Two extends React.Component {
         console.info("=========>Two--componentDidMount");
     }
 
-    //更新前
-    shouldComponentUpdate(nextProps, nextState){
-        console.info("=========>Two--shouldComponentUpdate");
-    }
+    //更新前，不返回会报错
+    // shouldComponentUpdate(nextProps, nextState){
+    //     console.info("=========>Two--shouldComponentUpdate");
+    // }
     //更新render后，
     getSnapshotBeforeUpdate(){
         console.info("=========>Two--getSnapshotBeforeUpdate");
