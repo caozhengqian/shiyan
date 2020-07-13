@@ -1,7 +1,8 @@
 import React from 'react';
 import "./index.less";
 
-import One from "./One"
+import One from "./One";
+import Two from "./Two"
 
 export default class All extends React.Component {
     constructor(props) {
@@ -40,8 +41,8 @@ export default class All extends React.Component {
         return (
             <div className="All-div">
                 All
-
                 <One/>
+                <Two/>
             </div>
         );
     }

@@ -1,8 +1,7 @@
 import React from 'react';
 import "./index.less";
-import OneOne from "./OneOne";
 
-export default class One extends React.Component {
+export default class Two extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -15,9 +14,8 @@ export default class One extends React.Component {
 
     render() {
         return (
-            <div className="one">
-                One
-                <OneOne/>
+            <div className="two">
+                Two
             </div>
         );
     }
