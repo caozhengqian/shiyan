@@ -4,7 +4,15 @@ import "./index.less";
 import One from "./One";
 import Two from "./Two"
 
-export default class All extends React.Component {
+import { connect } from 'react-redux'
+import { addGun, removeGun, addGunAsync } from '../../redux/index.redux'
+@connect(
+    // 你要state什么属性放到props里
+    state=>({counter:state.counter}),
+    // 你要什么方法，放到props里，自动dispatch
+    { addGun, removeGun, addGunAsync }
+)
+class All extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -18,6 +26,7 @@ export default class All extends React.Component {
     }
     //新建render后
     componentDidMount() {
+        console.info(this.props.counter);
         console.info("=>All--componentDidMount");
     }
 
@@ -40,8 +49,7 @@ export default class All extends React.Component {
     }
 
     handleClick = (e)=>{
-        console.info("ee=",e)
-        this.setState({change:!this.state.change})
+        this.setState({change:!this.state.change});
     };
     render() {
         return (
@@ -53,3 +61,5 @@ export default class All extends React.Component {
         );
     }
 }
+
+export default All

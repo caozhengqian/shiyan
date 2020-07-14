@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-compent/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/api/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/api/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/constants/ActionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/reducers/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/reducers/cart.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/reducers/index.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/reducers/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-compent/src/reducers/products.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-compent/src/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-compent/src/redux/gun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-compent/src/redux/index.redux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/craco.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-compent/craco.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-compent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-compent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/actions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/api/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/api/shop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/comLife/All/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-compent/src/comLife/All/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/constants/ActionTypes.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-compent/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-compent/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/reducers/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/reducers/cart.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/reducers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/reducers/index.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/reducers/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-compent/src/reducers/products.spec.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-compent/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-compent/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,11 +33,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-368">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="138">
               <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -44,78 +61,17 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-compent/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1463">
-              <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
+            <state relative-caret-position="3358">
+              <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/One/index.less">
+      <file leaf-file-name="craco.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-compent/craco.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/actions/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/constants/ActionTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/api/shop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/api/products.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/reducers/cart.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/reducers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -138,10 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>8080</find>
-      <find>react-router-dom</find>
-      <find>authority</find>
-      <find>GlobalHe</find>
       <find>css-loader</find>
       <find>getStyleLoaders</find>
       <find>style-loader</find>
@@ -164,6 +116,14 @@
       <find>============&gt;</find>
       <find>===&gt;</find>
       <find>redux</find>
+      <find>num</find>
+      <find>./redux/gun'</find>
+      <find>dependencies</find>
+      <find>legacy</find>
+      <find>reducer</find>
+      <find>plugin-proposal-decorators</find>
+      <find>babel-plugin-transform-decorators-legacy</find>
+      <find>checkout</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Float/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Display/index.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/Display/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/Flex/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/Flex/index.less" />
@@ -226,18 +184,20 @@
         <option value="$PROJECT_DIR$/js/闭包.html" />
         <option value="$PROJECT_DIR$/react-compent/src/App.module.css" />
         <option value="$PROJECT_DIR$/react-compent/src/App.css" />
-        <option value="$PROJECT_DIR$/react-compent/package.json" />
         <option value="$PROJECT_DIR$/react-compent/config/env.js" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/Two/index.less" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/OneOne/index.less" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/index.js" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/Two/index.js" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/OneOne/index.js" />
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/index.js" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/index.less" />
         <option value="$PROJECT_DIR$/react-compent/src/App.js" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/index.less" />
         <option value="$PROJECT_DIR$/react-compent/src/index.js" />
+        <option value="$PROJECT_DIR$/react-compent/src/reducer.js" />
+        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/index.js" />
+        <option value="$PROJECT_DIR$/react-compent/package.json" />
+        <option value="$PROJECT_DIR$/react-compent/craco.config.js" />
       </list>
     </option>
   </component>
@@ -282,8 +242,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="17" />
-    <option name="y" value="60" />
+    <option name="x" value="-60" />
+    <option name="y" value="22" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -293,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,10 +271,33 @@
               <item name="react-compent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-compent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="comLife" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-compent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="comLife" type="462c0819:PsiDirectoryNode" />
+              <item name="All" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-compent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,19 +311,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\webstorm\shiyan\react-compent\src" />
-      <recent name="F:\webstorm\shiyan\react-compent\src\comLife\All\One" />
-      <recent name="F:\webstorm\shiyan\react-compent\src\comLife\All" />
-      <recent name="F:\webstorm\shiyan\react-compent" />
-      <recent name="F:\webstorm\shiyan\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\webstorm\shiyan\js" />
       <recent name="F:\webstorm\shiyan\js\js\index" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\Vh" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\webstorm\shiyan\react-compent\src\redux" />
+      <recent name="F:\webstorm\shiyan\react-compent\src" />
+      <recent name="F:\webstorm\shiyan\react-compent\src\comLife\All\One" />
+      <recent name="F:\webstorm\shiyan\react-compent\src\comLife\All" />
+      <recent name="F:\webstorm\shiyan\react-compent" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,14 +380,8 @@
       <workItem from="1594086428247" duration="32595000" />
       <workItem from="1594174285062" duration="52984000" />
       <workItem from="1594355609409" duration="39174000" />
-      <workItem from="1594535940332" duration="33521000" />
-    </task>
-    <task id="LOCAL-00018" summary="使用慕课网redux和redux插件">
-      <created>1591517455321</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1591517455321</updated>
+      <workItem from="1594535940332" duration="36588000" />
+      <workItem from="1594711640229" duration="13139000" />
     </task>
     <task id="LOCAL-00019" summary="使用慕课网redux和redux插件">
       <created>1591553104889</created>
@@ -743,17 +719,24 @@
       <option name="project" value="LOCAL" />
       <updated>1594633871277</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="react-compent继承redux">
+      <created>1594642824147</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1594642824147</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="521594000" />
+    <option name="totallyTimeSpent" value="537800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -761,7 +744,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25853658" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32520324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32520324" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -790,7 +773,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初始化vue" />
     <MESSAGE value="初始化react" />
     <MESSAGE value="备份router基本跳转" />
     <MESSAGE value="css里面antd-demo" />
@@ -815,25 +797,10 @@
     <MESSAGE value="恢复初始化" />
     <MESSAGE value="react-compent初始化适应less+安装antd" />
     <MESSAGE value="react-compent普通生命周期结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-compent普通生命周期结束" />
+    <MESSAGE value="react-compent继承redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-compent继承redux" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/js/index/promiseSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/react-webpack/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/react-webpack/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1017,9 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/craco.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/antd-demo/config/env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1072,16 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1089,27 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/One/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1133,16 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1153,10 +1080,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/src/index.js">
+    <entry file="file://$PROJECT_DIR$/react-compent/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#21#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/redux/index.redux.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/redux/gun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3358">
+          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/craco.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>

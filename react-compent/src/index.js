@@ -7,9 +7,7 @@ import { createStore, applyMiddleware ,compose } from 'redux';
 import { Provider } from 'react-redux';
 import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk';
-import reducer from './reducers';
-import { getAllProducts } from './actions'
-
+import reducer from './reducer'
 const middleware = [ thunk ];
 if (process.env.NODE_ENV !== 'production') {
     middleware.push(createLogger());
@@ -22,7 +20,6 @@ const store = createStore(
     )
 );
 
-store.dispatch(getAllProducts())
 
 
 ReactDOM.render(
