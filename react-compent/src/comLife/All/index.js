@@ -49,7 +49,7 @@ class All extends React.Component {
     }
 
     handleClick = (e)=>{
-        // this.setState({change:!this.state.change});
+        this.setState({change:!this.state.change});
     };
     handleOn=()=>{
       this.props.addGun();
@@ -57,8 +57,7 @@ class All extends React.Component {
     render() {
         return (
             <div className="All-div" onClick={this.handleClick}>
-                {/*<p>redux的值{this.props.
-                }</p>*/}
+                <p>redux的值{this.props.counter}</p>
                 <button onClick={this.handleOn}>加一个redux的值</button>
                 <p className="p-point">{this.state.change+''}</p>
                 <One/>
