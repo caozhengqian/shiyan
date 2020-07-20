@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/src/helloworld.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/index/helloworld.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/src/meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/search/meta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/src/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/webpack1/dist/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/dist/search.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,26 +28,26 @@
       <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="-115">
+              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.dev.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="webpack.dev.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="149">
+              <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="299">
+              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding>
                 <element signature="e#15#41#0" expanded="true" />
               </folding>
@@ -125,7 +115,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>display: inline-block;</find>
+      <find />
       <find>test</find>
       <find>console.info(&quot;array1[]为true&quot;)</find>
       <find>shift</find>
@@ -230,8 +220,8 @@
         <option value="$PROJECT_DIR$/webpack/duo-ye-mian/src/search/search.js" />
         <option value="$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.html" />
         <option value="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js" />
-        <option value="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js" />
         <option value="$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.js" />
+        <option value="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js" />
       </list>
     </option>
   </component>
@@ -441,14 +431,7 @@
       <workItem from="1594984672870" duration="8164000" />
       <workItem from="1595128220815" duration="9611000" />
       <workItem from="1595145234138" duration="13001000" />
-      <workItem from="1595220968505" duration="9577000" />
-    </task>
-    <task id="LOCAL-00025" summary="使用慕课网redux和redux插件">
-      <created>1591808916408</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1591808916408</updated>
+      <workItem from="1595220968505" duration="10675000" />
     </task>
     <task id="LOCAL-00026" summary="使用慕课网redux和redux插件">
       <created>1592899422128</created>
@@ -786,14 +769,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595227084386</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="sourcemap结束">
+      <created>1595236763705</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1595236763705</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="608153000" />
+    <option name="totallyTimeSpent" value="609251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
@@ -833,7 +823,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初始化react" />
     <MESSAGE value="备份router基本跳转" />
     <MESSAGE value="css里面antd-demo" />
     <MESSAGE value="webpack新增react" />
@@ -858,7 +847,8 @@
     <MESSAGE value="react-compent初始化适应less+安装antd" />
     <MESSAGE value="react-compent普通生命周期结束" />
     <MESSAGE value="react-compent继承redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-compent继承redux" />
+    <MESSAGE value="sourcemap结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="sourcemap结束" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1089,20 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1112,11 +1088,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="299">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="25" />
         </state>
       </provider>
     </entry>
