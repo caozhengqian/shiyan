@@ -2,23 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/dist/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/css/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/css/search1.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/helloworld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/images/SourceHanSerifSC-Heavy.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/meta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/src/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack1/webpack.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/css/search1.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/helloworld.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/images/SourceHanSerifSC-Heavy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/meta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/src/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/dist/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/dist/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/css/search1.less" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/css/search1.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/helloworld.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/helloworld.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/images/SourceHanSerifSC-Heavy.otf" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/images/SourceHanSerifSC-Heavy.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/meta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/src/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack1/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/webpack.prod.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,84 +48,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/webpack.prod.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search.html">
+        <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+              <caret column="85" selection-start-column="85" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meta.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/meta.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_58dc4cdc.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_58dc4cdc.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="search_ffb438f2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_ffb438f2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/index.js">
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/search.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo_d3f4bf70.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/logo_d3f4bf70.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/webpack1/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <element signature="e#15#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/object.html" />
         <option value="$PROJECT_DIR$/js/promise.html" />
         <option value="$PROJECT_DIR$/js/async.html" />
         <option value="$PROJECT_DIR$/css/test-css/src/index.js" />
@@ -235,11 +189,12 @@
         <option value="$PROJECT_DIR$/webpack/webpack1/dist/search_fb733344.css" />
         <option value="$PROJECT_DIR$/webpack/webpack1/src/index.html" />
         <option value="$PROJECT_DIR$/webpack/webpack1/src/searchTitle.html" />
-        <option value="$PROJECT_DIR$/webpack/webpack1/src/search.js" />
         <option value="$PROJECT_DIR$/webpack/webpack1/webpack.dev.js" />
         <option value="$PROJECT_DIR$/webpack/webpack1/src/css/search1.less" />
         <option value="$PROJECT_DIR$/webpack/webpack1/webpack.prod.js" />
         <option value="$PROJECT_DIR$/webpack/webpack1/src/search.html" />
+        <option value="$PROJECT_DIR$/webpack/webpack1/src/search.js" />
+        <option value="$PROJECT_DIR$/webpack/dan-ye-mian/src/search.js" />
       </list>
     </option>
   </component>
@@ -262,8 +217,9 @@
     <handled-path value="$PROJECT_DIR$/vue-antd/node_modules" />
     <handled-path value="$PROJECT_DIR$/vue-eleme/node_modules" />
     <handled-path value="$PROJECT_DIR$/vue/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpack/dan-ye-mian/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpack/duo-ye-mian/node_modules" />
     <handled-path value="$PROJECT_DIR$/webpack/react-webpack/node_modules" />
-    <handled-path value="$PROJECT_DIR$/webpack/webpack1/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -280,9 +236,10 @@
       <path value="$PROJECT_DIR$/vue-antd/package.json" />
       <path value="$PROJECT_DIR$/vue-eleme/package.json" />
       <path value="$PROJECT_DIR$/vue/package.json" />
+      <path value="$PROJECT_DIR$/webpack/dan-ye-mian/package.json" />
+      <path value="$PROJECT_DIR$/webpack/duo-ye-mian/package.json" />
       <path value="$PROJECT_DIR$/webpack/package.json" />
       <path value="$PROJECT_DIR$/webpack/react-webpack/package.json" />
-      <path value="$PROJECT_DIR$/webpack/webpack1/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -313,21 +270,27 @@
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="webpack" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack1" type="462c0819:PsiDirectoryNode" />
+              <item name="dan-ye-mian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="webpack" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack1" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack1" type="462c0819:PsiDirectoryNode" />
+              <item name="dan-ye-mian" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="duo-ye-mian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="duo-ye-mian" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,19 +309,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\webstorm\shiyan\webpack\webpack1\src" />
-      <recent name="F:\webstorm\shiyan\webpack\webpack1" />
-      <recent name="F:\webstorm\shiyan\webpack\webpack1\dist" />
-      <recent name="F:\webstorm\shiyan\react-compent\src\redux" />
-      <recent name="F:\webstorm\shiyan\react-compent\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\webstorm\shiyan\vue\src\components\comLife\index" />
       <recent name="F:\webstorm\shiyan\js" />
       <recent name="F:\webstorm\shiyan\js\js\index" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\Test" />
       <recent name="F:\webstorm\shiyan\css\test-css\src\components\Vh" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\webstorm\shiyan\webpack\duo-ye-mian" />
+      <recent name="F:\webstorm\shiyan\webpack\webpack1\src" />
+      <recent name="F:\webstorm\shiyan\webpack\webpack1" />
+      <recent name="F:\webstorm\shiyan\webpack\webpack1\dist" />
+      <recent name="F:\webstorm\shiyan\react-compent\src\redux" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,14 +388,7 @@
       <workItem from="1594984672870" duration="8164000" />
       <workItem from="1595128220815" duration="9611000" />
       <workItem from="1595145234138" duration="13001000" />
-      <workItem from="1595220968505" duration="595000" />
-    </task>
-    <task id="LOCAL-00023" summary="使用慕课网redux和redux插件">
-      <created>1591800650318</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1591800650318</updated>
+      <workItem from="1595220968505" duration="4590000" />
     </task>
     <task id="LOCAL-00024" summary="使用慕课网redux和redux插件">
       <created>1591801513406</created>
@@ -770,23 +726,31 @@
       <option name="project" value="LOCAL" />
       <updated>1594930622202</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="react-compent继承redux">
+      <created>1595222844408</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1595222844409</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="599171000" />
+    <option name="totallyTimeSpent" value="603166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23065251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25853658" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.49268293" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -849,9 +813,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-compent/src/api/shop.js" />
-    <entry file="file://$PROJECT_DIR$/react-compent/src/constants/ActionTypes.js" />
-    <entry file="file://$PROJECT_DIR$/react-compent/src/actions/index.js" />
     <entry file="file://$PROJECT_DIR$/react-compent/src/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -962,10 +923,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/images/logo.png">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/images/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/css/search.css">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/css/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="1" selection-end-line="2" selection-end-column="1" />
@@ -974,11 +935,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/d3f4bf70f2ffdc11072b782a6114c631.png" />
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/index.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/.babelrc">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
@@ -986,35 +947,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_fb733344.css" />
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/helloworld.js">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/helloworld.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_d0228b86.js" />
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_11988e06.css" />
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_2d0eaafe.js" />
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_0579867a.css" />
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/css/search1.less">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/css/search1.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/webpack.dev.js">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/webpack.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-200">
           <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/package.json">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
@@ -1024,55 +978,89 @@
     <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_58dc4cdc.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search_ffb438f2.css">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/dist/search_ffb438f2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="40" selection-start-column="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/search.html">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/logo_d3f4bf70.png">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/dist/logo_d3f4bf70.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/dist/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/index.html">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/meta.html">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/meta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/src/index.js">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/webpack.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack1/webpack.prod.js">
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/dist/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react-webpack/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="85" selection-start-column="85" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/dan-ye-mian/src/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
