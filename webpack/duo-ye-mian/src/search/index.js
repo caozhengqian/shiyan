@@ -2,15 +2,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import logo from './images/logo.png';
+import logo from '../images/logo.png';
 // import './css/search.css';
-import './css/search1.less';
+import '../css/search1.less';
 
-class Search extends React.Component {
+class Index extends React.Component {
 
     render() {
-        a = 1;
-        debugger;
         return <div className="search-text">
             搜索文字的内容ni dewefwdd
             <img src={ logo } />
@@ -19,6 +17,6 @@ class Search extends React.Component {
 }
 
 ReactDOM.render(
-    <Search />,
+    <Index />,
     document.getElementById('root')
 );
