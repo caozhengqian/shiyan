@@ -1,6 +1,6 @@
 const CracoLessPlugin = require('craco-less');
 
-module.rules = {
+module.exports = {
     plugins: [
         {
             plugin: CracoLessPlugin,
