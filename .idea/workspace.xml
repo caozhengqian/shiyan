@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/creact-react-files/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/com/Test/img/fuwuyoushi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/com/Test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/com/Test/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/craco.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/redux/gun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-react-files/redux/index.redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/craco.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/img/fuwuyoushi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/redux/gun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-com/src/redux/index.redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/craco.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/com/Test/img/fuwuyoushi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/com/Test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/com/Test/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/redux/gun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/redux/index.redux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,48 +61,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-project/com-imoc/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/App.css">
+      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/App.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/index.css">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="138">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yarn.lock" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-project/com-imoc/yarn.lock">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="craco.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-com/craco.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-project/com-imoc/package.json">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="92">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/App.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="craco.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/craco.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="46">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -81,8 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>All</find>
-      <find>=&gt;</find>
       <find>============&gt;</find>
       <find>===&gt;</find>
       <find>redux</find>
@@ -111,6 +196,8 @@
       <find>HtmlWebpackExternalsPlugin</find>
       <find>mode</find>
       <find>AddAssetHtmlPlugin</find>
+      <find>private</find>
+      <find>router</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -137,15 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/Two/index.less" />
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/OneOne/index.less" />
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/index.js" />
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/OneOne/index.js" />
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/index.less" />
-        <option value="$PROJECT_DIR$/react-compent/src/App.js" />
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/One/index.less" />
-        <option value="$PROJECT_DIR$/react-compent/src/index.js" />
-        <option value="$PROJECT_DIR$/react-compent/src/reducer.js" />
         <option value="$PROJECT_DIR$/react-compent/package.json" />
         <option value="$PROJECT_DIR$/react-compent/craco.config.js" />
         <option value="$PROJECT_DIR$/react-compent/src/comLife/All/Two/index.js" />
@@ -188,6 +266,15 @@
         <option value="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js" />
         <option value="$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/react-project/com-imoc/src/index.js" />
+        <option value="$PROJECT_DIR$/react-project/com-imoc/src/App.js" />
+        <option value="$PROJECT_DIR$/react-project/com-imoc/package.json" />
+        <option value="$PROJECT_DIR$/react-project/imoc-com/package.json" />
+        <option value="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.js" />
+        <option value="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.less" />
+        <option value="$PROJECT_DIR$/react-project/imoc-com/craco.config.js" />
+        <option value="$PROJECT_DIR$/react-project/imoc-hook/package.json" />
+        <option value="$PROJECT_DIR$/react-project/imoc-hook/craco.config.js" />
       </list>
     </option>
   </component>
@@ -204,7 +291,8 @@
     <handled-path value="$PROJECT_DIR$/react-compent/node_modules" />
     <handled-path value="$PROJECT_DIR$/react-eleme/node_modules" />
     <handled-path value="$PROJECT_DIR$/react-hooks/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react-project/com-imoc/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-project/imoc-com/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-project/imoc-hook/node_modules" />
     <handled-path value="$PROJECT_DIR$/router/vue-router-test/node_modules" />
     <handled-path value="$PROJECT_DIR$/store/react-store/node_modules" />
     <handled-path value="$PROJECT_DIR$/store/vue-store/node_modules" />
@@ -223,7 +311,8 @@
       <path value="$PROJECT_DIR$/react-compent/package.json" />
       <path value="$PROJECT_DIR$/react-eleme/package.json" />
       <path value="$PROJECT_DIR$/react-hooks/package.json" />
-      <path value="$PROJECT_DIR$/react-project/com-imoc/package.json" />
+      <path value="$PROJECT_DIR$/react-project/imoc-com/package.json" />
+      <path value="$PROJECT_DIR$/react-project/imoc-hook/package.json" />
       <path value="$PROJECT_DIR$/router/react-router/package.json" />
       <path value="$PROJECT_DIR$/router/vue-router-test/package.json" />
       <path value="$PROJECT_DIR$/store/react-store/package.json" />
@@ -237,11 +326,11 @@
       <path value="$PROJECT_DIR$/webpack/react-webpack/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="17" />
-    <option name="y" value="60" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-6" />
+    <option name="y" value="1" />
+    <option name="width" value="1378" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,6 +344,28 @@
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="creact-react-files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project" type="462c0819:PsiDirectoryNode" />
+              <item name="imoc-com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project" type="462c0819:PsiDirectoryNode" />
+              <item name="imoc-hook" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,11 +386,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\webstorm\shiyan\webpack\duo-ye-mian\dist" />
-      <recent name="F:\webstorm\shiyan\webpack\duo-ye-mian" />
-      <recent name="F:\webstorm\shiyan\webpack\duo-ye-mian\src\search\src\copy" />
-      <recent name="F:\webstorm\shiyan\webpack\duo-ye-mian\src" />
-      <recent name="F:\webstorm\shiyan\webpack\duo-ye-mian\src\index" />
+      <recent name="F:\webstorm\shiyan\react-project\imoc-hook" />
+      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src" />
+      <recent name="F:\webstorm\shiyan\creact-react-files" />
+      <recent name="F:\webstorm\shiyan\react-project\imoc-com" />
+      <recent name="F:\webstorm\shiyan\react-project\imoc-com\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\webstorm\shiyan\webpack\duo-ye-mian" />
@@ -363,14 +474,7 @@
       <workItem from="1595347786318" duration="5311000" />
       <workItem from="1595362254013" duration="6498000" />
       <workItem from="1595396544218" duration="2500000" />
-      <workItem from="1595411648874" duration="2314000" />
-    </task>
-    <task id="LOCAL-00030" summary="extends属性继承">
-      <created>1592936667576</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1592936667576</updated>
+      <workItem from="1595411648874" duration="16462000" />
     </task>
     <task id="LOCAL-00031" summary="伪类选择器">
       <created>1593151957005</created>
@@ -708,24 +812,32 @@
       <option name="project" value="LOCAL" />
       <updated>1595413631311</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="sourcemap结束">
+      <created>1595414037397</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1595414037397</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="640556000" />
+    <option name="totallyTimeSpent" value="654704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-6" y="1" width="1378" height="743" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20535715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20597015" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25853658" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48617887" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.49503312" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -736,7 +848,6 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,193 +900,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-compent/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/pnpTs.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/getHttpsConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/jest/cssTransform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/config/jest/fileTransform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-compent/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="70" column="35" lean-forward="true" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search_79e3f8ae.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search_a1984e0a.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/index/helloworld.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/common/index.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/index_1c667be7.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search_473edef7.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/commons_446d0584.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/commons_446d0584.js.map" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/search/src/test1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/index_30fa520d.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/logo_d3f4bf70.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search_81377dd3.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search_ffb438f2.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/search/src/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/0_27fbb2f2.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/.prettierrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/search/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search_de091bcc.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-antd/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/node_modules/friendly-errors-webpack-plugin/src/friendly-errors-plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/src/search/src/common33/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/build/library/library_588450b55266b780d905.dll.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search_ad47a062.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/build/library/library.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.dll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/node_modules/@types/node/globals.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/library.dll.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3818">
-          <caret line="166" column="32" selection-start-line="166" selection-start-column="32" selection-end-line="166" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/dist/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -996,31 +920,344 @@
     <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-project/com-imoc/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/react-router/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/react-store/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/react-store/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/redux/index.redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/redux/gun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/components/Test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/com/Test/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="75" selection-start-line="75" selection-end-line="77" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#dependencies#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/antd-demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/react-router/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/antd-demo/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/redux/gun.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/config/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/craco.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/com/Test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-826">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#115#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-css/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/com-imoc/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creact-react-files/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!block;n#dependencies#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/redux/gun.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creact-react-files/craco.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/craco.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/craco.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>

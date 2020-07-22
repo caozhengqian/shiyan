@@ -1,0 +1,98 @@
+.test {
+  .padding{
+    //width:100%;
+    border: 1px solid red;
+    padding: 10px 20px 50px;
+    .paddings{
+      width:auto;
+      border: 1px solid red;
+    }
+  }
+  .hong-bao{
+    height:60px;
+    display: flex;
+    flex-direction: row; //column
+    //justify-content: center; //flex-start、 flex-end、space-between、space-around
+    align-items: center; //flex-start、flex-end
+    border: 1px solid red;
+    width:300px;
+    .left{
+      width:100px;
+      border: 1px solid red;
+      border-radius: 10px;
+      padding:10px;
+      //display: flex;
+      //flex-direction: row; //column
+      //justify-content: center; //flex-start、 flex-end、space-between、space-around
+      //align-items: center; //flex-start、flex-end
+      span{
+        width:30px;
+        height:30px;
+        line-height: 30px;
+      }
+      .imgs{
+        width:30px;
+        height:30px;
+        float:right;
+      }
+
+    }
+    .line{
+      float:right;
+       height:calc(100% - 30px);
+      border: 1px dotted blue;
+    }
+    .right{
+      border: 1px solid red;
+      border-radius: 10px;
+      padding:10px;
+      width:50px;
+      height:30px;
+      span{
+        padding:5px 5px 7px;
+        border-radius: 10px;
+        background-color: #61dafb;
+        height:30px;
+        line-height: 30px;
+      }
+    }
+  }
+  .text{
+    .point{
+      display: inline-block;
+      line-height: 30px;
+      div{
+        width:5px;
+        height:5px;
+        background-color: blue;
+        border-radius: 50%;
+      }
+    }
+    .text{
+      line-height: 30px;
+      width:50px;
+      overflow: visible;/*hidden、scroll、auto、visible 默认会呈现在元素框外面*/
+      text-overflow:ellipsis;/*ellipsis 省略号，clip 裁剪*/
+      white-space: pre-wrap;/*pre 保留空白+不换行，nowrap 不换行、pre-wrap 空白+换行、*/
+      word-wrap:break-word;/*break-word、normal*/
+      vertical-align: text-top;
+      display: inline-block;
+    }
+  }
+  .juzhong{
+    height:60px;
+    line-height: 60px;
+    border: 1px solid red;
+    .juzhong1{
+
+    }
+  }
+  .no-active{
+    height:20px;
+    border: 1px solid red;
+  }
+  .active{
+    height:20px;
+    border: 1px solid blue;
+  }
+}
