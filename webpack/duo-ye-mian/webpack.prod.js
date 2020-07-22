@@ -6,6 +6,13 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');//导出css文�
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');//清除dist目录
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');//压缩css
 const HtmlWebpackPlugin = require('html-webpack-plugin');//压缩html
+const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');//分离react、reactdom到cdn文件
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');//打包编译时的人性化提示。
+const SpeedMeasureWebpackPlugin = require('speed-measure-webpack-plugin');//打包后的耗时分析
+const smp = new SpeedMeasureWebpackPlugin();
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');//打包后包的大小分析
+const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');//将dll加入到html
+console.info("aaaaa========",__dirname);
 //多页面打包
 const glob = require('glob');
 const projectRoot = process.cwd();
@@ -50,7 +57,7 @@ const setMPA = () => {
 
 const { entry, htmlWebpackPlugins } = setMPA();
 
-module.exports = {
+module.exports = smp.wrap({
     entry: entry,
     output: {
         path: path.join(__dirname, 'dist'),
@@ -61,7 +68,10 @@ module.exports = {
         rules: [
             {
                 test: /.js$/,
-                use: 'babel-loader'
+                use:  [
+                    'babel-loader',
+                    // 'eslint-loader'
+                ]
             },
             {
                 test: /.css$/,
@@ -128,6 +138,42 @@ module.exports = {
             cssProcessor: require('cssnano')
         }),
         new CleanWebpackPlugin(),
+
+        // new HtmlWebpackExternalsPlugin({
+        //     externals: [
+        //         {
+        //             module: 'react',
+        //             entry: 'https://now8.gtimg.com/now/lib/16.2.0/react.min.js',
+        //             global: 'React',
+        //         },
+        //         {
+        //             module: 'react-dom',
+        //             entry: 'https://now8.gtimg.com/now/lib/16.2.0/react-dom.min.js',
+        //             global: 'ReactDOM',
+        //         },
+        //     ]
+        // }),
+        // new FriendlyErrorsWebpackPlugin(),
+        // new BundleAnalyzerPlugin(),
+        new webpack.DllReferencePlugin({
+            manifest: require('./build/library/library.json')
+        }),
+        new AddAssetHtmlPlugin({
+            filepath: path.resolve(__dirname, './build/library/*.dll.js'),
+        }),
     ].concat(htmlWebpackPlugins),
-    devtool:"source-map"
-};
+    // optimization: {
+    //     splitChunks: {
+    //         minSize: 0,//最小体积
+    //         cacheGroups: {
+    //             commons: {
+    //                 name: 'commons',
+    //                 chunks: 'all',
+    //                 minChunks: 2//引用次数
+    //             }
+    //         }
+    //     }
+    // },
+    devtool:"source-map",
+    // stats: 'errors-only'
+});

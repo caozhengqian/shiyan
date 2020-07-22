@@ -5,6 +5,7 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');//导出css文件
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');//清除dist目录
 const HtmlWebpackPlugin = require('html-webpack-plugin');//压缩html
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');//打包编译时的人性化提示。
 //多页面打包
 const glob = require('glob');
 const projectRoot = process.cwd();
@@ -60,7 +61,10 @@ module.exports = {
         rules: [
             {
                 test: /.js$/,
-                use: 'babel-loader'
+                use: [
+                    'babel-loader',
+                    // 'eslint-loader'
+                ]
             },
             {
                 test: /.css$/,
@@ -107,10 +111,12 @@ module.exports = {
             filename: '[name]_[contenthash:8].css'
         }),
         new CleanWebpackPlugin(),
+        new FriendlyErrorsWebpackPlugin(),
     ].concat(htmlWebpackPlugins),
     devtool:"source-map",
     devServer: {
         contentBase: './dist',
         hot: true,
+        stats: 'errors-only'
     },
 };
