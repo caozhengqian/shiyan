@@ -1,5 +1,6 @@
 import React from 'react';
 import "./index.less";
+import {Button} from "antd";
 
 import { connect } from 'react-redux'
 import { addGun, removeGun, addGunAsync } from '../../redux/index.redux'
@@ -55,7 +56,8 @@ class Test extends React.Component {
         return (
             <div className="All-div" onClick={this.handleClick}>
                 <p>redux的值{this.props.counter}</p>
-                <button onClick={this.handleOn}>加一个redux的值</button>
+                <Button type="primary">Button</Button>
+                <Button onClick={this.handleOn}>加一个redux的值</Button>
                 <p className="p-point">{this.state.change+''}</p>
             </div>
         );
