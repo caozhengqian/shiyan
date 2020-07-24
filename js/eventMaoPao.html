@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件冒泡</title>
+    <script>
+        function onA(){
+            console.info("onA")
+            event.stopPropagation();
+        }
+        function onB(e){
+            console.info("onB")
+            event.stopPropagation();
+        }
+        function onC(e){
+            console.info("onC")
+            event.stopPropagation();
+        }
+    </script>
+</head>
+<body>
+    <div  onclick="onA()" style="display:flex;justify-content:center;align-items:center;width:300px;border: 1px solid red;height: 300px;">
+        <div onclick="onB()" style="display:flex;justify-content:center;align-items:center;width:150px;border: 1px solid blue;height: 150px;">
+
+            <div onclick="onC()"  style="width:100px;border: 1px solid blue;height: 50px;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

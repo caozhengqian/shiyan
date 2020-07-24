@@ -80,3 +80,17 @@ p{
     background-color: burlywood;
     cursor:pointer;
 }
+.gotoEventMaoPao{
+    position: fixed;
+    top:280px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+.gotoHttp{
+    position: fixed;
+    top:310px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}

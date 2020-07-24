@@ -39,6 +39,12 @@
     function gotoBiBao(){
        self.location='闭包.html';
     }
+   function gotoEventMaoPao(){
+       self.location='eventMaoPao.html';
+   }
+   function gotoHttp(){
+       self.location='http.html';
+   }
 </script>
 <body>
 <div class="gotoArrayString" onclick="gotoArrayString()">跳转到String</div>
@@ -50,6 +56,8 @@
 <div class="gotoThis" onclick="gotoThis()">跳转到This</div>
 <div class="gotoBindCallApply" onclick="gotoBindCallApply()">跳转到bindCallApply</div>
 <div class="gotoBiBao" onclick="gotoBiBao()">跳转到闭包</div>
+<div class="gotoEventMaoPao" onclick="gotoEventMaoPao()">事件冒泡</div>
+<div class="gotoHttp" onclick="gotoHttp()">HTTP</div>
     1、（）=》｛｝和普通方法区别
     <p class="desc">
         <span class="green">abc()</span>  <span class="red">//打印abc</span>
