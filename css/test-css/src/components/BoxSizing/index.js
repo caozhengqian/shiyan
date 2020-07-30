@@ -15,10 +15,10 @@ export default class BoxSizing extends React.Component {
         return (
             <div className="boxSizing">
                 <div className="context">
-                    context-box padding-left:30px border:3px
+                    《context-box width:500px;》 padding-left:30px 和 border:3px,会被计算到长度里面
                 </div>
                 <div className="border">
-                    border-box padding-left:30px border:3px
+                    《border-box width:500px;》 padding-left:30px border:3px，
                 </div>
             </div>
         );

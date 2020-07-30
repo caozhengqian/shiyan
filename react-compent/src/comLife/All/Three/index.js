@@ -1,21 +1,20 @@
 import React from 'react';
 import "./index.less";
-import TwoOne from "./TwoOne"
 
-export default class Two extends React.Component {
+export default class Three extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
-        console.info("=========>Two--constructor");
+        console.info("=========>Three--constructor");
     }
     //新建、更新，都会走
     static getDerivedStateFromProps(){
-        console.info("=========>Two--getDerivedStateFromProps");
+        console.info("=========>Three--getDerivedStateFromProps");
         return "";
     }
     //新建render后
     componentDidMount() {
-        console.info("=========>Two--componentDidMount");
+        console.info("=========>Three--componentDidMount");
     }
 
     //更新前，不返回会报错
@@ -24,24 +23,23 @@ export default class Two extends React.Component {
     // }
     //更新render后，
     getSnapshotBeforeUpdate(){
-        console.info("=========>Two--getSnapshotBeforeUpdate");
+        console.info("=========>Three--getSnapshotBeforeUpdate");
         return null;
     }
     //getSnapshotBeforeUpdate 之后
     componentDidUpdate(){
-        console.info("=========>Two--componentDidUpdate");
+        console.info("=========>Three--componentDidUpdate");
     }
     //卸载前
     componentWillUnmount(){
-        console.info("=========>Two--componentWillUnmount");
+        console.info("=========>Three--componentWillUnmount");
     }
 
     render() {
-        console.info("=========>Two--render");
+        console.info("=========>Three--render");
         return (
-            <div className="two">
-                Two
-                <TwoOne/>
+            <div className="three">
+                Three
             </div>
         );
     }

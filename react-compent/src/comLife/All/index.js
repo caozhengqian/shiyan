@@ -3,7 +3,8 @@ import "./index.less";
 import { Table, Tag, Space ,Button } from 'antd';
 
 import One from "./One";
-import Two from "./Two"
+import Two from "./Two";
+import Three from "./Three";
 
 import { connect } from 'react-redux'
 import { addGun, removeGun, addGunAsync } from '../../redux/index.redux'
@@ -90,6 +91,7 @@ class All extends React.Component {
             },
         ]
         };
+        console.info("=>All--constructor");
     }
     //新建、更新，都会走
     static getDerivedStateFromProps(){
@@ -121,6 +123,8 @@ class All extends React.Component {
     }
 
     handleClick = (e)=>{
+        e.stopPropagation();
+        console.info("handleClick")
         this.setState({change:!this.state.change});
     };
     handleOn=()=>{
@@ -132,9 +136,9 @@ class All extends React.Component {
         console.info(event)
         event.stopPropagation ()
     }
-    _button(){
+    _button(e){
         console.info("点击了_button")
-
+        e.stopPropagation();
     }
     _name(e,re){
         console.info("点击了_name");
@@ -143,14 +147,17 @@ class All extends React.Component {
         e.stopPropagation()
     }
     render() {
+        console.info("=>All--render");
         return (
             <div className="All-div" onClick={this.handleClick}>
                 <p>redux的值{this.props.counter}</p>
                 <button onClick={this.handleOn}>加一个redux的值</button>
                 <p className="p-point">{this.state.change+''}</p>
                 <Button onClick={this._button}>aaa</Button>
-                <One/>
                 <Two/>
+                <One/>
+
+                <Three/>
                 <Table  onRow={record => {
                     return {
                         onClick: (event)=>this._table(record,event)// 点击行

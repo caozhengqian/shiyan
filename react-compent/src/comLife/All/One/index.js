@@ -6,6 +6,7 @@ export default class One extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
+        console.info("=========>One--constructor");
     }
     //新建、更新，都会走
     static getDerivedStateFromProps(){
@@ -36,6 +37,7 @@ export default class One extends React.Component {
     }
 
     render() {
+        console.info("=========>One--render");
         return (
             <div className="one">
                 One
