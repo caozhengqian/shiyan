@@ -59,7 +59,7 @@
 </script>
 <body>
     <p class="desc">
-        JavaScript 允许函数嵌套，内部函数可访问外部函数的变量和函数，以及外部函数能访问的所有变量和函数。
+        闭包可以让你从内部函数访问外部函数作用域。每当函数被创建，就会在函数生成时生成闭包。
 
         var pet = function(name) {          //外部变量"name"
             var getName = function() {
