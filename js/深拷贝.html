@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    let a = {a:1,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}};
+    let b = a;
+    let c = JSON.parse(JSON.stringify(a));
+    a.a = 2;
+    console.info(a);//{a:2,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}}
+    console.info(b);//{a:2,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}}
+    console.info(c);//{a:1,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}}
+
+
+</script>
+<body>
+    <p class="desc">
+        let <span class="red">a</span> = {<span class="red">a:1</span>,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}};
+        let <span class="red">b</span> = a;
+        let <span class="red">c</span> = JSON.parse(JSON.stringify(a));
+        <span class="red">a.a = 2;</span>
+        console.info(a);//{<span class="red">a:2</span>,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}}
+        console.info(b);//{<span class="red">a:2</span>,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}}
+        console.info(c);//{<span class="red">a:1</span>,arr:['arr1',"arr2"],obj:{'obj1':'obj11'}}
+
+    </p>
+
+</body>
+</html>

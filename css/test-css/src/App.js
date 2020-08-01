@@ -22,7 +22,7 @@ import Float from "./components/Float";//float浮动研究
 import Display from "./components/Display";//display研究
 import Flex from "./components/Flex";//Flex
 import Test from "./components/Test";//Test
-
+import Bfc from "./components/Bfc";//Test
 
 function App() {
   return (
@@ -78,6 +78,9 @@ function App() {
               </Route>
               <Route exact path="/test">
                   <Test/>
+              </Route>
+              <Route exact path="/bfc">
+                  <Bfc/>
               </Route>
           </Switch>
       </Router>

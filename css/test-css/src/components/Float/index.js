@@ -37,7 +37,7 @@ export default class Float extends React.Component {
 
                     </div>
                 </div>
-                <p className="mt3">清除浮动，父overflow:hidden;</p>
+                <p className="mt3">清除浮动，父overflow:hidden;创建一个BFC</p>
                 <div className="float-div2">
                     <div className="float-div-left2">
                         overflow清除浮动left

@@ -1,0 +1,77 @@
+.bfc {
+  .hebing{
+    .one{
+      border: 1px solid red;
+      margin:50px;
+      background-color: red;
+    }
+    .two{
+      border: 1px solid blue;
+      background-color: blue;
+      margin:20px;
+    }
+  }
+  .hebingbfc{
+    .one-div{
+      overflow:hidden;
+      //position: absolute;
+      .one{
+        border: 1px solid red;
+        margin:50px;
+        background-color: red;
+      }
+    }
+
+    .two{
+      border: 1px solid blue;
+      margin:20px;
+      background-color: blue;
+    }
+  }
+  .hebingbfc-one{
+    .column:nth-of-type(1) {
+      float: left;
+      width: 200px;
+      height: 300px;
+      margin-right: 10px;
+      background-color: red;
+    }
+
+    .column:nth-of-type(2) {
+      overflow: hidden;/*创建bfc */
+      //margin-left: 10px;
+      height: 300px;
+      background-color: purple;
+    }
+  }
+  .hebingbfc-two{
+    margin-top: 30px;
+    width:250px;
+    .left {
+      float: left;
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+    }
+
+    p {
+      background-color: green;
+      /* overflow: hidden; */
+    }
+  }
+  .hebingbfc-three{
+    margin-top: 30px;
+    width:250px;
+    .left {
+      float: left;
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+    }
+
+    p {
+      background-color: green;
+       overflow: hidden;
+    }
+  }
+}

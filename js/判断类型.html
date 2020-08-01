@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    let number1 = 1;
+    let string1 = "string";
+    let boolean1 = false;
+    let object1 = {'a':'aa'};
+    let null1 = null;
+    let undefined1 = undefined;
+    function function1() {
+        console.info("function1")
+    }
+    let ss = Symbol('a');
+    let arr1=[];
+
+    console.info(typeof number1);//number
+    console.info(typeof string1);//string
+    console.info(typeof boolean1);//boolean
+    console.info(typeof object1);//object
+    console.info(typeof null1);//object
+    console.info(typeof undefined1);//undefined
+    console.info(typeof function1);//function
+    console.info(typeof ss);//symbol
+    console.info(typeof arr1);//object
+
+    let number2 = new Number(1);
+    let string2 = new String("string");
+    let boolean2 = new Boolean(false);
+    let object2 = new Object({'a':'aa'});
+    let null2 = new Object(null);
+    let undefined2 = new Object(undefined);
+    let function2 = new Function('a','b',"console.info('aa')");
+    let arr2=new Array();
+
+    console.info( number2 instanceof Number);//true
+    console.info( string2 instanceof String);//true
+    console.info( boolean2 instanceof Boolean);//true
+    console.info( object2 instanceof Object);//true
+    console.info( null2 instanceof Object);//true
+    console.info( undefined2 instanceof Object);//true
+    console.info( function2 instanceof Function);//true
+    console.info( arr2 instanceof Array);//true
+
+    console.info(typeof number2)//object
+    console.info(typeof string2)//object
+    console.info(typeof boolean2)//object
+    console.info(typeof object2)//object
+    console.info(typeof null2)//object
+    console.info(typeof undefined2)//object
+    console.info(typeof function2)//function
+    console.info(typeof arr2)//object
+</script>
+<body>
+<p class="desc">
+    基本typeof能分出来的。
+    Number（数字）
+    String（字符串）
+    Boolean（布尔）
+    Function（函数）
+    Object（对象）
+    Symbol（ES2015 新增）
+
+    详细分
+    Number（数字）
+    String（字符串）
+    Boolean（布尔）
+    Symbol（符号）（ES2015 新增）
+    Object（对象）
+        Function（函数） 既是Function又是object，typeof是function
+        Array（数组）   typeof是object
+        Date（日期）
+        RegExp（正则表达式）
+    null（空）
+    undefined（未定义）
+</p>
+<p class="desc">
+    let <span class="red">number1</span> = 1;
+    let <span class="red">string1</span> = "string";
+    let <span class="red">boolean1</span> = false;
+    let <span class="red">object1</span> = {'a':'aa'};
+    let <span class="red">null1</span> = null;
+    let <span class="red">undefined1</span> = undefined;
+    function <span class="red">function1</span>() {
+    console.info("function1")
+    }
+    let <span class="red">ss</span> = Symbol('a');
+    let <span class="red">arr1</span>=[];
+
+    console.info( <span class="red">typeof number1</span>);//number
+    console.info( <span class="red">typeof string1</span>);//string
+    console.info( <span class="red">typeof boolean1</span>);//boolean
+    console.info( <span class="red">typeof object1</span>);//object
+    console.info( <span class="red">typeof null1</span>);//object
+    console.info( <span class="red">typeof undefined1</span>);//undefined
+    console.info( <span class="red">typeof function1</span>);//function
+    console.info( <span class="red">typeof ss</span>);//symbol
+    console.info( <span class="red">typeof arr1</span>);//object
+</p>
+<p>-------------------------------------------------------------------</p>
+<p class="desc">
+    let  <span class="red">number2</span> = new Number(1);
+    let  <span class="red">string2</span> = new String("string");
+    let  <span class="red">boolean2</span> = new Boolean(false);
+    let  <span class="red">object2</span> = new Object({'a':'aa'});
+    let  <span class="red">null2</span> = new Object(null);
+    let  <span class="red">undefined2</span> = new Object(undefined);
+    let  <span class="red">function2</span> = new Function('a','b',"console.info('aa')");
+    let  <span class="red">arr2</span>=new Array();
+
+    console.info(  <span class="red">number2 instanceof Number</span>);//true
+    console.info(  <span class="red">string2 instanceof String</span>);//true
+    console.info(  <span class="red">boolean2 instanceof Boolean</span>);//true
+    console.info(  <span class="red">object2 instanceof Object</span>);//true
+    console.info(  <span class="red">null2 instanceof Object</span>);//true
+    console.info(  <span class="red">undefined2 instanceof Object</span>);//true
+    console.info(  <span class="red">function2 instanceof Function</span>);//true
+    console.info(  <span class="red">arr2 instanceof Array</span>);//true
+
+    console.info( <span class="red">typeof number2</span>)//object
+    console.info( <span class="red">typeof string2</span>)//object
+    console.info( <span class="red">typeof boolean2</span>)//object
+    console.info( <span class="red">typeof object2</span>)//object
+    console.info( <span class="red">typeof null2</span>)//object
+    console.info( <span class="red">typeof undefined2</span>)//object
+    console.info( <span class="red">typeof function2</span>)//<span class="green">function</span>
+    console.info( <span class="red">typeof arr2</span>)//object
+</p>
+</body>
+</html>

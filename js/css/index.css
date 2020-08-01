@@ -15,7 +15,7 @@ p{
     color:red;
 }
 .green{
-    color:greenyellow;
+    color:Green;
 }
 .gotoArrayString{
     position: fixed;
@@ -90,6 +90,34 @@ p{
 .gotoHttp{
     position: fixed;
     top:310px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+.gotoPanDuan{
+    position: fixed;
+    top:340px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+.gotoShenKaoBei{
+    position: fixed;
+    top:370px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+.gotoWeiLei{
+    position: fixed;
+    top:400px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
+.gotoBFC{
+    position: fixed;
+    top:430px;
     right:10px;
     background-color: burlywood;
     cursor:pointer;

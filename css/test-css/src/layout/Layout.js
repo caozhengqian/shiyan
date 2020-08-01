@@ -107,6 +107,11 @@ export default class Layout extends React.Component {
                         Test
                     </Link>
                 </div>
+                <div>
+                    <Link to="/bfc" >
+                        BFC
+                    </Link>
+                </div>
             </div>
         );
     }
