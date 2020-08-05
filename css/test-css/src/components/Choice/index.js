@@ -38,9 +38,9 @@ export default class Choice extends React.Component {
                         一个div
                         <div>第一个里面的div</div>
                         <p>第一个div里的p
-                            <div>
+                            <span>
                                 div里的p里的div
-                            </div>
+                            </span>
                         </p>
                     </p>
                     <div>
@@ -62,6 +62,9 @@ export default class Choice extends React.Component {
                     </p>
                     <div>
                         第二个div
+                    </div>
+                    <div>
+                        第二个div2222
                     </div>
                     <p>第二个p</p>
                     <div>第三个div</div>
