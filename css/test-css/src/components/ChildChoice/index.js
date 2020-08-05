@@ -66,6 +66,12 @@ export default class ChildChoice extends React.Component {
                                 第二个p
                             </p>
                         </div>
+                        <div>
+                            <p>
+                                第三个p
+                            </p>
+                            <span>adasdasspan</span>
+                        </div>
                     </div>
                 </div>
                 <p>四、only-child，div里只有一个p（不可以有span）</p>
@@ -104,8 +110,9 @@ export default class ChildChoice extends React.Component {
                         </div>
                         <div style={{marginLeft:'20px'}}>
                             <p style={{marginLeft:'20px'}}>
-                                第二个p,同级不能有span
+                                第二个p,
                             </p>
+                            <span>aa</span>
                         </div>
                     </div>
                     <p style={{marginLeft:'20px'}}>
@@ -143,15 +150,15 @@ export default class ChildChoice extends React.Component {
                 </div>
                 <p>八、:not(p)循环所有div，    &:not(:last-child)，not的上级，除了最后一个</p>
                 <div>
-                <div className="not">
-                    <div>第一个div</div>
-                    <div>
-                        <div>div里面的div</div>
-                        <p>div里面的p1</p>
-                        <p>div里面的p2</p>
+                    <div className="not">
+                        <div>第一个div</div>
+                        <div>
+                            <div>div里面的div</div>
+                            <p>div里面的p1</p>
+                            <p>div里面的p2</p>
+                        </div>
+                        <p>第一个p</p>
                     </div>
-                    <p>第一个p</p>
-                </div>
                     <div>最后一个div</div>
                 </div>
             </div>
