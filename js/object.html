@@ -10,11 +10,15 @@
     const o2 = { b: 4, c: 5 };
     const o3 = Object.assign(o1, o2);
     console.info(o1)//{a: 1, b: 4, c: 5}
+    console.info(o2)//{ b: 4, c: 5 }
     console.info(o3)//{a: 1, b: 4, c: 5}
 
     const o4 = { a: 1, b: 2 };
     const o5 = { a: 1, b: 2 };
     console.info(Object.is(o4, o5));//false
+    console.info(o4 === o5);//false
+    console.info(o4 == o5);//false
+    console.info(JSON.stringify(o4) === JSON.stringify(o5));//true
 
     const o6 = {'key1':'value1','key2':'value2','key3':'value3'};
     console.info(Object.keys(o6));// ["key1", "key2", "key3"]
@@ -29,6 +33,7 @@
     for (let [index, elem] of Object.entries(o6)) {
         console.log(index, elem);//key1 value1  key2 value2  key3 value3
     }
+    // o6.map((v,k)=>{})//报错的
 
     const o7 = {'key1':'value1','key2':'value2','key3':'value3'};
     const key = 'key2';
@@ -42,6 +47,7 @@
     const o2 = { b: 4, c: 5 };
     const o3 = <span class="red">Object.assign(o1, o2);</span>
     console.info(o1)<span class="red">//{a: 1, b: 4, c: 5}</span>
+    console.info(o2)//<span class="red">{ b: 4, c: 5 }}</span>
     console.info(o3)<span class="red">//{a: 1, b: 4, c: 5}</span>
 </p>
 <p>---------------------------------------------------------------------------------------</p>
@@ -61,6 +67,9 @@
     const o4 = { a: 1, b: 2 };
     const o5 = { a: 1, b: 2 };
     console.info(Object.<span class="red">is</span>(o4, o5));<span class="red">//false</span>
+    console.info(<span class="red">o4 === o5</span>);//<span class="red">false</span>
+    console.info(<span class="red">o4 == o5</span>);//<span class="red">false</span>
+    console.info(<span class="red">JSON.stringify(o4)</span> === <span class="red">JSON.stringify(o5)</span>);//<span class="red">true</span>
 </p>
 <p>---------------------------------------------------------------------------------------</p>
 <p class="desc">
@@ -68,17 +77,24 @@
 
     const o6 = {'key1':'value1','key2':'value2','key3':'value3'};
     console.info(<span class="red">Object.keys(o6));// ["key1", "key2", "key3"]</span>
+
     console.info(<span class="red">Object.values(o6))//["value1", "value2", "value3"]</span>
+
     console.info(<span class="red">Object.entries(o6));//[["key1", "value1"], ["key2", "value2"],["key3", "value3"]]</span>
+
     for (let elem of <span class="red">Object.keys(o6)</span>) {
-    console.log(elem);<span class="red">//key1  key2  key3</span>
+         console.log(elem);<span class="red">//key1  key2  key3</span>
     }
+
     for (let elem of <span class="red">Object.values(o6)</span>) {
-    console.log(elem);<span class="red">//value1 value2 value3</span>
+        console.log(elem);<span class="red">//value1 value2 value3</span>
     }
+
     for (let [index, elem] of <span class="red">Object.entries(o6)</span>) {
-    console.log(index, elem);<span class="red">//key1 value1  key2 value2  key3 value3</span>
+        console.log(index, elem);<span class="red">//key1 value1  key2 value2  key3 value3</span>
     }
+
+    o6.<span class="red">map</span>((v,k)=>{})//不能使用map方法；o6.map is not a function
 </p>
 <p>---------------------------------------------------------------------------------------</p>
 <p class="desc">

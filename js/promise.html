@@ -20,7 +20,7 @@
         });
     console.info(res);
     res.then(e=>{
-        console.info("。then的e=》",e)
+        console.info("then的e=》",e)
     });
 
 
@@ -32,7 +32,7 @@
         });
     };
    res1("abc参数").then((e)=>{
-        console.info(e)});
+        console.info(e)});//我获取到了参数abc===abc参数
 </script>
 <body>
     <p class="desc">
@@ -42,7 +42,7 @@
         let res = new Promise((<span class="red">resolve</span>, <span class="red">reject</span>) => {
         if(option === true){
             <span class="red">setTimeout(()=>{
-            resolve("我是resolve返回的正确结果");
+                resolve("我是resolve返回的正确结果");
             },3000)</span>
         }else{
            <span class="red"> reject("我是reject返回的错误结果")</span>
@@ -52,21 +52,22 @@
         console.info(res);<span class="red">//Promise...</span>
 
         res.<span class="red">then</span>(e=>{
-        console.info("。then的e=》",e)<span class="red">//。then的e=》 我是resolve返回的正确结果</span>
+            console.info("then的e=》",e)<span class="red">//then的e=》 我是resolve返回的正确结果</span>
         })
     </p>
 
     <p>---------------------------------------------------------</p>
     <p class="desc">
-    </p>
+
     let res1 = function (<span class="red">abc</span>){
     return  new Promise((resolve, reject) => {
         setTimeout(()=>{
-        resolve("我获取到了参数abc==="+abc);
+            resolve("我获取到了参数abc==="+abc);
         },3000)
     });
     };
     res1("abc参数").<span class="red">then</span>((e)=>{
     console.info(e)});<span class="red">//我获取到了参数abc===abc参数</span>
+    </p>
 </body>
 </html>

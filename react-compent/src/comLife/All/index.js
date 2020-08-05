@@ -15,7 +15,9 @@ import { addGun, removeGun, addGunAsync } from '../../redux/index.redux'
     { addGun, removeGun, addGunAsync }
 )
 class All extends React.Component {
+
     constructor(props) {
+
         super(props);
         this.state = {
             change:true,
@@ -101,6 +103,7 @@ class All extends React.Component {
     //新建render后
     componentDidMount() {
         // console.info(this.props.counter);
+        console.info(this);//All
         console.info("=>All--componentDidMount");
     }
 
@@ -123,6 +126,7 @@ class All extends React.Component {
     }
 
     handleClick = (e)=>{
+        console.info(this)//All
         e.stopPropagation();
         console.info("handleClick")
         this.setState({change:!this.state.change});

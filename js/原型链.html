@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    // 原型链原因之一：每一个实例对象，都有自己的属性和方法，无法做到共享，且浪费资源
+    function DOG(name){
+        this.name = name;
+        this.species = '犬科';
+        console.info(this)
+    }
+
+    var dogA = new DOG('大毛');
+    var dogB = new DOG('二毛');
+    dogA.species = '猫科';
+    console.info(dogA.species);//猫科
+    console.info(dogB.species);//犬科
+
+    //引入prototype,都有自己的属性和方法,但是也可以共享引入prototype
+    function DOG1(name){
+        this.name = name;
+    }
+    DOG1.prototype = { species : '犬科' };
+    var dogA1 = new DOG1('大毛');
+    var dogB1 = new DOG1('二毛');
+    console.info(dogA1.species);// 犬科
+    console.info(dogB1.species); // 犬科
+
+    //prototype属性优先级
+    let f = function () {
+        this.a = 1;
+        this.b = 2;
+    };
+    console.info(f)//ƒ () {this.a = 1; this.b = 2;}
+    console.info(f.a)//undefined
+    console.info(f.b)//undefined
+    let o1 = new f(); // {a: 1, b: 2}
+    f.prototype.b = 3;
+    f.prototype.c = 4;
+    console.info(o1);//f {a: 1, b: 2}
+    console.info(o1.a);//1
+    console.info(o1.b);//2
+    console.info(o1.c);//4
+    // {a:1, b:2} ---> {b:3, c:4} ---> Object.prototype---> null
+
+    //使用apply实现继承
+    function Animal(){
+        this.species = "动物";
+    };
+
+    function Cat(name,color){
+        console.info("cat的thisl",this);
+        Animal.apply(this, arguments);
+        this.name = name;
+        this.color = color;
+    };
+    var cat1 = new Cat("大毛","黄色");
+    console.info(cat1.species);//动物
+    console.info(cat1);//Cat {species: "动物", name: "大毛", color: "黄色"}
+
+    //使用prototype实现继承
+    function Animal1(){
+        this.species = "动物";
+    };
+    function Cat1(name,color){
+        this.name = name;
+        this.color = color;
+    }
+    Cat1.prototype = new Animal1();//prototype改变，要指回原来的constructor Cat1
+    Cat1.prototype.constructor = Cat1;
+    // Cat1 {name: "大毛1", color: "黄色1"}
+    // color: "黄色1"
+    // name: "大毛1"
+    // __proto__: Animal1
+    // constructor: ƒ Cat1(name,color)
+    // species: "动物"
+    // __proto__:
+    //     constructor: ƒ Animal1()
+    // __proto__: Object
+    var cat2 = new Cat1("大毛1","黄色1");
+
+    console.info(cat2.species);//动物
+    console.info(cat2.name);//大毛1
+    console.info(cat2)
+    // Cat1 {name: "大毛1", color: "黄色1"}
+    // color: "黄色1"
+    // name: "大毛1"
+    // __proto__: Animal1
+    // species: "动物"
+    // __proto__:
+    //     constructor: ƒ Animal1()
+    // __proto__: Object
+    console.info(Cat1.prototype.constructor);//构造器是cat1，如果72行不修改，则是Anmail
+        // Cat1(name,color){
+    //     this.name = name;
+    //     this.color = color;
+    // }
+
+    //json的继承
+    var Chinese = {
+        nation:'中国'
+    };
+    var Doctor ={
+        career:'医生'
+    }
+    var Doctor1 = Object(Chinese);
+    Doctor1.career = '医生';
+    console.info(Doctor1)//{nation: "中国", career: "医生"}
+
+    //Object.create实现   Object(o)也能实现
+    var o = {
+        a: 2,
+        m: function(){
+            return this.a + 1;
+        }
+    };
+    var p = Object.create(o);
+    console.log(p.m()); // 3
+
+
+</script>
+<body>
+    <p class="desc">
+        六-1：原型链原因之一：每一个实例对象，都有自己的属性和方法，无法做到共享，且浪费资源
+        function DOG(name){
+            this.name = name;
+            <span class="red">this.species = '犬科';</span>
+        }
+        var dogA = new DOG('大毛');
+        var dogB = new DOG('二毛');
+        <span class="red">dogA.species = '猫科'</span>;
+        console.info(<span class="red">dogA.species</span>);// <span class="red">猫科</span>
+        console.info(<span class="red">dogB.species</span>);// <span class="red">犬科</span>
+
+        六-2：引入prototype,都有自己的属性和方法,但是也可以共享引入prototype
+        　　function DOG1(name){
+        　　　　this.name = name;
+        　　}
+        　　 <span class="red">DOG1.prototype = { species : '犬科' };</span>
+        　　var dogA1 = new DOG1('大毛');
+        　　var dogB1 = new DOG1('二毛');
+            console.info( <span class="red">dogA1.species</span>);//  <span class="red">犬科</span>
+            console.info( <span class="red">dogB1.species</span>); //  <span class="red">犬科</span>
+
+        //六-3：prototype属性优先级
+        let f = function () {
+            this.a = 1;
+            this.b = 2;
+        };
+        console.info(<span class="red">f</span>)//<span class="red">ƒ () {this.a = 1; this.b = 2;}</span>
+        console.info(<span class="red">f.a</span>)//<span class="red">undefined</span>
+        console.info(<span class="red">f.b</span>)/<span class="red">/undefined</span>
+        let o1 = <span class="red">new</span> f(); // {a: 1, b: 2}
+        <span class="red"> f.prototype.b = 3;</span>
+        <span class="red">f.prototype.c = 4;</span>
+        console.info(<span class="red">o1</span>);//<span class="red">f {a: 1, b: 2}</span>
+        console.info(<span class="red">o1.a</span>);//<span class="red">1</span>
+        console.info(<span class="red">o1.b</span>);//<span class="red">2</span>
+        console.info(<span class="red">o1.c</span>);//<span class="red">4</span>
+        //<span class="red"> {a:1, b:2} ---> {b:3, c:4} ---> Object.prototype---> null</span>
+    </p>
+<p class="desc">
+    //六-4：使用apply实现继承
+    function Animal(){
+        this.species = "动物";
+    };
+
+    function Cat(name,color){
+    <span class="red"> Animal.apply(this, arguments);</span>
+        this.name = name;
+        this.color = color;
+    };
+    var cat1 = new Cat("大毛","黄色");
+    console.info(<span class="red">cat1.species</span>);//<span class="red">动物</span>
+    console.info(<span class="red">cat1</span>);//<span class="red">Cat {species: "动物", name: "大毛", color: "黄色"}</span>
+</p>
+<p class="desc">
+    //六-5：使用prototype实现继承
+    function Animal1(){
+         this.species = "动物";
+    };
+    function Cat1(name,color){
+        this.name = name;
+        this.color = color;
+    }
+    <span class="red">Cat1.prototype = new Animal1()</span>;//<span class="red">prototype改变，要指回原来的constructor Cat1</span>
+    // <span class="red">Cat1.prototype.constructor = Cat1;</span>
+    //如果放开的话：
+            Cat1 {name: "大毛1", color: "黄色1"}
+                color: "黄色1"
+                name: "大毛1"
+                __proto__: Animal1
+                    constructor: ƒ Cat1(name,color)
+                    species: "动物"
+                    __proto__:
+                        constructor: ƒ Animal1()
+                        __proto__: Object
+    var cat2 = <span class="red">new Cat1("大毛1","黄色1");</span>
+
+    console.info(<span class="red">cat2.species</span>);//<span class="red">动物</span>
+    console.info(<span class="red">cat2.name</span>);//<span class="red">大毛1</span>
+    console.info(<span class="red">cat2</span>)//
+            Cat1 {name: "大毛1", color: "黄色1"}
+                color: "黄色1"
+                name: "大毛1"
+                    __proto__: Animal1
+                    species: "动物"
+                        __proto__:
+                            constructor: ƒ Animal1()
+                            __proto__: Object
+    console.info(<span class="red">Cat1.prototype.constructor</span>);//构造器是cat1，如果72行不修改，则是Anmail
+            Cat1(name,color){
+                 this.name = name;
+                 this.color = color;
+             }
+</p>
+<p class="desc">
+        //六-6：json的继承
+        var Chinese = {
+            nation:'中国'
+        };
+        var Doctor ={
+            career:'医生'
+        }
+        var Doctor1 = <span class="red">Object(Chinese)</span>;
+        <span class="red">Doctor1.career = '医生'</span>;
+        console.info(<span class="red">Doctor1</span>)//<span class="red">{nation: "中国", career: "医生"}</span>
+</p>
+
+    <p class="desc">
+        //Object.create实现   Object(o)也能实现
+        var o = {
+        a: 2,
+        m: function(){
+                 return this.a + 1;
+            }
+        };
+        var p =<span class="red"> Object.create(o)</span>;
+        console.log(<span class="red">p.m()</span>); // <span class="red">3</span>
+    </p>
+</body>
+</html>

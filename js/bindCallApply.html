@@ -19,9 +19,16 @@
         firstName:"Mary",
         lastName: "Doe",
     };
+    var person3 = {
+        firstName:"Mary3",
+        lastName: "Doe3",
+    };
 
     console.info(person.fullName.call(person1));//John Doe
     console.info(person.fullName.apply(person2));//Mary Doe
+    console.info(person.fullName.bind(person3));//ƒ () {
+                        //return this.firstName + " " + this.lastName;
+                    //}
 
     ////////////////////////////////////////////////////////////////
     var person3 = {
@@ -79,6 +86,9 @@
 
     console.info(<span class="red">person.fullName.call</span>(<span class="green">person1</span>));<span class="red">//John Doe</span>
     console.info(<span class="red">person.fullName.apply</span>(<span class="green">person2</span>));<span class="red">//Mary Doe</span>
+    console.info(<span class="red">person.fullName.bind</span>(<span class="green">person3</span>));//<span class="red">ƒ () {
+    //return this.firstName + " " + this.lastName;
+    //}</span>
 </p>
 <p>-------------------------------------------------------------------------</p>
 <p class="desc">

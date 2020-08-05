@@ -9,7 +9,7 @@
     let str1="abcdabcd";
     console.info(str1.indexOf('b'))//1
     console.info(str1.indexOf('b',4))//5
-    console.info(str1.indexOf('cd'))//2
+    console.info(str1.indexOf('bc'))//1
 
     let str2="abcdabcd";
     console.info(str2.lastIndexOf('b'))//5
@@ -44,10 +44,10 @@
             console.info(str.<span class="green">charAt(2)</span>);//c
         </p>
          <p class="desc">
-             let str1="a<span class="red">b</span>cd";
-             console.info(str1.<span class="green">indexOf('b')</span>)//1
-             console.info(str1.<span class="green">indexOf('b',3)</span>))//5，从第三位开始找，找出在该字符串的位子。
-             console.info(str1.<span class="green">indexOf('bc')</span>)//2
+             let str1="a<span class="red">bc</span>dabcd";
+             console.info(<span class="red">str1.indexOf('b')</span>)//<span class="red">1</span>
+             console.info(<span class="red">str1.indexOf('b',4)</span>)//<span class="red">5,从第四个开始找</span>
+             console.info(<span class="red">str1.indexOf('bc')</span>)//<span class="red">1</span>
         </p>
 
          <p class="desc">
@@ -79,12 +79,6 @@
             let str6 = "aAbB";
             console.info(str6<span class="green">.toLowerCase()</span>);//aabb
             console.info(str6<span class="green">.toUpperCase()</span>);//AABB
-
-        </p>
-        <p class="desc">
-            let str4 = "How are you doing today";
-            console.info(str4.<span class="green">split(" ")</span>);//["How", "are", "you", "doing", "today"]
-            console.info(str4.<span class="green">split(" ",2)</span>);//["How", "are"]
         </p>
 </body>
 </html>

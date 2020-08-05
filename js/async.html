@@ -47,18 +47,20 @@
 
     function a5(v) {
         setTimeout(()=>{
+            console.info('a5执行了');
             return v;
         },3000)
     }
     function a6(v) {
         setTimeout(()=>{
+            console.info('a6执行了');
             return "a6"+v;
         },3000)
     }
     async function abc2() {
         //瞬间打印：undefind  undefind
         let tmp1 =  await a5('a5方法');
-        console.info(tmp1);//undefind
+
         let tmp2 =  await a6(tmp1);
         console.info(tmp2)//undefind
     };

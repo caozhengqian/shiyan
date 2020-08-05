@@ -10,7 +10,10 @@
     let arr2 = ['c','d'];
     console.info(arr1.concat(arr2));//浅拷贝，如果数组是对象，则只拷贝引用
     console.info([...arr1,...arr2]);//浅拷贝，要注意
-
+    arr2.map((v,k)=>{
+        console.info(v)//c,d
+        console.info(k)//0,1
+    })
     const a1 = [1, 2];
     const a2 = a1;//复制指针
     a2[0] = 2;
@@ -108,6 +111,11 @@
         let arr2 = ['c','d'];
         console.info(arr1.<span class="red">concat</span> (arr2));//浅拷贝，如果数组是对象，则只拷贝引用
         console.info(<span class="red">[...arr1,...arr2]</span>);//浅拷贝，如果数组是对象，则只拷贝引用
+
+        arr2.<span class="red">map</span>((v,k)=>{
+            console.info(<span class="red">v</span>)//<span class="red">c,d</span>
+            console.info(<span class="red">k</span>)//<span class="red">0,1</span>
+        })
     </p>
     <p>------------------------------------------------------------------------</p>
     <p class="desc">

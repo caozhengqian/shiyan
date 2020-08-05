@@ -55,7 +55,7 @@
        self.location='伪类伪元素.html';
    }
    function gotoBFC(){
-       self.location='BFC.html';
+       self.location='原型链.html';
    }
 </script>
 <body>
@@ -73,10 +73,11 @@
 <div class="gotoPanDuan" onclick="gotoPanDuan()">判断类型</div>
 <div class="gotoShenKaoBei" onclick="gotoShenKaoBei()">深拷贝</div>
 <div class="gotoWeiLei" onclick="gotoWeiLei()">伪类伪元素</div>
-<div class="gotoBFC" onclick="gotoBFC()">BFC</div>
+<div class="gotoBFC" onclick="gotoBFC()">原型链</div>
     1、（）=》｛｝和普通方法区别
     <p class="desc">
-        <span class="green">abc()</span>  <span class="red">//打印abc</span>
+        <span class="red">new</span> abc();<span class="red"> //打印abc，new后this指向abc{}</span>
+        <span class="green">abc()</span>  <span class="red">//打印abc，this指向定义的对象内，Window</span>
         function <span class="green">abc()</span> {
             console.info('abc');
         }
@@ -85,17 +86,24 @@
         <span class="green">abcd</span> = ()=>{
             console.info('abcd')
         }
-        <span class="green">abcd()</span>  <span class="red">//这里可以执行</span>
+        <span class="green">abcd()</span>  <span class="red">//这里可以执行,没有构造器，无法new，this指向定义的对象Window</span>
     </p>
     <p>---------------------------------------------------------------------------------------</p>
     2、循环后的变量
     <p class="desc">
-        for(var i = 0; i < 5; i++){
-           setTimeout(function () {
-               console.info(i)
-              console.info(new Date())
-           },3000)
-        <span class="red">//5 时间 5 时间 5 时间5 时间5 时间</span>
+        for(<span class="red">let</span> i = 0; i < 5; i++){
+            setTimeout(function () {
+                <span class="red">console.info("i=",i);//0，1，2，3，4</span>
+                console.info(new Date())
+            },3000)};
+        for(<span class="red">var</span> j = 0; j < 5; j++){
+            setTimeout(function () {
+               <span class="red"> console.info("j=",j);//都是5</span>
+                console.info(new Date())
+            },3000)};
+        console.info("aaaaaaa1");
+        <span class="red">console.info(i);//报错</span>
+        console.info("aaaaaaa2");//<span class="red">上面报错，这里不走了。</span>
     </p>
     <p>---------------------------------------------------------------------------------------</p>
     3、数组去重复
