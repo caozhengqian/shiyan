@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {  lazy } from 'react';
 import './App.css';
 import {
     BrowserRouter as Router,
@@ -23,7 +23,8 @@ import Display from "./components/Display";//display研究
 import Flex from "./components/Flex";//Flex
 import Test from "./components/Test";//Test
 import Bfc from "./components/Bfc";//Test
-
+// import Break from "./components/Break";//Test
+const Break = lazy(() => import(/* webpackChunkName: "TM" */ "./components/Break"));
 function App() {
   return (
       <Router>
@@ -81,6 +82,9 @@ function App() {
               </Route>
               <Route exact path="/bfc">
                   <Bfc/>
+              </Route>
+              <Route exact path="/break">
+                  <Break/>
               </Route>
           </Switch>
       </Router>

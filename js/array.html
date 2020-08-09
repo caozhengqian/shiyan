@@ -18,6 +18,7 @@
     const a2 = a1;//复制指针
     a2[0] = 2;
     console.info(a2);//[2, 2]
+    console.info(a1);//[2, 2]
 
     const a3 = [1, 2];
     const a4 = a3.concat();//克隆一个新的数组对象
@@ -125,6 +126,7 @@
         <span class="red">const a2 = a1;//复制指针</span>
         a2[0] = 2;
         console.info(a2);// <span class="red">[2, 2]</span>
+        console.info(a1 );// <span class="red">[2, 2]</span>
 
         const a3 = [1, 2];
         <span class="red">const a4 = a3.concat();//克隆一个新的数组对象</span>

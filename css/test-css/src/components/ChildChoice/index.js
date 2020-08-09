@@ -17,15 +17,15 @@ export default class ChildChoice extends React.Component {
                 <p>一、first-of-type，div里第一个p</p>
                 <p>div里的div里的3个p列表</p>
                 <div className="first-of-type">
-                    <div>
-                        <div>
-                            <p>
+                    <div style={{marginLeft:'20px'}}>
+                        <div style={{marginLeft:'20px'}}>
+                            <p style={{marginLeft:'20px'}}>
                                 第一个p
                             </p>
-                            <p>
+                            <p style={{marginLeft:'20px'}}>
                                 第二个p
                             </p>
-                            <p>
+                            <p style={{marginLeft:'20px'}}>
                                 第三个p
                             </p>
                         </div>
@@ -34,15 +34,15 @@ export default class ChildChoice extends React.Component {
                 <p>二、last-of-type，div里最后一个p</p>
                 <p>div里的div里的3个p列表</p>
                 <div className="last-of-type">
-                    <div>
-                        <div>
-                            <p>
+                    <div style={{marginLeft:'20px'}}>
+                        <div style={{marginLeft:'20px'}}>
+                            <p style={{marginLeft:'20px'}}>
                                 第一个p
                             </p>
-                            <p>
+                            <p style={{marginLeft:'20px'}}>
                                 第二个p
                             </p>
-                            <p>
+                            <p style={{marginLeft:'20px'}}>
                                 第三个p
                             </p>
                         </div>
@@ -51,43 +51,43 @@ export default class ChildChoice extends React.Component {
                 <p>三、only-of-type，div里只有一个p（可以有span）</p>
                 <p>div里的div里的1个p，div里两个p</p>
                 <div className="only-of-type">
-                    <div>
-                        <div>
-                            <p>
+                    <div style={{marginLeft:'20px'}}>
+                        <div style={{marginLeft:'20px'}}>
+                            <p style={{marginLeft:'20px'}}>
                                 第一个p
                             </p>
-                            <span>第一个span</span>
+                            <span style={{marginLeft:'20px'}}>第一个span</span>
                         </div>
-                        <div>
-                            <p>
+                        <div style={{marginLeft:'20px'}}>
+                            <p style={{marginLeft:'20px'}}>
                                 第二个p
                             </p>
-                            <p>
+                            <p style={{marginLeft:'20px'}}>
                                 第二个p
                             </p>
                         </div>
-                        <div>
-                            <p>
+                        <div style={{marginLeft:'20px'}}>
+                            <p style={{marginLeft:'20px'}}>
                                 第三个p
                             </p>
-                            <span>adasdasspan</span>
+                            <span style={{marginLeft:'20px'}}>adasdasspan</span>
                         </div>
                     </div>
                 </div>
                 <p>四、only-child，div里只有一个p（不可以有span）</p>
                 <p>div里的div里的1个p，div里两个p</p>
                 <div className="only-child">
-                    <div>
-                        <div>
-                            <p>
+                    <div style={{marginLeft:'20px'}}>
+                        <div style={{marginLeft:'20px'}}>
+                            <p style={{marginLeft:'20px'}}>
                                 第一个p
                             </p>
-                            <span>
+                            <span style={{marginLeft:'20px'}}>
                                 第一个span
                             </span>
                         </div>
-                        <div>
-                            <p>
+                        <div style={{marginLeft:'20px'}}>
+                            <p style={{marginLeft:'20px'}}>
                                 第二个p,同级不能有span
                             </p>
 
@@ -112,7 +112,10 @@ export default class ChildChoice extends React.Component {
                             <p style={{marginLeft:'20px'}}>
                                 第二个p,
                             </p>
-                            <span>aa</span>
+                            <p style={{marginLeft:'20px'}}>
+                                第二个p2,
+                            </p>
+                            <span style={{marginLeft:'20px'}}>aa</span>
                         </div>
                     </div>
                     <p style={{marginLeft:'20px'}}>
@@ -128,25 +131,25 @@ export default class ChildChoice extends React.Component {
                 </div>
                 <p>六、p:last-child，同级p最后一个，会循环里面每个div</p>
                 <div className="last-child">
-                    <p>第一个</p>
-                    <div>
-                        <p>div里面的p1</p>
-                        <p>div里面的p2</p>
+                    <p style={{marginLeft:'20px'}}>第一个p</p>
+                    <div style={{marginLeft:'20px'}}>
+                        <p style={{marginLeft:'20px'}}>div里面的p1</p>
+                        <p style={{marginLeft:'20px'}}>div里面的p2</p>
                     </div>
-                    <p>第二个</p>
-                    <p>第一个</p>
-                    <p>第一个</p>
+                    <p style={{marginLeft:'20px'}}>第二个p</p>
+                    <p style={{marginLeft:'20px'}}>第一个p</p>
+                    <p style={{marginLeft:'20px'}}>第一个p</p>
                 </div>
                 <p>七、p:first-child，同级p第一个，会循环里面每个div</p>
                 <div className="first-child">
-                    <p>第一个</p>
-                    <div>
-                        <p>div里面的p1</p>
-                        <p>div里面的p2</p>
+                    <p style={{marginLeft:'20px'}}>第一个</p>
+                    <div style={{marginLeft:'20px'}}>
+                        <p style={{marginLeft:'20px'}}>div里面的p1</p>
+                        <p style={{marginLeft:'20px'}}>div里面的p2</p>
                     </div>
-                    <p>第二个</p>
-                    <p>第一个</p>
-                    <p>第一个</p>
+                    <p style={{marginLeft:'20px'}}>第二个</p>
+                    <p style={{marginLeft:'20px'}}>第一个</p>
+                    <p style={{marginLeft:'20px'}}>第一个</p>
                 </div>
                 <p>八、:not(p)循环所有div，    &:not(:last-child)，not的上级，除了最后一个</p>
                 <div>

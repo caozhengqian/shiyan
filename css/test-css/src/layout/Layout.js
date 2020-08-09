@@ -112,6 +112,11 @@ export default class Layout extends React.Component {
                         BFC
                     </Link>
                 </div>
+                <div>
+                    <Link to="/break" >
+                        Break
+                    </Link>
+                </div>
             </div>
         );
     }

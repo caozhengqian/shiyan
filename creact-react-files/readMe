@@ -3,6 +3,8 @@ cd xx
 yarn add redux react-redux  react-router react-router-dom redux-logger redux-thunk
 yarn add @craco/craco craco-less antd
 yarn add @babel/plugin-proposal-decorators //装饰器写法
+yarn add react-scripts
+
 修改package.json，
 "private": true,后面添加："homepage":"./",
 

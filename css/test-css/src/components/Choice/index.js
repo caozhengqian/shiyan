@@ -41,15 +41,21 @@ export default class Choice extends React.Component {
                             <span>
                                 div里的p里的div
                             </span>
+                            <span>
+                                div里的p里的div
+                            </span>
                         </p>
                     </p>
+                    <div>
+                        第二个div
+                    </div>
                     <div>
                         第二个div
                     </div>
                     <p>一个p</p>
                 </div>
 
-                <p>p+div 同级紧接在.p后面的div</p>
+                <p>p+div 同级紧接在.p后面的第一个div</p>
                 <div className="fa">
                     <p>
                         第一个p
@@ -66,7 +72,7 @@ export default class Choice extends React.Component {
                     <div>
                         第二个div2222
                     </div>
-                    <p>第二个p</p>
+                     <p>第二个p</p>
                     <div>第三个div</div>
                 </div>
 
