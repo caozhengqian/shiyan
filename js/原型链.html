@@ -124,6 +124,7 @@
 </script>
 <body>
     <p class="desc">
+        js每个对象都有一个私有属性（称之为 __proto__ ）指向它的构造函数的原型对象（prototype ）。构造函数的原型对象也有一个自己的原型对象( __proto__ ) ，层层向上直到最后一个原型对象为 null。
         六-1：原型链原因之一：每一个实例对象，都有自己的属性和方法，无法做到共享，且浪费资源
         function DOG(name){
             this.name = name;

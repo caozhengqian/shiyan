@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>垃圾回收</title>
+</head>
+<script>
+    var o = {
+        a: {
+            b:2
+        }
+    };
+    var o2 = o;
+    o = 1;
+    console.info(o2)//Object a: {b: 2}
+
+
+
+</script>
+<body>
+    <p class="desc">
+        var o = {
+            a: {
+                b:2
+            }
+        };
+        var o2 = o;
+        o = 1;
+        console.info(o2)//Object a: {b: 2}
+
+        JavaScript创建变量时自动分配内存，并且在不使用它们时“自动”回收
+        自动回收有两种方法：
+             引用计数:
+                    没有引用指向该对象。
+            现代浏览器都用的 标记-清除：
+                    垃圾回收器定期从根开始找出引用的对象，
+                    现代浏览器在空闲的时间去回收，而且也可以并发标记清除。
+    </p>
+
+</body>
+</html>

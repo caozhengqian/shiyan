@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Test from "./com/Test";//Test
+import Hook from './pages/hook';
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,10 +14,13 @@ function App() {
       <Router>
           <Switch>
               <Route exact path="/">
-                  <Test/>
+                  <Hook/>
               </Route>
               <Route exact path="/test">
                   <Test/>
+              </Route>
+              <Route exact path="/hook">
+                  <Hook/>
               </Route>
           </Switch>
       </Router>

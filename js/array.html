@@ -103,6 +103,20 @@
     })
     console.info(a21)//[1, 2, 3, 4]
     console.info(a22)//[1, 2]
+
+    const a23 = [1,[2,3,[4,5]]];
+    function flat(arr) {
+        let arrTmp = [];
+        for(let v of arr.values()){
+            Array.isArray(v) ?
+                arrTmp = arrTmp.concat(flat(v))
+                :
+                arrTmp.push(v)
+        }
+        return arrTmp;
+    }
+    const a24 = flat(a23);
+    console.info(a24)//[1, 2, 3, 4, 5]
 </script>
 <body>
     <p class="desc">
@@ -261,6 +275,23 @@
         })</span>
         console.info(a21)<span class="red">//[1, 2, 3, 4]</span>
         console.info(a22)<span class="red">//[1, 2]</span>
+    </p>
+    <p>-------------------------------------------------------------------------------------</p>
+    <p class="desc">
+        2020.8.7微盟旗下，美萌面试题
+        const a23 = [1,[2,3,[4,5]]];
+        function flat(arr) {
+        let arrTmp = [];
+        for(let v of arr.values()){
+        Array.isArray(v) ?
+        arrTmp = arrTmp.concat(flat(v))
+        :
+        arrTmp.push(v)
+        }
+        return arrTmp;
+        }
+        const a24 = flat(a23);
+        console.info(a24)//[1, 2, 3, 4, 5]
     </p>
 </body>
 </html>
