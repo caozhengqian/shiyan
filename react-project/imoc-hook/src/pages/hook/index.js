@@ -7,14 +7,12 @@ import useFormInput from "./hooks/useFormInput"
 
 
 export default function Greeting(props) {
-    const themeContext = useContext(ThemeContext);
-    const localContext = useContext(LocalContext);
-    const width = useWindowWidth();
+    const themeContext = useContext(ThemeContext);//获取context的样式
+    const localContext = useContext(LocalContext);//获取context的内容
+    const width = useWindowWidth();//自动显示宽度
     const name = useFormInput('Mary');
     const surname = useFormInput('Pop');
-    useDocumentTitle(name.value+" "+surname.value);
-
-    console.info(themeContext);
+    useDocumentTitle(name.value+" "+surname.value);//自动改变标题
     return(
         <div className="hook">
             <div className={themeContext}>
