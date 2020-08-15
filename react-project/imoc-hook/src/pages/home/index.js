@@ -35,6 +35,11 @@ export default class Home extends React.Component {
                         react conf 2018 轮播图
                     </Link>
                 </div>
+                <div>
+                    <Link to="/reactCom" >
+                        react官网，react哲学。
+                    </Link>
+                </div>
             </div>
         );
     }

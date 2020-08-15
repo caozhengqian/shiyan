@@ -142,7 +142,8 @@ export default class ChildChoice extends React.Component {
                 </div>
                 <p>七、p:first-child，同级p第一个，会循环里面每个div</p>
                 <div className="first-child">
-                    <p style={{marginLeft:'20px'}}>第一个</p>
+                    <div>第一个div</div>
+                    <p style={{marginLeft:'20px'}}>第一个p</p>
                     <div style={{marginLeft:'20px'}}>
                         <p style={{marginLeft:'20px'}}>div里面的p1</p>
                         <p style={{marginLeft:'20px'}}>div里面的p2</p>

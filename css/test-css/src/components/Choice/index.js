@@ -86,6 +86,9 @@ export default class Choice extends React.Component {
                                 div里的p里的div
                             </div>
                         </p>
+                        <div>
+                            div里的p里的div
+                        </div>
                     </p>
                     <div>
                         第二个div
