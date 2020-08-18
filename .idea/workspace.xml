@@ -2,42 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/ProductCategoryRow/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/ProductCategoryRow/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/ProductRow/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/ProductRow/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/SearchBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/SearchBar/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Carousel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Controls/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/IconButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/ProgressBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Slide/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/SlideNav/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/SlideNavItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Slides/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/SpacerGif/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/hooks/slides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/hooks/useProgress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/readeMe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/whatevs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/whatevs/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/whatevs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/whatevs/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/whatevs/slides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creact-vue-files/readMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/One/OneOne/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/One/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/Two/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/cssDongTai/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/forIfView/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/functionTo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/propsTo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/routerTo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/.idea/antd-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/config/env.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/config/getHttpsConfig.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/config/jest/cssTransform.js" beforeDir="false" />
@@ -47,236 +26,20 @@
       <change beforePath="$PROJECT_DIR$/css/antd-demo/config/pnpTs.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/config/webpack.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/config/webpackDevServer.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/craco.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/scripts/build.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/scripts/start.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/antd-demo/scripts/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/App.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/common/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/components/LayoutHeader/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/components/LayoutHeader/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/components/SiderMenu/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/BasicLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/BasicLayout.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/BlankLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/PageHeaderLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/PageHeaderLayout.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/UserLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/layouts/UserLayout.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/antd-demo/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/Choice/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/Choice/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-antd/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-eleme/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-hooks/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/craco.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/com/Test/img/fuwuyoushi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/com/Test/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/redux/gun.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/com-imoc/src/redux/index.redux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/server/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/App.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-hook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-project/imoc-hook/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-hook/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/Slides.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/Slidess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-project/imoc-hook/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-project/imoc-hook/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/react-router/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/App11.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/menu/Menu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/ones/OneOnePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/ones/OneThreePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/ones/OneTwoPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/threes/ThreeOnePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/threes/ThreeThreePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/threes/ThreeTwoPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/twos/TwoOnePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/twos/TwoThreePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/components/twos/TwoTwoPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/main11.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/router/index11.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/router/module/toRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/router/module11/toRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/views/Layout.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/views/OnePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/views/ThreePage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/views/TwoPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/vue-router-test/src/views/luCai.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/react-store/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/src/store/modules/cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/vue-store/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-antd/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/components/checkbox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/components/datePicker.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/components/input.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/components/radio.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/components/select.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/components/timeSelect.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-eleme/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/craco.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/img/fuwuyoushi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/redux/gun.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-project/imoc-com/src/redux/index.redux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/components/comLife/All/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/components/comLife/All/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -290,88 +53,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/Choice/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Moudel样式使用App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/Moudel样式使用App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/index.js">
+        <entry file="file://$PROJECT_DIR$/vue/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="920">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-            </state>
-          </provider>
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/routerTo/index.vue">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.less">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+            <state relative-caret-position="356">
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -384,21 +87,19 @@
         <option value="HTTP Request" />
         <option value="XSLT Stylesheet" />
         <option value="Vue Single File Component" />
-        <option value="vueDefault" />
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="reactrouter" />
         <option value="reactHooks" />
-        <option value="JavaScript File" />
         <option value="reactDefault" />
         <option value="less" />
+        <option value="JavaScript File" />
+        <option value="vueDefault" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>webpack</find>
-      <find>autoprefixer</find>
       <find>HtmlWebpackPlugin</find>
       <find>console.info</find>
       <find>FriendlyErrorsWebpackPlugin</find>
@@ -427,6 +128,8 @@
       <find>react-scripts</find>
       <find>SearchBar</find>
       <find>products</find>
+      <find>import 'es6-promise/auto'</find>
+      <find>redirectPage</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -456,15 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Choice/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Breack/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/layout/Layout.js" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Break/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Break/index.js" />
-        <option value="$PROJECT_DIR$/css/test-css/src/App.js" />
-        <option value="$PROJECT_DIR$/css/test-css/package.json" />
-        <option value="$PROJECT_DIR$/creact-react-files/readMe" />
-        <option value="$PROJECT_DIR$/js/array.html" />
         <option value="$PROJECT_DIR$/js/垃圾回收.html" />
         <option value="$PROJECT_DIR$/js/原型链.html" />
         <option value="$PROJECT_DIR$/react-project/imoc-hook/src/hooks/FriendStatus.js" />
@@ -507,6 +201,15 @@
         <option value="$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.less" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.js" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/Choice/index.js" />
+        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/index.js" />
+        <option value="$PROJECT_DIR$/vue/src/components/comLife/All/index.vue" />
+        <option value="$PROJECT_DIR$/vue/babel.config.js" />
+        <option value="$PROJECT_DIR$/creact-vue-files/readMe" />
+        <option value="$PROJECT_DIR$/vue/src/store/index.js" />
+        <option value="$PROJECT_DIR$/vue/src/main.js" />
+        <option value="$PROJECT_DIR$/vue/src/App.vue" />
+        <option value="$PROJECT_DIR$/vue/src/views/index.vue" />
+        <option value="$PROJECT_DIR$/vue/src/router/index.js" />
       </list>
     </option>
   </component>
@@ -538,10 +241,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="736" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -559,7 +262,52 @@
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="creact-react-files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="creact-vue-files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="comLife" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -579,19 +327,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\reactCom\ProductTable" />
-      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\slides\com" />
-      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\slides\hooks" />
-      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\slides" />
-      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\media" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\slides\com\Carousel" />
       <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\hook" />
       <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\hooks" />
       <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\hook\greeting" />
       <recent name="F:\webstorm\shiyan\creact-react-files\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\webstorm\shiyan\vue\src\views" />
+      <recent name="F:\webstorm\shiyan\creact-vue-files" />
+      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\reactCom\ProductTable" />
+      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\slides\com" />
+      <recent name="F:\webstorm\shiyan\react-project\imoc-hook\src\pages\slides\hooks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -698,13 +446,9 @@
       <workItem from="1597245123275" duration="5545000" />
       <workItem from="1597291242184" duration="9688000" />
       <workItem from="1597457059017" duration="2985000" />
-    </task>
-    <task id="LOCAL-00048" summary="object结束">
-      <created>1594295615493</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1594295615494</updated>
+      <workItem from="1597477049042" duration="2891000" />
+      <workItem from="1597544512932" duration="3264000" />
+      <workItem from="1597646934076" duration="18069000" />
     </task>
     <task id="LOCAL-00049" summary="promise和async">
       <created>1594323441950</created>
@@ -1042,23 +786,32 @@
       <option name="project" value="LOCAL" />
       <updated>1597228992443</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="加注释">
+      <created>1597477137994</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1597477137995</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="917362000" />
+    <option name="totallyTimeSpent" value="941586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20238096" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25853658" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4715447" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48292682" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -1069,7 +822,6 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1122,126 +874,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/hook/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-css/src/layout/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/home/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/hook/hooks/useFormInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/media/Medi11a.js" />
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/media/hooks/useMedia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/App.js" />
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/whatevs/slides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Slides/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Slide/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/SlideNav/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Controls/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/IconButton/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/SlideNavItem/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Carousel/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/SpacerGif/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/com/Progress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/hooks/slides.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1274,9 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,9 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,9 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,9 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1379,9 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,26 +1033,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hooks/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-antd/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hooks/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/react-antd/src/App.js" />
     <entry file="file://$PROJECT_DIR$/react-project/imoc-hook/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1446,29 +1045,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/react-project/imoc-com/src/com/Test/index.js" />
     <entry file="file://$PROJECT_DIR$/css/test-css/src/components/Choice/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        <state relative-caret-position="2001">
+          <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1486,7 +1068,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-compent/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="69">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -1496,8 +1078,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-compent/src/comLife/All/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creact-vue-files/readMe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/components/comLife/All/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/comLife/All/One/OneOne/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/propsTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/functionTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/cssDongTai/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/forIfView/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/routerTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

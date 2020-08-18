@@ -1,0 +1,5 @@
+yarn add element-ui
+yarn add babel-plugin-component -D
+yarn add vuex vue-router
+
+
