@@ -1,16 +1,17 @@
 <template>
     <div>
-        <p>PropsTo</p>
+        <p>父子孙传值</p>
+        <Father/>
     </div>
 
 </template>
 
 <script>
     //import { mapState } from "vuex";
-    //import All from "./comLife/All";
+    import Father from "./father";
     export default {
         components: {
-            //       All,
+            Father,
         },
         name: 'PropsTo',
         props: {
@@ -20,7 +21,9 @@
             // ...mapState(["activityData"])
         },
         data() {
-            return {}
+            return {
+                number:12
+            }
         },
         created() {
 
