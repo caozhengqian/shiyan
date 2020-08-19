@@ -1,19 +1,23 @@
 <template>
-    <div>
-        <p>FunctionTo</p>
-        <Father/>
+    <div style="margin-left: 40px">
+        <p>
+            Grandson
+            <span>{{foo}}</span>
+            <span @click="spot2">传给爷组件</span>
+        </p>
     </div>
 
 </template>
 
 <script>
     //import { mapState } from "vuex";
-    import Father from "./father";
+    //import All from "./comLife/All";
     export default {
+        inject: ['foo'],
         components: {
-            Father
+            //       All,
         },
-        name: 'FunctionTo',
+        name: 'Grandson',
         props: {
             //  msg: String
         },
@@ -24,10 +28,11 @@
             return {}
         },
         created() {
-
+            // console.info("孙组建=>",this.$attrs)
         },
         methods: {
-            aa() {
+            spot2() {
+                this.$emit("spot11", '孙组件传给爷组件。')
             },
         }
 
