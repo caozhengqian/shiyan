@@ -5,7 +5,7 @@
             <span>{{number}}</span>
             <span>{{foo}}</span>
             <span>{{$attrs}}</span>
-            <span @click="spot1" >传给父组件</span>
+            <span style="color:red" @click="spot1" >传给父组件</span>
         </p>
         <Grandson  @spot11="spot2"/>
     </div>
@@ -13,8 +13,10 @@
 
 <script>
     //import { mapState } from "vuex";
+
     import Grandson from "../grandson";
     export default {
+        inheritAttrs: false,
         inject: ['foo'],
         components: {
               Grandson,

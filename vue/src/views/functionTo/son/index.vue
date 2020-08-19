@@ -2,12 +2,13 @@
     <div style="margin-left: 40px">
         <p>
             Son
-            <span>{{number}}</span>
-            <span>{{foo}}</span>
-            <span>{{$attrs}}</span>
-            <span @click="spot1" >传给父组件</span>
+
         </p>
-        <Grandson  @spot11="spot2"/>
+        <p style="cursor: pointer" @click="_son" >使用<span style="color:red">$parter</span>调用父组件方法</p>
+        <p style="cursor: pointer" @click="_son1" >使用<span style="color:red">:xx 和props</span>调用父组件方法</p>
+        <p style="cursor: pointer" @click="_son2" >使用<span style="color:red">@xx和$emit</span>调用父组件方法</p>
+        <p style="cursor: pointer" @click="_son3" >使用<span style="color:red">this.$listeners</span>调用父组件方法，孙组件无法获取</p>
+        <Grandson :sonFun="father" />
     </div>
 </template>
 
@@ -15,12 +16,11 @@
     //import { mapState } from "vuex";
     import Grandson from "../grandson";
     export default {
-        inject: ['foo'],
         components: {
               Grandson,
         },
         name: 'Son',
-        props: ['number'],
+        props: ['father'],
 
         computed: {
             // ...mapState(["activityData"])
@@ -29,15 +29,21 @@
             return {}
         },
         created() {
-            console.info(this.$attrs)
+
         },
         methods: {
-            spot1() {
-                this.$emit("spot", '子组件传给父组件。')
+            _son() {
+                this.$parent._father('使用$parent');
             },
-            spot2(data) {
-                this.$emit("spot", data)
+            _son1() {
+                this.father('使用:xx和props');
             },
+            _son2() {
+                this.$emit('father', '使用@xx和$emit');
+            },
+            _son3(){
+                this.$listeners.father("使用$listeners调用父组件方法")
+            }
         },
         mounted () {
         }

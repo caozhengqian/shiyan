@@ -2,9 +2,9 @@
     <div style="margin-left: 40px">
         <p>
             Grandson
-            <span>{{foo}}</span>
-            <span @click="spot2">传给爷组件</span>
         </p>
+        <p style="cursor: pointer" @click="_grandson" >孙组件<span style="color:red">this.$parent.$parent</span>调用父组件的方法</p>
+        <p style="cursor: pointer" @click="_grandson1" >孙组件<span style="color:red">this.$parent.$parent</span>调用父组件的方法</p>
     </div>
 
 </template>
@@ -13,14 +13,12 @@
     //import { mapState } from "vuex";
     //import All from "./comLife/All";
     export default {
-        inject: ['foo'],
+        // inject: ['foo'],
         components: {
             //       All,
         },
         name: 'Grandson',
-        props: {
-            //  msg: String
-        },
+        props: ['sonFun'],
         computed: {
             // ...mapState(["activityData"])
         },
@@ -29,11 +27,15 @@
         },
         created() {
             // console.info("孙组建=>",this.$attrs)
+            // console.log(this.$listeners)
         },
         methods: {
-            spot2() {
-                this.$emit("spot11", '孙组件传给爷组件。')
+            _grandson() {
+                this.sonFun("孙组件调用了父组件")
             },
+            _grandson1(){
+                this.fatherFun("孙子能掉了")
+            }
         }
 
     }

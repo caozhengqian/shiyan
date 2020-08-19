@@ -1,22 +1,11 @@
 <template>
     <div style="margin-left: 40px">
-        <p>
-            :number:number===>props:{number}
-        </p>
-        <p>
-            provide: {
-              foo: 'foo'
-            },===>
-            inject: ['foo']，，，<span style="color:red">孙组件可以用</span>
-        </p>
-        <p>
-            子组件html中{/{$attrs+""}}++++方法中this.$attrs,<span style="color:red">不可用number命名,不可用在孙组件</span>
-        </p>
+
         <p>
             Father
         </p>
 
-        <Son :numbers="numbers" @spot="spot"/>
+        <Son :father="_father" @father="_father"/>
     </div>
 
 </template>
@@ -26,7 +15,7 @@
     import Son from "../son";
     export default {
         provide: {
-            foo: 'foo'
+            // foo:this.foo
         },
         components: {
           Son,
@@ -49,9 +38,12 @@
 
         },
         methods: {
-            spot(data) {
-                console.info("father打印的值==》",data)
+            _father(data) {
+                console.info("_father方法==》",data)
             },
+            foo(){
+                console.info("foo")
+            }
         }
 
     }

@@ -41,6 +41,11 @@ const constantRoutes = [
         path: "/vuexTo",
         component: () => import("../views/vuexTo")
     },
+    {
+        name: "formTo",
+        path: "/formTo",
+        component: () => import("../views/formTo")
+    },
 ]
 const createRouter = () => new Router({
     // mode: 'history', // require service support

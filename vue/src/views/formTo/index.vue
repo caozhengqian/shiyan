@@ -1,10 +1,8 @@
 <template>
-    <div style="margin-left: 40px">
-        <p>
-            Grandson
-            <span>{{foo}}</span>
-            <span style="color:red" @click="spot2">传给爷组件</span>
-        </p>
+    <div>
+        <p>FormTo</p>
+        <el-input v-model="input" placeholder="请输入内容"></el-input>
+
     </div>
 
 </template>
@@ -13,11 +11,10 @@
     //import { mapState } from "vuex";
     //import All from "./comLife/All";
     export default {
-        inject: ['foo'],
         components: {
             //       All,
         },
-        name: 'Grandson',
+        name: 'FormTo',
         props: {
             //  msg: String
         },
@@ -25,14 +22,15 @@
             // ...mapState(["activityData"])
         },
         data() {
-            return {}
+            return {
+                input: ''
+            }
         },
         created() {
-            // console.info("孙组建=>",this.$attrs)
+
         },
         methods: {
-            spot2() {
-                this.$emit("spot11", '孙组件传给爷组件。')
+            aa() {
             },
         }
 

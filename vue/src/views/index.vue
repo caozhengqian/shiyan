@@ -18,6 +18,7 @@ export default {
       { id: 6, title: "父子孙传递值", path: "propsTo" },
       { id: 7, title: "路由跳转+传参", path: "routerTo" },
       { id: 8, title: "vuex增删改查", path: "vuexTo" },
+      { id: 9, title: "form表单", path: "formTo" },
 
 
     ]
@@ -52,6 +53,9 @@ export default {
           break;
         case 8:
           this.$router.push({ path: "vuexTo" });
+          break;
+        case 9:
+          this.$router.push({ path: "formTo" });
           break;
         default:
           break;
