@@ -70,9 +70,6 @@
                 firstName:"",
                 lastName:"",
                 setFullName:"",
-                getFirstName:"",
-                getLastName:""
-
             }
         },
 
