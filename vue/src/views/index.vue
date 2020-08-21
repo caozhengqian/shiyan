@@ -1,8 +1,36 @@
 <template>
   <div class="indexPage">
-      <p v-for="item in pages" :key="item.id">
-        <span @click="redirectPage(item.id)" class="point">{{ item.title }}</span>
+      <p>
+          <span @click="redirectPage(1)" class="point">首页</span>
       </p>
+      <p>
+          <span @click="redirectPage(2)" class="point">生命周期</span>
+      </p>
+      <p>
+          <span @click="redirectPage(3)" class="point">css动态</span>
+      </p>
+      <p>
+          <span @click="redirectPage(4)" class="point">页面<span class="red">循环</span>和<span class="red">判断</span></span>
+      </p>
+      <p>
+          <span @click="redirectPage(5)" class="point">父子孙<span class="red">传</span>递<span class="red">方法</span></span>
+      </p>
+      <p>
+          <span @click="redirectPage(6)" class="point">父子孙<span class="red">传</span>递<span class="red">值</span></span>
+      </p>
+      <p>
+          <span @click="redirectPage(7)" class="point">路由跳转+传参</span>
+      </p>
+      <p>
+          <span @click="redirectPage(8)" class="point">vuex增删改查</span>
+      </p>
+      <p>
+          <span @click="redirectPage(9)" class="point">form表单</span>
+      </p>
+      <p>
+          <span @click="redirectPage(10)" class="point"><span class="red"> watch</span>与<span class="red">computer</span></span>
+      </p>
+
   </div>
 </template>
 
@@ -57,6 +85,9 @@ export default {
         case 9:
           this.$router.push({ path: "formTo" });
           break;
+        case 10:
+          this.$router.push({ path: "watch" });
+          break;
         default:
           break;
       }
@@ -70,5 +101,8 @@ export default {
   .point{
     cursor: pointer;
   }
+    .red{
+        color:red;
+    }
 }
 </style>

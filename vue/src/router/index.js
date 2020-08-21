@@ -46,6 +46,11 @@ const constantRoutes = [
         path: "/formTo",
         component: () => import("../views/formTo")
     },
+    {
+        name: "watch",
+        path: "/watch",
+        component: () => import("../views/watch")
+    },
 ]
 const createRouter = () => new Router({
     // mode: 'history', // require service support
