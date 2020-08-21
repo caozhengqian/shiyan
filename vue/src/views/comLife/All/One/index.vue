@@ -1,6 +1,13 @@
 <template>
-    <p>One
-        <OneOne/></p>
+    <div>
+        <p>One</p>
+        <p>{{change}}</p>
+        <OneOne :changeOne="change"/>
+    </div>
+
+
+
+
 
 </template>
 
@@ -13,7 +20,7 @@
         },
         name: 'One',
         props: {
-            //  msg: String
+            change:Boolean,
         },
         computed: {
             // ...mapState(["activityData"])

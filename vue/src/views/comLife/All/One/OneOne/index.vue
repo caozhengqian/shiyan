@@ -1,5 +1,9 @@
 <template>
-    <p>OneOneOneOne</p>
+    <div style="margin-left: 40px">
+        <p>OneOne</p>
+        <p>{{changeOne}}</p>
+    </div>
+
 </template>
 
 <script>
@@ -9,9 +13,9 @@
         compOneOnents: {
             //       All,
         },
-        name: 'OneOneOneOne',
+        name: 'OneOne',
         props: {
-            //  msg: String
+            changeOne:Boolean,
         },
         computed: {
             // ...mapState(["activityData"])

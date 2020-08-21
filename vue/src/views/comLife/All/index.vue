@@ -2,8 +2,7 @@
     <div>
         <p  @click="aa()">All
         {{change}}</p>
-        <el-button type="primary">主要按钮</el-button>
-        <One/>
+        <One :change="change"/>
         <Two/>
     </div>
 </template>
@@ -55,10 +54,7 @@
         },
         methods: {
             aa() {
-                console.info("zhixingle");
-                // let tmp = this.change;
-                this.change = "changele ";
-                console.info(this.change)
+                this.change = !this.change;
             },
         }
 
