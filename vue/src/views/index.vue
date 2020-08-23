@@ -30,6 +30,9 @@
       <p>
           <span @click="redirectPage(10)" class="point"><span class="red"> watch</span>与<span class="red">computer</span></span>
       </p>
+      <p>
+          <span @click="redirectPage(11)" class="point"><span class="red">栅格布局</span></span>
+      </p>
 
   </div>
 </template>
@@ -37,19 +40,6 @@
 <script>
 export default {
   data: () => ({
-    pages: [
-      { id: 1, title: "首页", path: "" },
-      { id: 2, title: "生命周期", path: "life" },
-      { id: 3, title: "css动态", path: "cssDongTai" },
-      { id: 4, title: "页面循环和判断", path: "forIfView" },
-      { id: 5, title: "父子孙传递方法", path: "functionTo" },
-      { id: 6, title: "父子孙传递值", path: "propsTo" },
-      { id: 7, title: "路由跳转+传参", path: "routerTo" },
-      { id: 8, title: "vuex增删改查", path: "vuexTo" },
-      { id: 9, title: "form表单", path: "formTo" },
-
-
-    ]
   }),
   created() {
 
@@ -87,6 +77,9 @@ export default {
           break;
         case 10:
           this.$router.push({ path: "watch" });
+          break;
+        case 11:
+          this.$router.push({ path: "layoutTo" });
           break;
         default:
           break;

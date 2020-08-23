@@ -51,6 +51,11 @@ const constantRoutes = [
         path: "/watch",
         component: () => import("../views/watch")
     },
+    {
+        name: "layoutTo",
+        path: "/layoutTo",
+        component: () => import("../views/layoutTo")
+    },
 ]
 const createRouter = () => new Router({
     // mode: 'history', // require service support
