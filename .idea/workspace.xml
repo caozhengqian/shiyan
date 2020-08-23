@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="elemeUI的layout栅格布局">
-      <change afterPath="$PROJECT_DIR$/vue/src/views/layoutTo/testChildChildRow.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue" afterDir="false" />
+    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/layoutTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/layoutTo/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/formTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/formTo/index.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +20,7 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/src/views/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="1012">
               <caret line="81" column="45" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="45" />
             </state>
           </provider>
@@ -43,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testChildRow.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testChildRow.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="69">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -59,7 +57,7 @@
       <file leaf-file-name="testChildChildRow.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/testChildChildRow.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="-368">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -68,11 +66,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="102">
+              <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#el-date-picker#0;n#el-form-item#0;n#el-col#0;n#el-form-item#2;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-time-picker#0;n#el-form-item#0;n#el-col#2;n#el-form-item#2;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,9 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_name</find>
-      <find>handleClick</find>
-      <find>清除浮动，父overflow:hidden;</find>
       <find>console.info(str4.&lt;span class=&quot;green&quot;&gt;split(&quot; &quot;,2)&lt;/span&gt;);//[&quot;How&quot;, &quot;are&quot;]</find>
       <find>a14&quot;,a14.splice(1,3,'jia'</find>
       <find>map</find>
@@ -128,6 +127,9 @@
       <find>fullName</find>
       <find>getFirstName</find>
       <find>input</find>
+      <find>name</find>
+      <find>desc</find>
+      <find>resetForm</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -194,7 +196,6 @@
         <option value="$PROJECT_DIR$/vue/src/views/propsTo/father/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/functionTo/father/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/functionTo/grandson/index.vue" />
-        <option value="$PROJECT_DIR$/vue/src/views/formTo/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/element.js" />
         <option value="$PROJECT_DIR$/vue/src/main.js" />
         <option value="$PROJECT_DIR$/vue/src/views/comLife/All/index.vue" />
@@ -208,6 +209,7 @@
         <option value="$PROJECT_DIR$/vue/src/views/layoutTo/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/layoutTo/testChildChildRow.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue" />
+        <option value="$PROJECT_DIR$/vue/src/views/formTo/index.vue" />
       </list>
     </option>
   </component>
@@ -281,7 +283,7 @@
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layoutTo" type="462c0819:PsiDirectoryNode" />
+              <item name="formTo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,14 +437,7 @@
       <workItem from="1598022680005" duration="597000" />
       <workItem from="1598083208954" duration="598000" />
       <workItem from="1598094991253" duration="6410000" />
-      <workItem from="1598150492789" duration="12460000" />
-    </task>
-    <task id="LOCAL-00057" summary="恢复初始化">
-      <created>1594470876254</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1594470876254</updated>
+      <workItem from="1598150492789" duration="15396000" />
     </task>
     <task id="LOCAL-00058" summary="恢复初始化">
       <created>1594471078875</created>
@@ -780,24 +775,31 @@
       <option name="project" value="LOCAL" />
       <updated>1598160770903</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="elemeUI的layout栅格布局,穿透样式">
+      <created>1598176865830</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1598176865830</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1021764000" />
+    <option name="totallyTimeSpent" value="1024700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30580357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30580357" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25853658" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48292682" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48292682" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -828,7 +830,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="position" />
     <MESSAGE value="js逻辑面试题" />
     <MESSAGE value="js逻辑判断为null" />
     <MESSAGE value="array开始" />
@@ -853,7 +854,8 @@
     <MESSAGE value="加注释" />
     <MESSAGE value="watch和computer" />
     <MESSAGE value="elemeUI的layout栅格布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="elemeUI的layout栅格布局" />
+    <MESSAGE value="elemeUI的layout栅格布局,穿透样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="elemeUI的layout栅格布局,穿透样式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1134,24 +1136,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
+    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/child.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="46">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/testChildChildRow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="1012">
           <caret line="81" column="45" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/child.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1168,23 +1184,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/testChildChildRow.vue">
+    <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="102">
+          <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-date-picker#0;n#el-form-item#0;n#el-col#0;n#el-form-item#2;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-time-picker#0;n#el-form-item#0;n#el-col#2;n#el-form-item#2;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
