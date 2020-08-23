@@ -8,9 +8,9 @@
             <el-col :span="12"><div class="min1 dark">span12</div></el-col>
         </el-row>
         <el-row :gutter="20">
-            <el-col :span="6"><div class="min dark">gutter 20</div></el-col>
-            <el-col :span="6"><div class="min1 dark">gutter 20</div></el-col>
-            <el-col :span="6"><div class="min dark">gutter 20</div></el-col>
+            <el-col :span="6"><div class="min dark" style="width:100%;height:100px">width：100%正常显示</div></el-col>
+            <el-col :span="6"><div class="min1 dark" style="width:500px;height:100px">width:500px</div></el-col>
+            <el-col :span="6"><div class="min dark" style="height:100%">height:100%无效</div></el-col>
             <el-col :span="6"><div class="min1 dark">gutter 20</div></el-col>
         </el-row>
         <el-row :gutter="20" type="flex" align="middle">
@@ -19,22 +19,23 @@
                 <span style="color:red">导致offset失效</span> padding:0;
                     margin:0;
                </div>
-                </el-col>
+            </el-col>
         </el-row>
         <el-row :gutter="20" type="flex" align="middle" justify="center">
             <el-col :span="6"><div class="min dark">justify="center"</div></el-col>
             <el-col :span="6"><div class="min dark"></div></el-col>
         </el-row>
+        <TestChildRow/>
     </div>
 
 </template>
 
 <script>
     //import { mapState } from "vuex";
-    //import All from "./comLife/All";
+    import TestChildRow from "./testChildRow";
     export default {
         components: {
-            //       All,
+            TestChildRow
         },
         name: 'LayoutTo',
         props: {
@@ -66,10 +67,10 @@
                 margin-bottom: 0;
             }
         }
-        .dark {
+        /deep/ .dark {
             background: #99a9bf;
         }
-        .min{
+        /deep/  .min{
             min-height: 30px;
             border: 1px solid red;
             border-radius: 5px;
