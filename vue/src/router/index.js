@@ -56,7 +56,37 @@ const constantRoutes = [
         path: "/layoutTo",
         component: () => import("../views/layoutTo")
     },
-]
+    {
+        name: "cssStyle",
+        path: "/cssStyle",
+        component: () => import("../views/cssStyle")
+    },
+    {
+        name: "ifTo",
+        path: "/ifTo",
+        component: () => import("../views/ifTo")
+    },
+    {
+        name: "listTo",
+        path: "/listTo",
+        component: () => import("../views/listTo")
+    },
+    {
+        name: "eventTo",
+        path: "/eventTo",
+        component: () => import("../views/eventTo")
+    },
+    {
+        name: "formbind",
+        path: "/formbind",
+        component: () => import("../views/formbind")
+    },
+    {
+        name: "comBase",
+        path: "/comBase",
+        component: () => import("../views/comBase")
+    },
+];
 const createRouter = () => new Router({
     // mode: 'history', // require service support
     // scrollBehavior: () => ({ y: 0 }),
