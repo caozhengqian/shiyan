@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Test/>
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
             <el-form-item label="活动名称" prop="name">
                 <el-input v-model="ruleForm.name"></el-input>
@@ -48,17 +49,16 @@
                 <el-button @click="resetForm('ruleForm')">重置</el-button>
             </el-form-item>
         </el-form>
-
     </div>
 
 </template>
 
 <script>
     //import { mapState } from "vuex";
-    //import All from "./comLife/All";
+    import Test from "./test";
     export default {
         components: {
-            //       All,
+            Test
         },
         name: 'FormTo',
         props: {
