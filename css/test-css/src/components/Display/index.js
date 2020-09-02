@@ -18,7 +18,7 @@ export default class Display extends React.Component {
                 <div className="table">
                     <div className="row">
                         <div className="cell">张三</div>
-                        <div className="cell">李四</div>
+                        <div className="cell">李四 </div>
                         <div className="cell">王五</div>
                     </div>
                     <div className="row">

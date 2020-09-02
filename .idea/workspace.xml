@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test-css/src/components/Display/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/test-css/src/components/Display/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +78,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/test-css/src/components/Display/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="61">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -156,8 +157,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="a67d4fb7cf9fa4dd3455ed26c682b97f52d9cb4b" />
       </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -166,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/ProductRow/index.less" />
         <option value="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/whatevs/index.css" />
         <option value="$PROJECT_DIR$/react-project/imoc-hook/src/pages/slides/Slidess.js" />
         <option value="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/ProductTable/ProductCategoryRow/index.js" />
@@ -217,6 +220,7 @@
         <option value="$PROJECT_DIR$/vue/src/views/comBase/test.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/comBase/index.vue" />
         <option value="$PROJECT_DIR$/webpack/vue-clis/src/views/Home.vue" />
+        <option value="$PROJECT_DIR$/css/test-css/src/components/Display/index.js" />
       </list>
     </option>
   </component>
@@ -626,13 +630,6 @@
       <workItem from="1598929441956" duration="3892000" />
       <workItem from="1598943915004" duration="9232000" />
     </task>
-    <task id="LOCAL-00066" summary="react-compent普通生命周期结束">
-      <created>1594633871264</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1594633871277</updated>
-    </task>
     <task id="LOCAL-00067" summary="react-compent继承redux">
       <created>1594642824147</created>
       <option name="number" value="00067" />
@@ -969,24 +966,31 @@
       <option name="project" value="LOCAL" />
       <updated>1599005259639</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="xintag">
+      <created>1599007912563</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1599007912563</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1114268000" />
+    <option name="totallyTimeSpent" value="1115966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30580357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30580357" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.48292682" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.70569104" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25853658" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" visible="true" weight="0.48292682" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" visible="true" weight="0.70569104" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -1027,7 +1031,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="object结束" />
     <MESSAGE value="promise和async" />
     <MESSAGE value="this开始" />
     <MESSAGE value="this结束" />
@@ -1052,7 +1055,8 @@
     <MESSAGE value="add for循环和if判断" />
     <MESSAGE value="add 表单绑定" />
     <MESSAGE value="elemeUI的layout栅格布局,穿透样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="elemeUI的layout栅格布局,穿透样式" />
+    <MESSAGE value="xintag" />
+    <option name="LAST_COMMIT_MESSAGE" value="xintag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
