@@ -51,6 +51,12 @@
       <p>
           <span @click="redirectPage(17)" class="point">17、组件基础</span>
       </p>
+      <p>
+          <span @click="redirectPage(18)" class="point">18、element日期組件</span>
+      </p>
+      <p>
+          <span @click="redirectPage(19)" class="point">19、element表格</span>
+      </p>
   </div>
 </template>
 
@@ -115,6 +121,12 @@ export default {
           break;
         case 17:
           this.$router.push({ path: "comBase" });
+          break;
+        case 18:
+          this.$router.push({ path: "DatePick" });
+          break;
+        case 19:
+          this.$router.push({ path: "Table" });
           break;
         default:
           break;

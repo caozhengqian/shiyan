@@ -86,6 +86,16 @@ const constantRoutes = [
         path: "/comBase",
         component: () => import("../views/comBase")
     },
+    {
+        name: "datePick",
+        path: "/datePick",
+        component: () => import("../views/DatePick")
+    },
+    {
+        name: "table",
+        path: "/table",
+        component: () => import("../views/Table")
+    },
 ];
 const createRouter = () => new Router({
     // mode: 'history', // require service support
