@@ -101,7 +101,6 @@
                 this.clickWatch = !this.clickWatch;
             },
         }
-
     }
 </script>
 

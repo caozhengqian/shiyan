@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/formTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/formTo/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/src/views/watch/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/watch/index.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,14 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/src/views/watch/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="161">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#10;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="135" column="19" lean-forward="true" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -154,7 +164,6 @@
         <option value="$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue" />
         <option value="$PROJECT_DIR$/css/test-css/src/components/Display/index.less" />
         <option value="$PROJECT_DIR$/vue/src/views/propsTo/father/index.vue" />
-        <option value="$PROJECT_DIR$/vue/src/views/formTo/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/formTo/test.vue" />
         <option value="$PROJECT_DIR$/vue/src/App.vue" />
         <option value="$PROJECT_DIR$/vue/public/index.html" />
@@ -172,6 +181,7 @@
         <option value="$PROJECT_DIR$/vue/src/views/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/DatePick/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/watch/index.vue" />
+        <option value="$PROJECT_DIR$/vue/src/views/formTo/index.vue" />
       </list>
     </option>
   </component>
@@ -200,7 +210,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
+    <option name="x" value="132" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
@@ -240,6 +250,14 @@
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="formTo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -420,14 +438,7 @@
       <workItem from="1599178245609" duration="12288000" />
       <workItem from="1599268665829" duration="9203000" />
       <workItem from="1599360503395" duration="4203000" />
-      <workItem from="1599473767061" duration="1480000" />
-    </task>
-    <task id="LOCAL-00068" summary="react-compent继承redux">
-      <created>1594764952818</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1594764952819</updated>
+      <workItem from="1599473767061" duration="4544000" />
     </task>
     <task id="LOCAL-00069" summary="react-compent继承redux">
       <created>1594814242803</created>
@@ -765,11 +776,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599279178444</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="add watch改变data值">
+      <created>1599475277981</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1599475277981</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1152616000" />
+    <option name="totallyTimeSpent" value="1155680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -813,7 +831,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="this结束" />
     <MESSAGE value="bind结束" />
     <MESSAGE value="闭包开始" />
     <MESSAGE value="存储Moudel样式" />
@@ -838,7 +855,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="add 新增路由（element的时间、table）" />
     <MESSAGE value="add date-pick日期框的使用。" />
-    <option name="LAST_COMMIT_MESSAGE" value="add date-pick日期框的使用。" />
+    <MESSAGE value="add watch改变data值" />
+    <option name="LAST_COMMIT_MESSAGE" value="add watch改变data值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,13 +864,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue/dist/js/chunk-2d21803e.870cba57.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/vue-clis/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1185,11 +1196,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/watch/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="161">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#10;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="135" column="19" lean-forward="true" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
         </state>
       </provider>
     </entry>

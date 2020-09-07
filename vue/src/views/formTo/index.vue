@@ -109,17 +109,33 @@
 
         },
         methods: {
+            //全部校验
             submitForm(formName) {
                 console.info(this.ruleForm);
-                this.$refs[formName].validate((valid) => {
-                    if (valid) {
-                        alert('submit!');
-                    } else {
-                        console.log('error submit!!');
+                //全部校验
+                // this.$refs[formName].validate((valid) => {
+                //     if (valid) {
+                //         alert('submit!');
+                //     } else {
+                //         console.log('error submit!!');
+                //         return false;
+                //     }
+                // });
+
+                //部分校验
+                let arr = ['name']
+                this.$refs[formName].validateField(arr,(err) => {
+                    if (err) {
+                        console.info("表单错误",err);
+                        alert(err)
                         return false;
+                    } else {
+                       let res = this.ruleForm;
+                        alert(res)
                     }
                 });
             },
+
             resetForm(formName) {
                 this.$refs[formName].resetFields();
             }
