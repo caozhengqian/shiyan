@@ -5,6 +5,9 @@
             <el-form-item label="活动名称" prop="name">
                 <el-input v-model="ruleForm.name"></el-input>
             </el-form-item>
+            <el-form-item label="确认密码" prop="checkPass">
+                <el-input  v-model="ruleForm.checkPass" autocomplete="off"></el-input>
+            </el-form-item>
             <el-form-item label="活动区域" prop="region">
                 <el-select v-model="ruleForm.region" placeholder="请选择活动区域">
                     <el-option label="区域一" value="shanghai"></el-option>
@@ -24,8 +27,8 @@
                     </el-form-item>
                 </el-col>
             </el-form-item>
-            <el-form-item label="即时配送" prop="delivery">
-                <el-switch v-model="ruleForm.delivery"></el-switch>
+            <el-form-item label="'活动名称'是否必输" prop="delivery">
+                <el-switch v-model="ruleForm.delivery " @change="_cRule"></el-switch>
             </el-form-item>
             <el-form-item label="活动性质" prop="type">
                 <el-checkbox-group v-model="ruleForm.type">
@@ -68,21 +71,52 @@
             // ...mapState(["activityData"])
         },
         data() {
+            var vCheckPass = (rule, value, callback) => {
+                if(this.vCheck.checkPass){//需要校验
+                    const res = this.$validate.test(value);
+                    if(res.isOk == false){//校验失败
+                        callback(new Error(res.msg));
+                    }else{
+                        callback();
+                    }
+                    // if (value === '12') {
+                    //     callback(new Error('不能输入12'));
+                    // } else if(!value){
+                    //     callback(new Error('不能为空'));
+                    // }else{
+                    //     if (this.ruleForm.checkPass !== '') {
+                    //         this.$refs.ruleForm.validateField('checkPass');
+                    //     }
+                    //     callback();
+                    // }
+                }else{
+                    // callback(new Error('不需要输入'));
+                    callback();
+                }
+
+            };
             return {
                 ruleForm: {
                     name: '',
+                    checkPass:'',//密码
                     region: '',
                     date1: '',
                     date2: '',
-                    delivery: false,
+                    delivery: true,
                     type: [],
                     resource: '',
                     desc: ''
+                },
+                vCheck:{
+                    checkPass:true
                 },
                 rules: {
                     name: [
                         { required: true, message: '请输入活动名称', trigger: 'blur' },
                         { min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }
+                    ],
+                    checkPass: [
+                        { validator: vCheckPass,required: true, trigger: 'change' },
                     ],
                     region: [
                         { required: true, message: '请选择活动区域', trigger: 'change' }
@@ -109,31 +143,47 @@
 
         },
         methods: {
+            //_cRule
+            _cRule(e){
+                console.info("e=",e)
+                if(e){
+                    this.rules.name[0].required = true;//活动名称必输
+
+                    this.rules.checkPass[0].required = true;//密码必输
+                    this.vCheck.checkPass  = true //密码必输
+                }else{
+                    this.rules.name[0].required = false;//活动名称非必输
+
+                    this.rules.checkPass[0].required = false;//密码非必输
+                    this.vCheck.checkPass  = false //密码非必输
+                }
+            },
             //全部校验
             submitForm(formName) {
                 console.info(this.ruleForm);
                 //全部校验
-                // this.$refs[formName].validate((valid) => {
-                //     if (valid) {
-                //         alert('submit!');
-                //     } else {
-                //         console.log('error submit!!');
-                //         return false;
-                //     }
-                // });
-
-                //部分校验
-                let arr = ['name']
-                this.$refs[formName].validateField(arr,(err) => {
-                    if (err) {
-                        console.info("表单错误",err);
-                        alert(err)
-                        return false;
+                this.$refs[formName].validate((valid) => {
+                    console.info("校验的结果=",valid)
+                    if (valid) {
+                        alert('submit!');
                     } else {
-                       let res = this.ruleForm;
-                        alert(res)
+                        console.log('error submit!!');
+                        return false;
                     }
                 });
+
+                //部分校验
+                // let arr = ['name']
+                // this.$refs[formName].validateField(arr,(err) => {
+                //     if (err) {
+                //         console.info("表单错误",err);
+                //         alert(err)
+                //         return false;
+                //     } else {
+                //        let res = this.ruleForm;
+                //         alert(res)
+                //     }
+                // });
             },
 
             resetForm(formName) {
