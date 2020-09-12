@@ -1,36 +1,36 @@
 <template>
-    <div>
-        <p>ForIfView</p>
-    </div>
+  <div>
+    <p>ForIfView</p>
+  </div>
 
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'ForIfView',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {}
-        },
-        created() {
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  name: 'ForIfView',
+  components: {
+    //       All,
+  },
+  props: {
+    //  msg: String
+  },
+  data() {
+    return {}
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  created() {
 
-        },
-        methods: {
-            aa() {
-            },
-        }
-
+  },
+  methods: {
+    aa() {
     }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

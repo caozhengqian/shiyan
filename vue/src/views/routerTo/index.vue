@@ -1,36 +1,36 @@
 <template>
-    <div>
-        <p>RouterTo</p>
-    </div>
+  <div>
+    <p>RouterTo</p>
+  </div>
 
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'RouterTo',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {}
-        },
-        created() {
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  name: 'RouterTo',
+  components: {
+    //       All,
+  },
+  props: {
+    //  msg: String
+  },
+  data() {
+    return {}
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  created() {
 
-        },
-        methods: {
-            aa() {
-            },
-        }
-
+  },
+  methods: {
+    aa() {
     }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

@@ -1,36 +1,36 @@
 <template>
-    <div class='Table'>
-        <p>Table</p>
-    </div>
+  <div class="Table">
+    <p>Table</p>
+  </div>
 
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'Table',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {}
-        },
-        created() {
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  name: 'Table',
+  components: {
+    //       All,
+  },
+  props: {
+    //  msg: String
+  },
+  data() {
+    return {}
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  created() {
 
-        },
-        methods: {
-            aa() {
-            },
-        }
-
+  },
+  methods: {
+    aa() {
     }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

@@ -1,36 +1,36 @@
 <template>
-    <div class='Test'>
-        <p>{{title}}</p>
-    </div>
+  <div class="Test">
+    <p>{{ title }}</p>
+  </div>
 
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'Test',
-        props: {
-            title:String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {}
-        },
-        created() {
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  name: 'Test',
+  components: {
+    //       All,
+  },
+  props: {
+    title: String
+  },
+  data() {
+    return {}
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  created() {
 
-        },
-        methods: {
-            aa() {
-            },
-        }
-
+  },
+  methods: {
+    aa() {
     }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>
