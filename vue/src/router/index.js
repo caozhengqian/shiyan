@@ -10,6 +10,11 @@ const constantRoutes = [
     alias: '/index',
     component: () => import('../views/index')
   },
+  {
+    name: 'first',
+    path: '/first',
+    component: () => import('../views/first')
+  },
   { path: '/life', component: All },
   {
     name: 'cssDongTai',
@@ -95,6 +100,11 @@ const constantRoutes = [
     name: 'table',
     path: '/table',
     component: () => import('../views/Table')
+  },
+  {
+    name: 'sync',
+    path: '/sync',
+    component: () => import('../views/Sync')
   }
 ]
 const createRouter = () => new Router({

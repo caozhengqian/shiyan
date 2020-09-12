@@ -72,6 +72,7 @@ export default {
     redirectPage(type) {
       switch (type) {
         case 1:
+          this.$router.push({ path: 'first' })
           break
         case 2:
           this.$router.push({ path: 'life' })
@@ -126,6 +127,9 @@ export default {
           break
         case 19:
           this.$router.push({ path: 'Table' })
+          break
+        case 20:
+          this.$router.push({ path: 'sync' })
           break
         default:
           break

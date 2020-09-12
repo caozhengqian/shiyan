@@ -11,6 +11,7 @@
     "core-js": "^3.6.4",
     "element-ui": "^2.13.2",
     "es6-promise": "^4.2.8",
+    "eslint-config-prettier": "^6.11.0",
     "less-loader": "^6.2.0",
     "moment": "^2.27.0",
     "vue": "^2.6.11",
@@ -24,7 +25,9 @@
     "babel-eslint": "^10.1.0",
     "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.1.1",
     "vue-cli-plugin-webpack-bundle-analyzer": "^2.0.0",
     "vue-template-compiler": "^2.6.11"
   },

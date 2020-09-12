@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/.eslintrc.js" afterDir="false" />
+    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="add watch改变data值">
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Sync/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/first/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/first/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/vue/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/utils/validate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/utils/validate/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/utils/validate/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/utils/validate/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/DatePick/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/DatePick/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/Table/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Table/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/comBase/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/comBase/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/comBase/test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/comBase/test.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/comLife/All/One/OneOne/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/One/OneOne/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/comLife/All/One/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/One/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/comLife/All/Two/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/Two/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/comLife/All/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/cssDongTai/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/cssDongTai/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/cssStyle/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/cssStyle/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/eventTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/eventTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/forIfView/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/forIfView/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/formTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/formTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/formTo/test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/formTo/test.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/formbind/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/formbind/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/father/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/father/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/grandson/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/grandson/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/ifTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/ifTo/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/src/views/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/layoutTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/layoutTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/layoutTo/testChildChildRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/layoutTo/testChildChildRow.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/layoutTo/testChildRow.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/listTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/listTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/propsTo/father/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/propsTo/father/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/propsTo/grandson/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/propsTo/grandson/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/propsTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/propsTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/propsTo/son/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/propsTo/son/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/routerTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/routerTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/vuexTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/watch/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/watch/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,47 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/views/watch/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/src/views/index.vue">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/first/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-dialog#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-date-picker#0;n#el-form-item#0;n#el-col#0;n#el-form-item#0;n#el-row#6;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/first/products.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js-language-service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/js-language-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2392">
-              <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1679">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -117,14 +64,13 @@
         <option value="reactDefault" />
         <option value="less" />
         <option value="JavaScript File" />
+        <option value="package_json" />
         <option value="vueDefault" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>post</find>
-      <find>point</find>
       <find>setFullname</find>
       <find>fullName</find>
       <find>getFirstName</find>
@@ -153,6 +99,8 @@
       <find>name</find>
       <find>validatePass</find>
       <find>checkPass</find>
+      <find>show</find>
+      <find>proName</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -178,16 +126,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/react-compent/src/App.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vue/src/views/first/index.vue" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react-project/imoc-hook/src/pages/reactCom/index.js" />
-        <option value="$PROJECT_DIR$/react-project/imoc-hook/src/App.js" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.less" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/ChildChoice/index.js" />
-        <option value="$PROJECT_DIR$/css/test-css/src/components/Choice/index.js" />
-        <option value="$PROJECT_DIR$/react-compent/src/comLife/All/index.js" />
         <option value="$PROJECT_DIR$/vue/src/components/comLife/All/index.vue" />
         <option value="$PROJECT_DIR$/vue/babel.config.js" />
         <option value="$PROJECT_DIR$/creact-vue-files/readMe" />
@@ -218,12 +161,9 @@
         <option value="$PROJECT_DIR$/vue/src/views/eventTo/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/formbind/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/comBase/test.vue" />
-        <option value="$PROJECT_DIR$/vue/src/views/comBase/index.vue" />
         <option value="$PROJECT_DIR$/webpack/vue-clis/src/views/Home.vue" />
         <option value="$PROJECT_DIR$/js/正则.html" />
         <option value="$PROJECT_DIR$/vue/src/views/layoutTo/index.vue" />
-        <option value="$PROJECT_DIR$/vue/src/router/index.js" />
-        <option value="$PROJECT_DIR$/vue/src/views/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/DatePick/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/formTo/validate/marketThreeValidate.js" />
         <option value="$PROJECT_DIR$/vue/src/views/formTo/validate/index.js" />
@@ -233,6 +173,15 @@
         <option value="$PROJECT_DIR$/vue/src/views/formTo/index.vue" />
         <option value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/languageService/eslint/bin/eslint-plugin.js" />
         <option value="$PROJECT_DIR$/vue/src/views/watch/index.vue" />
+        <option value="$PROJECT_DIR$/vue/src/views/comBase/index.vue" />
+        <option value="$PROJECT_DIR$/vue/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/vue/.eslintignore" />
+        <option value="$PROJECT_DIR$/vue/src/views/first/package.json" />
+        <option value="$PROJECT_DIR$/vue/src/views/index.vue" />
+        <option value="$PROJECT_DIR$/vue/src/router/index.js" />
+        <option value="$PROJECT_DIR$/vue/src/views/first/products.json" />
+        <option value="$PROJECT_DIR$/vue/src/views/first/products.js" />
+        <option value="$PROJECT_DIR$/vue/src/views/first/index.vue" />
       </list>
     </option>
   </component>
@@ -261,7 +210,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="132" />
+    <option name="x" value="100" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
@@ -272,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,13 +243,35 @@
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="formTo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,7 +289,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -489,14 +461,9 @@
       <workItem from="1599825501059" duration="45000" />
       <workItem from="1599825558474" duration="609000" />
       <workItem from="1599826178380" duration="688000" />
-      <workItem from="1599871186414" duration="298000" />
-    </task>
-    <task id="LOCAL-00069" summary="react-compent继承redux">
-      <created>1594814242803</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1594814242803</updated>
+      <workItem from="1599871186414" duration="3906000" />
+      <workItem from="1599875224358" duration="135000" />
+      <workItem from="1599875369722" duration="19702000" />
     </task>
     <task id="LOCAL-00070" summary="react-compent继承redux">
       <created>1594834857769</created>
@@ -834,18 +801,26 @@
       <option name="project" value="LOCAL" />
       <updated>1599475277981</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="add watch改变data值">
+      <created>1599872307575</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1599872307591</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1179014000" />
+    <option name="totallyTimeSpent" value="1202459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21989861" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2578019" />
@@ -859,7 +834,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
@@ -915,36 +889,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack/vue-clis/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/vue-clis/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/ifTo/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/null.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/eventMaoPao.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/object.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -997,13 +941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/webpack/duo-ye-mian/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -1051,13 +989,6 @@
         <state relative-caret-position="-138" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/functionTo/father/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1086,38 +1017,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/Table/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="6" selection-start-line="13" selection-start-column="3" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/DatePick/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1158,13 +1061,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/validate/index.js" />
-    <entry file="file://$PROJECT_DIR$/vue/src/views/forIfView/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/utils/validate/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1173,35 +1069,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/title.gif" />
-    <entry file="file://$PROJECT_DIR$/vue/src/element.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2622" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/js-language-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2392">
@@ -1216,17 +1083,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/element.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/watch/index.vue">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/comBase/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/first/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/forIfView/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/listTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <caret line="16" column="10" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/index.vue">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="131" column="41" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/Sync/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/layoutTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/DatePick/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="94" selection-start-line="94" selection-end-line="104" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/first/products.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/first/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-dialog#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-date-picker#0;n#el-form-item#0;n#el-col#0;n#el-form-item#0;n#el-row#6;n#el-form#0;n#el-tab-pane#0;n#el-tabs#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
