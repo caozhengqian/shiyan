@@ -31,7 +31,9 @@
                               required: domain.isReq, message: domain.name+'不能为空', trigger: 'blur'
                            }"
                   >
-                          <el-select v-model="domain.value" placeholder="请选择活动区域">
+                          <el-select v-model="domain.value" placeholder="请你选择"
+                                     @change="_autoSelect(domain,index)"
+                                     clearable>
                               <el-option v-for="(v,k) in domain.values"
                                           :label="v.label"
                                           :value="v.value"
@@ -41,6 +43,15 @@
                           </el-select>
                   </el-form-item>
               </el-col>
+          </el-row>
+          <el-row type="flex" align="middle">
+              <el-col :span="6">
+                  <el-form-item>
+                  <el-button type="primary" @click="submitForm1('dynamicValidateForm')">提交</el-button>
+                  <el-button @click="resetForm1('dynamicValidateForm')">重置</el-button>
+                  </el-form-item>
+              </el-col>
+
           </el-row>
       </el-form>
 
@@ -189,6 +200,9 @@ export default {
 
     },
   methods: {
+      _autoSelect(obj) {
+          console.info(obj.values)
+    },
       _click() {
           this.show = true;
     },
@@ -197,7 +211,22 @@ export default {
       },
       resetForm(formName){
           this.$refs[formName].resetFields();
-      }
+      },
+      submitForm1(formName) {
+          this.$refs[formName].validate((valid) => {
+              console.info(this.dynamicValidateForm.domains);
+              alert(JSON.stringify(this.dynamicValidateForm.domains));
+              if (valid) {
+                  alert('submit!');
+              } else {
+                  console.log('error submit!!');
+                  return false;
+              }
+          });
+      },
+      resetForm1(formName) {
+          this.$refs[formName].resetFields();
+      },
 
   }
 

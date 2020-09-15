@@ -34,7 +34,7 @@ export const products={
             type:"input",//input  dateInput radio checkbox
             value:"我的值是不显示",//默认值
             name:"不显示",//字段名称
-            en:'input2',
+            en:'input3',
             min:0,
             max:12,
             isReq:false,//是否必输；true,必输
@@ -55,28 +55,28 @@ export const products={
             group:"运费类",
             type:"radio",//input  dateInput radio checkbox
             value:"Y",//默认值
-            values:[{label:'是',value:'Y'},{label:'否',value:'N'},],
+            values:[
+                {
+                    label:'是',//String
+                    value:'Y',//String
+                    with:['input2','input4'],//所有关联字段
+                    wTrue:['input2'],//取消置灰
+                    withFalse:['input4',]//设置为置灰
+                },//
+                {
+                    label:'否',//String
+                    value:'N',//String
+                    with:['aa','bb','cc','dd'],//所有关联字段
+                    withTrue:['cc','dd'],//放开置灰
+                    withFalse:['aa','bb']//设置为置灰
+                }
+            ],
             name:"请单选",//字段名称
             en:'input4',
             isReq:true,//是否必输；true,必输
             isEnabled:true,//是否可用；true可用
             isShow:true,//是否显示；true显示
         }
-        // {
-        //     name:"日期框date1",//字段名称String
-        //     en:'cpzk',
-        //     type:"dateInput",//String
-        //     group:"运费类",
-        //     desc:{
-        //         name:"日期框date1",//String
-        //         min:"2020/09/12 00/00/00",//最小长度String
-        //         max:"2021/09/12 00/00/00",//最大长度String
-        //         isReq:true,//是否必输Boolean
-        //         isEnabled:false,//是否可用Boolean
-        //         isShow:true,//是否显示Boolean
-        //         defalut:"",//默认值String
-        //     }
-        // }
         ]
 };
 export const input={
