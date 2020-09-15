@@ -1,29 +1,47 @@
 <template>
   <div class="First">
-    <el-button @click="_click">新增产品</el-button>
-    <p v-for="(v,k) in products" :key="k" style="margin-left: 30px;color:red">
-      *{{ v.name }}
-    </p>
+       <el-button @click="_click">新增产品</el-button>
+      <p v-for="(v,k) in products" :key="k" style="margin-left: 30px;color:red">
+        *{{ v.name }}
+      </p>
       <p style="margin-top: 50px"></p>
       <div>
           下面都是生成出来的
       </div>
-      <el-form :model="dynamicValidateForm" ref="dynamicValidateForm" label-width="100px" class="demo-dynamic">
-
-          <el-form-item
-                  v-for="(v,k) in pros"
-                  :label="v.name"
-                  :key="k"
-                  :prop="v.en"
-                  :rules=
-                          "{
-                         required: v.desc.isReq, message: v.name+'不能为空', trigger: 'blur'
-                   }"
-          >
-              <el-input :disabled="v.desc.isEnabled">
-
-              </el-input>
-          </el-form-item>
+      <el-form :model="dynamicValidateForm" ref="dynamicValidateForm" label-width="100px" >
+          <el-row type="flex" align="middle">
+              <el-col :span="6"  v-for="(domain, index) in dynamicValidateForm.domains" v-if="domain.isShow == true">
+                  <el-form-item
+                         v-if="domain.type == 'input'"
+                          :label="domain.name"
+                          :key="domain.key"
+                          :prop="'domains.' + index + '.value'"
+                          :rules="{
+                              required: domain.isReq, message: domain.name+'不能为空', trigger: 'blur'
+                           }"
+                  >
+                      <el-input v-model="domain.value"  :disabled="!domain.isEnabled"></el-input>
+                  </el-form-item>
+                  <el-form-item
+                         v-if="domain.type == 'radio'"
+                          :label="domain.name"
+                          :key="domain.key"
+                          :prop="'domains.' + index + '.value'"
+                          :rules="{
+                              required: domain.isReq, message: domain.name+'不能为空', trigger: 'blur'
+                           }"
+                  >
+                          <el-select v-model="domain.value" placeholder="请选择活动区域">
+                              <el-option v-for="(v,k) in domain.values"
+                                          :label="v.label"
+                                          :value="v.value"
+                                          :key="k"
+                              >
+                              </el-option>
+                          </el-select>
+                  </el-form-item>
+              </el-col>
+          </el-row>
       </el-form>
 
     <el-dialog title="产品元素配置新增" :visible.sync="show">
@@ -119,7 +137,7 @@ import {products as pros} from "./products"
 export default {
   name: 'First',
   components: {
-    //       All,
+    //       :prop="'dynamicValidateForm.domains' + k + '.value'"
   },
   props: {
     //  msg: String
@@ -128,9 +146,7 @@ export default {
     return {
         pros,
         dynamicValidateForm: {
-            domains: [{
-                value: ''
-            }],
+            domains: [],
         },
 
 
@@ -156,8 +172,22 @@ export default {
     // ...mapState(["activityData"])
   },
   created() {
-
+      console.info("asdfasdfas",pros);
+      pros.data.map((v,k)=>{
+          // v.value="";
+          // v.key=Date.now();
+      })
+      console.info("ppp",pros)
+      this.dynamicValidateForm.domains = pros.data;
+      console.info(this.dynamicValidateForm.domains)
+      // this.dynamicValidateForm.domains =[{"value":""},{"value":"","key":1600129206018},{"value":"","key":1600129208789}];
   },
+    mounted(){
+
+    },
+    updated(){
+
+    },
   methods: {
       _click() {
           this.show = true;
@@ -176,6 +206,8 @@ export default {
 
 <style lang="less" scoped>
     .First {
-
+        /deep/ .el-form-item__label{
+            padding:0;
+        }
     }
 </style>

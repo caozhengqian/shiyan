@@ -1,5 +1,34 @@
 <template>
   <div>
+      <el-form :model="dynamicValidateForm" ref="dynamicValidateForm" label-width="100px" class="demo-dynamic">
+          <el-form-item
+                  prop="email"
+                  label="邮箱"
+                  :rules="[
+      { required: true, message: '请输入邮箱地址', trigger: 'blur' },
+      { type: 'email', message: '请输入正确的邮箱地址', trigger: ['blur', 'change'] }
+    ]"
+          >
+              <el-input v-model="dynamicValidateForm.email"></el-input>
+          </el-form-item>
+          <el-form-item
+                  v-for="(domain, index) in dynamicValidateForm.domains"
+                  :label="'域名' + index"
+                  :key="domain.key"
+                  :prop="'domains.' + index + '.value'"
+                  :rules="{
+      required: true, message: '域名不能为空', trigger: 'blur'
+    }"
+          >
+              <el-input v-model="domain.value"></el-input><el-button @click.prevent="removeDomain(domain)">删除</el-button>
+          </el-form-item>
+          <el-form-item>
+              <el-button type="primary" @click="submitForm1('dynamicValidateForm')">提交</el-button>
+              <el-button @click="addDomain">新增域名</el-button>
+              <el-button @click="resetForm1('dynamicValidateForm')">重置</el-button>
+          </el-form-item>
+      </el-form>
+      <p>----------------------------------------------------------------------------------------------------------</p>
     <Test />
     <el-form ref="ruleForm" :model="ruleForm" :rules="rules" label-width="100px" class="demo-ruleForm">
       <el-form-item label="活动名称" prop="name">
@@ -52,6 +81,7 @@
         <el-button @click="resetForm('ruleForm')">重置</el-button>
       </el-form-item>
     </el-form>
+
   </div>
 
 </template>
@@ -92,6 +122,12 @@ export default {
       }
     }
     return {
+        dynamicValidateForm: {
+            domains: [{
+                value: ''
+            }],
+            email: ''
+        },
       ruleForm: {
         name: '',
         checkPass: '', // 密码
@@ -187,7 +223,36 @@ export default {
 
     resetForm(formName) {
       this.$refs[formName].resetFields()
-    }
+    },
+
+      submitForm1(formName) {
+          this.$refs[formName].validate((valid) => {
+              if (valid) {
+                  alert('submit!');
+              } else {
+                  console.log('error submit!!');
+                  return false;
+              }
+          });
+      },
+      resetForm1(formName) {
+          this.$refs[formName].resetFields();
+      },
+      removeDomain(item) {
+          var index = this.dynamicValidateForm.domains.indexOf(item)
+          if (index !== -1) {
+              this.dynamicValidateForm.domains.splice(index, 1)
+          }
+      },
+      addDomain() {
+          this.dynamicValidateForm.domains.push({
+              value: '',
+              key: Date.now()
+          });
+          console.info(JSON.stringify(this.dynamicValidateForm.domains) )
+      }
+
+
   }
 
 }

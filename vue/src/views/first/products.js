@@ -1,20 +1,86 @@
-export const products=[
-    {
-        name:"产品折扣",//字段名称String
-        en:'cpzk',
-        type:"string",//String
-        desc:{
-            name:"产品折扣",
+export const products={
+    "groups":
+        [
+            "运费类",
+            "增值类",
+            "事后折基数"
+        ],
+    "data":[
+        {
+            group:"运费类",
+            type:"input",//input  dateInput radio checkbox
+            value:"正常文本",//默认值
+            name:"文本框",//字段名称
+            en:'input1',
             min:0,
             max:12,
-            isReq:true,//是否必输
-            isEnabled:true,//是否可用
-            isShow:true,//是否显示
-            defalut:"啦啦默认值",//默认值
-        }//Object
-    }
-];
-export const string={
+            isReq:false,//是否必输；true,必输
+            isEnabled:true,//是否可用；true可用
+            isShow:true,//是否显示；true显示
+
+        },{
+            group:"运费类",
+            type:"input",//input  dateInput radio checkbox
+            value:"我的值是不可用",//默认值
+            name:"不可用",//字段名称
+            en:'input2',
+            min:0,
+            max:12,
+            isReq:false,//是否必输；true,必输
+            isEnabled:false,//是否可用；true可用
+            isShow:true,//是否显示；true显示
+        },{
+            group:"运费类",
+            type:"input",//input  dateInput radio checkbox
+            value:"我的值是不显示",//默认值
+            name:"不显示",//字段名称
+            en:'input2',
+            min:0,
+            max:12,
+            isReq:false,//是否必输；true,必输
+            isEnabled:false,//是否可用；true可用
+            isShow:false,//是否显示；true显示
+        },{
+            group:"运费类",
+            type:"input",//input  dateInput radio checkbox
+            value:"我的值是必输",//默认值
+            name:"必输",//字段名称
+            en:'input4',
+            min:0,
+            max:12,
+            isReq:true,//是否必输；true,必输
+            isEnabled:true,//是否可用；true可用
+            isShow:true,//是否显示；true显示
+        },{
+            group:"运费类",
+            type:"radio",//input  dateInput radio checkbox
+            value:"Y",//默认值
+            values:[{label:'是',value:'Y'},{label:'否',value:'N'},],
+            name:"请单选",//字段名称
+            en:'input4',
+            isReq:true,//是否必输；true,必输
+            isEnabled:true,//是否可用；true可用
+            isShow:true,//是否显示；true显示
+        }
+        // {
+        //     name:"日期框date1",//字段名称String
+        //     en:'cpzk',
+        //     type:"dateInput",//String
+        //     group:"运费类",
+        //     desc:{
+        //         name:"日期框date1",//String
+        //         min:"2020/09/12 00/00/00",//最小长度String
+        //         max:"2021/09/12 00/00/00",//最大长度String
+        //         isReq:true,//是否必输Boolean
+        //         isEnabled:false,//是否可用Boolean
+        //         isShow:true,//是否显示Boolean
+        //         defalut:"",//默认值String
+        //     }
+        // }
+        ]
+};
+export const input={
+    value:"",
     name:"产品折扣",//String
     min:0,//最小长度Number
     max:12,//最大长度Number
@@ -23,7 +89,7 @@ export const string={
     isShow:true,//是否显示Boolean
     defalut:"",//默认值String
 };
-export const dateString={
+export const dateInput={
     name:"产品折扣",//String
     min:"2020/09/12 00/00/00",//最小长度String
     max:"2021/09/12 00/00/00",//最大长度String
