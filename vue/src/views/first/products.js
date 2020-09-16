@@ -14,6 +14,7 @@ export const products={
             en:'input1',
             min:0,
             max:12,
+            req:false,//置灰->放开，是否要必输
             isReq:false,//是否必输；true,必输
             isEnabled:true,//是否可用；true可用
             isShow:true,//是否显示；true显示
@@ -26,6 +27,7 @@ export const products={
             en:'input2',
             min:0,
             max:12,
+            req:false,//置灰->放开，是否要必输
             isReq:false,//是否必输；true,必输
             isEnabled:false,//是否可用；true可用
             isShow:true,//是否显示；true显示
@@ -37,6 +39,7 @@ export const products={
             en:'input3',
             min:0,
             max:12,
+            req:false,//置灰->放开，是否要必输
             isReq:false,//是否必输；true,必输
             isEnabled:false,//是否可用；true可用
             isShow:false,//是否显示；true显示
@@ -48,31 +51,32 @@ export const products={
             en:'input4',
             min:0,
             max:12,
-            isReq:true,//是否必输；true,必输
+            req:true,//置灰->放开，是否要必输
+            isReq:true,//界面渲染使用是否必输；true,必输，置灰后必须要设置为false
             isEnabled:true,//是否可用；true可用
             isShow:true,//是否显示；true显示
         },{
             group:"运费类",
             type:"radio",//input  dateInput radio checkbox
             value:"Y",//默认值
+            en:'radio1',
             values:[
                 {
                     label:'是',//String
                     value:'Y',//String
                     with:['input2','input4'],//所有关联字段
                     wTrue:['input2'],//取消置灰
-                    withFalse:['input4',]//设置为置灰
+                    wFalse:['input4',]//设置为置灰
                 },//
                 {
                     label:'否',//String
                     value:'N',//String
-                    with:['aa','bb','cc','dd'],//所有关联字段
-                    withTrue:['cc','dd'],//放开置灰
-                    withFalse:['aa','bb']//设置为置灰
+                    with:['input2','input4'],//所有关联字段
+                    wTrue:['input4'],//取消置灰
+                    wFalse:['input2',]//设置为置灰
                 }
             ],
             name:"请单选",//字段名称
-            en:'input4',
             isReq:true,//是否必输；true,必输
             isEnabled:true,//是否可用；true可用
             isShow:true,//是否显示；true显示

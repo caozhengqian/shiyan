@@ -13,6 +13,7 @@
               <el-col :span="6"  v-for="(domain, index) in dynamicValidateForm.domains" v-if="domain.isShow == true">
                   <el-form-item
                          v-if="domain.type == 'input'"
+                         :ref="domain.en"
                           :label="domain.name"
                           :key="domain.key"
                           :prop="'domains.' + index + '.value'"
@@ -24,6 +25,7 @@
                   </el-form-item>
                   <el-form-item
                          v-if="domain.type == 'radio'"
+                         ref="domain.en"
                           :label="domain.name"
                           :key="domain.key"
                           :prop="'domains.' + index + '.value'"
@@ -191,7 +193,6 @@ export default {
       console.info("ppp",pros)
       this.dynamicValidateForm.domains = pros.data;
       console.info(this.dynamicValidateForm.domains)
-      // this.dynamicValidateForm.domains =[{"value":""},{"value":"","key":1600129206018},{"value":"","key":1600129208789}];
   },
     mounted(){
 
@@ -200,8 +201,42 @@ export default {
 
     },
   methods: {
-      _autoSelect(obj) {
-          console.info(obj.values)
+      _autoSelect(obj,index) {
+          let value = obj.value;
+          obj.values.map((v,k)=>{
+              if(v.value == value){//选中的
+                  console.info("选中的",value)
+                  v.wTrue.map((v1,k1)=>{
+                      this.dynamicValidateForm.domains.map((v2,k2)=>{
+                          console.info("放开置灰项",v1)
+                          if(v2.en == v1){
+                              let o = this.dynamicValidateForm.domains[k2]
+                              o.value=""//清空值
+                              o.isEnabled=true;//放开置灰
+                              if(o.req == true){//如果是必输
+                                  o.isReq = true//设置为必输
+                              }else{
+                                  o.isReq = false//取消必输
+                              }
+                          }
+                      })
+                  })
+                  v.wFalse.map((v1,k1)=>{//循环需要置灰列表
+                      this.dynamicValidateForm.domains.map((v2,k2)=>{
+                          if(v2.en == v1){
+                              let o = this.dynamicValidateForm.domains[k2]
+                              o.value=""//清空值
+                              o.isEnabled=false;//置灰
+                              o.isReq = false//取消必输
+                              console.info(this.$refs[v1])
+                              this.$refs[v1][0].clearValidate()
+                          }
+                      })
+                  })
+
+              }
+
+          })
     },
       _click() {
           this.show = true;
@@ -214,10 +249,8 @@ export default {
       },
       submitForm1(formName) {
           this.$refs[formName].validate((valid) => {
-              console.info(this.dynamicValidateForm.domains);
-              alert(JSON.stringify(this.dynamicValidateForm.domains));
               if (valid) {
-                  alert('submit!');
+                  console.info(this.dynamicValidateForm.domains)
               } else {
                   console.log('error submit!!');
                   return false;
