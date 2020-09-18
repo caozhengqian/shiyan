@@ -1,12 +1,16 @@
 <template>
   <div>
-    <p>VuexTo</p>
+        <el-button type="primary" @click="_getProducts">获取产品</el-button>
+      <div v-for="(v,k) in products" :key="k">
+          <p>{{v.title}}</p>
+          <p>{{v.obj.a.aa}}</p>
+      </div>
   </div>
 
 </template>
 
 <script>
-// import { mapState } from "vuex";
+import { mapState,mapActions } from "vuex";
 // import All from "./comLife/All";
 export default {
   name: 'VuexTo',
@@ -20,13 +24,19 @@ export default {
     return {}
   },
   computed: {
-    // ...mapState(["activityData"])
+    ...mapState({
+        products: store => store.products.products,
+    }),
   },
-  created() {
-
+    async created() {
+        await this._getProducts();
+        console.info("created=>",this.products[0].obj.a.aa);
   },
   methods: {
-    aa() {
+      ...mapActions(["getNewProducts"]),
+      async _getProducts() {
+          await this.getNewProducts("请求的字符串");
+          console.info("click=>",this.products);
     }
   }
 
