@@ -1,6 +1,7 @@
 <template>
   <div>
-        <el-button type="primary" @click="_getProducts">获取产品</el-button>
+      <el-button type="primary" @click="_getProducts">获取产品</el-button>
+      <div>使用循环、延迟接口、同步处理返回的v.obj.a.aa报错</div>
       <div v-for="(v,k) in products" :key="k">
           <p>{{v.title}}</p>
           <p>{{v.obj.a.aa}}</p>

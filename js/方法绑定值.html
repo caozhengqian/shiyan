@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function getProducts (cb) {
+       cb("传给e的值");
+    };
+    getProducts(e => {
+        console.info(e)
+    })
+</script>
+<body>
+    <p class="desc">
+       方法绑定值：onclick(e)，通过方法赋值。
+
+        function <span color="red">getProducts</span> (cb) {
+            cb("传给e的值");
+        };
+
+        <span color="red">getProducts</span>(<span color="red">e</span> => {
+            console.info(e)//
+        })
+    </p>
+</body>
+</html>
