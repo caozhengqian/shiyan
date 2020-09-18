@@ -43,8 +43,8 @@ const constantRoutes = [
   },
   {
     name: 'vuexTo',
-    path: '/vuexTo',
-    component: () => import('../views/vuexTo')
+    path: '/vuexTo/',
+    component: () => import('../views/vuexTo/VuexTo')
   },
   {
     name: 'formTo',
