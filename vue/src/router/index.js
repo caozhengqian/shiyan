@@ -105,6 +105,11 @@ const constantRoutes = [
     name: 'sync',
     path: '/sync',
     component: () => import('../views/Sync')
+  },
+  {
+    name: 'keep',
+    path: '/keep',
+    component: () => import('../views/Keep/Keep')
   }
 ]
 const createRouter = () => new Router({

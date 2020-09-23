@@ -57,6 +57,12 @@
     <p>
       <span class="point" @click="redirectPage(19)">19、element表格</span>
     </p>
+    <p>
+      <span class="point" @click="redirectPage(20)">20、sync</span>
+    </p>
+    <p>
+      <span class="point" @click="redirectPage(21)">21、keep-alive</span>
+    </p>
   </div>
 </template>
 
@@ -130,6 +136,9 @@ export default {
           break
         case 20:
           this.$router.push({ path: 'sync' })
+          break
+        case 21:
+          this.$router.push({ path: 'keep' })
           break
         default:
           break
