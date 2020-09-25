@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="add 多个action同步、异步调用">
-      <change afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/One.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue" afterDir="false" />
+    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/Three.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/store/modules/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/store/modules/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/vuexTo/One.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/One.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/src/views/vuexTo/VuexTo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/vuexTo/VuexTo.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,50 +20,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/views/watch/index.vue">
+      <file leaf-file-name="Two.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VuexTo.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/VuexTo.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="138">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
-                <element signature="e#1014#1057#0" expanded="true" />
+                <element signature="e#157#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/store/index.js">
+      <file leaf-file-name="VuexTo.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/VuexTo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="184">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/store/modules/products.js">
+      <file leaf-file-name="Three.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/Three.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Two.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="575">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -71,17 +53,8 @@
       <file leaf-file-name="One.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/One.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/store/modules/cart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="207">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -108,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>startTimes</find>
       <find>sync</find>
       <find>click</find>
       <find>name</find>
@@ -136,8 +108,9 @@
       <find>switch</find>
       <find>冒泡</find>
       <find>事件冒泡</find>
-      <find>created</find>
       <find>_bigObj</find>
+      <find>products</find>
+      <find>created</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -168,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue/src/views/comLife/All/One/index.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/comLife/All/One/OneOne/index.vue" />
         <option value="$PROJECT_DIR$/webpack/duo-ye-mian/webpack.prod.js" />
         <option value="$PROJECT_DIR$/vue/src/views/layoutTo/child.vue" />
@@ -215,10 +187,11 @@
         <option value="$PROJECT_DIR$/vue/src/views/Keep/com/One/One.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/ifTo/index.vue" />
         <option value="$PROJECT_DIR$/js/eventMaoPao.html" />
-        <option value="$PROJECT_DIR$/vue/src/views/vuexTo/One.vue" />
         <option value="$PROJECT_DIR$/vue/src/store/modules/products.js" />
-        <option value="$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue" />
         <option value="$PROJECT_DIR$/vue/src/views/vuexTo/VuexTo.vue" />
+        <option value="$PROJECT_DIR$/vue/src/views/vuexTo/Three.vue" />
+        <option value="$PROJECT_DIR$/vue/src/views/vuexTo/One.vue" />
+        <option value="$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue" />
       </list>
     </option>
   </component>
@@ -280,6 +253,13 @@
               <item name="shiyan" type="462c0819:PsiDirectoryNode" />
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiyan" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiyan" type="b2602c69:ProjectViewProjectNode" />
@@ -524,14 +504,7 @@
       <workItem from="1600916982212" duration="427000" />
       <workItem from="1600993210176" duration="753000" />
       <workItem from="1601030975515" duration="1182000" />
-      <workItem from="1601041007055" duration="4799000" />
-    </task>
-    <task id="LOCAL-00078" summary="sourcemap结束">
-      <created>1595413631311</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1595413631311</updated>
+      <workItem from="1601041007055" duration="6252000" />
     </task>
     <task id="LOCAL-00079" summary="sourcemap结束">
       <created>1595414037397</created>
@@ -869,11 +842,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600850887790</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="add action调用大对象">
+      <created>1601046627504</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1601046627505</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1292517000" />
+    <option name="totallyTimeSpent" value="1293970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -881,16 +861,16 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21989861" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2578019" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.2578019" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33242875" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3310719" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -917,7 +897,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="react-compent继承redux" />
     <MESSAGE value="sourcemap结束" />
     <MESSAGE value="初始化imoc" />
     <MESSAGE value="生命周期" />
@@ -942,7 +921,8 @@
     <MESSAGE value="add action异步处理，解决&amp;&amp;" />
     <MESSAGE value="add click(e)，如何绑定的" />
     <MESSAGE value="add 多个action同步、异步调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 多个action同步、异步调用" />
+    <MESSAGE value="add action调用大对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="add action调用大对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -950,13 +930,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue/src/utils/validate/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/formTo/validate/index.js" />
     <entry file="file://$PROJECT_DIR$/vue/src/utils/validate/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1071,13 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/api/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1236,27 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/One.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/store/modules/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1264,12 +1209,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/store/modules/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/api/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/One.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/Three.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/VuexTo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="184">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/views/vuexTo/Two.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="e#1014#1057#0" expanded="true" />
+            <element signature="e#157#189#0" expanded="true" />
           </folding>
         </state>
       </provider>

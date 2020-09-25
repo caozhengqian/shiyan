@@ -87,7 +87,7 @@ export default {
           // this._bigObj(bigObj)
       },
       _changeSmall(){
-          this._small(this.small)
+          this._small(this.small+"b")
       },
   }
 

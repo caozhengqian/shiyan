@@ -3,16 +3,17 @@
         <p>Two</p>
         <p>{{JSON.stringify(bigObj)}}</p>
         <p>{{small}}</p>
+        <Three/>
     </div>
 
 </template>
 
 <script>
     import { mapState } from "vuex";
-    //import Two from "./Two";
+    import Three from "./Three";
     export default {
         components: {
-            //       All,
+            Three
         },
         name: 'Two',
         props: {

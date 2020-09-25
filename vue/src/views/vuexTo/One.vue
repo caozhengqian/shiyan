@@ -1,12 +1,14 @@
 <template>
-    <div class='One'>
+    <div className='One'>
         <p>One</p>
+        <p>{{bigObj}}</p>
+        <p>{{small}}</p>
     </div>
 
 </template>
 
 <script>
-    //import { mapState } from "vuex";
+    import {mapState} from "vuex";
     //import All from "./comLife/All";
     export default {
         components: {
@@ -17,7 +19,10 @@
             //  msg: String
         },
         computed: {
-            // ...mapState(["activityData"])
+            ...mapState({
+                bigObj: store => store.products.bigObj,
+                small: store => store.products.small,
+            })
         },
         data() {
             return {}
@@ -25,25 +30,25 @@
         created() {
             console.info("------------One--Created")
         },
-        mounted(){
+        mounted() {
             console.info("------------One--mounted")
         },
-        beforeCreate(){
+        beforeCreate() {
             console.info("------------One--beforeCreate")
         },
-        beforeMount(){
+        beforeMount() {
             console.info("------------One--beforeMount")
         },
-        beforeUpdate(){
+        beforeUpdate() {
             console.info("------------One--beforeUpdate")
         },
-        updated(){
+        updated() {
             console.info("------------One--updated")
         },
-        beforeDestroy(){
+        beforeDestroy() {
             console.info("------------One--beforeDestroy")
         },
-        destroyed(){
+        destroyed() {
             console.info("------------One--destroyed")
         },
         methods: {
