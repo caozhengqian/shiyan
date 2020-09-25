@@ -5,7 +5,20 @@ const state = () => ({
   all: [],
   products:[],
   twoAdd:0,
-  threeAdd:0
+  threeAdd:0,
+    bigObj:{
+      "a":{"aK":"aV"},
+      "b":{
+          "bbK":"bbV",
+          "bbK":{
+              "bbbK":"bbbV",
+              "bbbK1":{
+                  "bbbbK":"bbbbV"
+              }
+          }
+      }
+  },
+    small:'a'
 })
 
 // getters
@@ -55,6 +68,12 @@ const actions = {
             console.info(JSON.stringify(res))
         }
     },
+    _bigObj({ commit },promise) {
+            commit("_bigObj",promise);
+    },
+    _small({ commit },promise) {
+            commit("_small",promise);
+    },
 }
 
 // mutations
@@ -74,7 +93,12 @@ const mutations = {
     twoAdd6(state,count){
         state.threeAdd = state.threeAdd + count
     },
-
+    _bigObj(state,payload){
+        state.bigObj = payload
+    },
+    _small(state,payload){
+        state.small = payload
+    },
 
 }
 
