@@ -1,5 +1,5 @@
 <template>
-    <div className='One'>
+    <div class='One'>
         <p>One</p>
         <p>{{bigObj}}</p>
         <p>{{small}}</p>
@@ -61,6 +61,7 @@
 
 <style lang="less" scoped>
     .One {
-
+        border: 1px solid blueviolet;
+        margin-bottom: 10px;
     }
 </style>
