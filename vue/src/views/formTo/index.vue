@@ -197,11 +197,12 @@ export default {
     submitForm(formName) {
       console.info(this.ruleForm)
       // 全部校验
-      this.$refs[formName].validate((valid) => {
+      this.$refs[formName].validate((valid,desc) => {
         console.info('校验的结果=', valid)
         if (valid) {
           alert('submit!')
         } else {
+          console.log(desc)
           console.log('error submit!!')
           return false
         }
@@ -226,14 +227,21 @@ export default {
     },
 
       submitForm1(formName) {
-          this.$refs[formName].validate((valid) => {
-              if (valid) {
-                  alert('submit!');
-              } else {
-                  console.log('error submit!!');
-                  return false;
-              }
-          });
+        try {
+            this.$refs[formName].validate((valid,desc) => {
+                console.info("valid的值",valid)
+                if (valid) {
+                    alert('submit!');
+                } else {
+                    console.log('error submit!!');
+                    console.log(desc);
+                    return false;
+                }
+            });
+        }catch (e) {
+            console.info("e",e)
+        }
+
       },
       resetForm1(formName) {
           this.$refs[formName].resetFields();
