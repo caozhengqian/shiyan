@@ -75,6 +75,9 @@
           </el-table-column>
       </el-table>
 
+      <div>
+          <TableSelect/>
+      </div>
   </div>
 
 </template>
@@ -82,10 +85,11 @@
 <script>
 // import { mapState } from "vuex";
 // import All from "./comLife/All";
+import TableSelect from "./TableSelect"
 export default {
   name: 'Table',
   components: {
-    //       All,
+          TableSelect,
   },
   props: {
     //  msg: String
