@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    console.info(this);//window
+    let list = ['a','b','c','d'];
+    switch (list){
+        case 'a':
+            return;
+
+    }
+    function f1(){
+        console.info(this);//window 或者node里的global
+        return this;
+    }
+    f1();
+    new f1();
+
+    function f2(){
+        "use strict";
+        console.info(this);//undefined
+        return this;
+    }
+    f2();
+
+    foo =()=>{
+        console.info(this);//window
+    };
+    foo();
+</script>
+<body>
+    <p class="desc">
+        未使用
+
+        <!--console.info(this);<span class="red">//window</span>-->
+    </p>
+    <p>------------------------------------------------------------</p>
+    <p class="desc">
+        f1();
+        new f1();//指向f1对象
+        function f1(){
+            console.info(this);<span class="red">//window 或者node里的global</span>
+            return this;
+        }
+    </p>
+    <p>------------------------------------------------------------</p>
+    <p class="desc">
+        function f2(){
+        <span class="red">"use strict";</span>
+            console.info(this);<span class="red">//undefined</span>
+            return this;
+        }
+        f2();
+    </p>
+    <p>------------------------------------------------------------</p>
+    <p class="desc">
+        <span class="red"> 与封闭词法环境的this保持一致</span>
+
+        foo =()=>{
+         console.info(this);//window
+        };
+        foo();
+    </p>
+</body>
+</html>

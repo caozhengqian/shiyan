@@ -122,3 +122,10 @@ p{
     background-color: burlywood;
     cursor:pointer;
 }
+.gotoSwitch{
+    position: fixed;
+    top:460px;
+    right:10px;
+    background-color: burlywood;
+    cursor:pointer;
+}
