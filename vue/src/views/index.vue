@@ -63,6 +63,9 @@
     <p>
       <span class="point" @click="redirectPage(21)">21、keep-alive</span>
     </p>
+    <p>
+      <span class="point" @click="redirectPage(22)">22、elementUI</span>
+    </p>
   </div>
 </template>
 
@@ -139,6 +142,9 @@ export default {
           break
         case 21:
           this.$router.push({ path: 'keep' })
+          break
+        case 22:
+          this.$router.push({ path: 'elementUis' })
           break
         default:
           break

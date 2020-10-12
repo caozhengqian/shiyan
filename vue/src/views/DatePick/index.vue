@@ -23,8 +23,20 @@
           />
         </div>
       </el-col>
-      <el-col :span="6"><div>height:100%无效</div></el-col>
-      <el-col :span="6"><div>height:100%无效</div></el-col>
+      <el-col :span="6"><div style="border: 1px solid red;">height:100%无效</div></el-col>
+      <el-col :span="6"><div style="border: 1px solid red;">height:100%无效</div></el-col>
+        <el-col :span="6">
+            <el-date-picker
+                    size="small"
+                    v-model="startsTime"
+                    type="datetimerange"
+                    range-separator="-"
+                    start-placeholder="开始月份"
+                    end-placeholder="结束月份"
+                    :default-time="['00:00:00','23:59:59']"
+            ></el-date-picker>
+        </el-col>
+        <el-checkbox>ddd</el-checkbox>
     </el-row>
   </div>
 
@@ -46,6 +58,7 @@ export default {
     return {
       startTime: '',
       endTime: '',
+        startsTime:'',
       startPickerOptions: { // 起始时间控制
         disabledDate(time) {
           return time.getTime() < moment(new Date()).subtract(1, 'day')
@@ -88,6 +101,8 @@ export default {
 
 <style lang="less" scoped>
     .DatePick {
-
+        /deep/.el-checkbox__inner{
+            border: 1px solid red !important;
+        }
     }
 </style>
