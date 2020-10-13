@@ -62,54 +62,99 @@
         </div>
         <div class="title">Notice</div>
         <el-row >
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(8)" type="danger">Loading 加载</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Loading')" type="danger">Loading 加载</el-tag></el-col>
 
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(7)" type="info">Alert 警告</el-tag></el-col>
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(9)" type="info">Message 消息提示</el-tag></el-col>
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(10)" type="info">MessageBox 弹框</el-tag></el-col>
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(11)" type="info">Notification 通知</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Alert')" type="warning">Alert 警告</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Message')" type="warning">Message 消息提示</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('MessageBox')" type="info">MessageBox 弹框</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Notification')" type="info">Notification 通知</el-tag></el-col>
         </el-row>
+        <div class="comptents">
+            <Eloading v-if="index == 'Loading'"/>
+            <Ealert v-else-if="index == 'Alert'"/>
+            <Emessage v-else-if="index == 'Message'"/>
+            <EmessageBox v-else-if="index == 'MessageBox'"/>
+            <ENotification v-else-if="index == 'Notification'"/>
+            <div v-else></div>
+        </div>
         <div class="title">Navigation</div>
         <el-row >
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(7)" type="danger">NavMenu 导航菜单</el-tag></el-col>
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(8)" type="danger">Tabs 标签页</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('NavMenu')" type="danger">NavMenu 导航菜单</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Tabs')" type="danger">Tabs 标签页</el-tag></el-col>
 
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(7)" type="warning">Steps 步骤条</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Steps')" type="warning">Steps 步骤条</el-tag></el-col>
 
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(9)" type="info">Breadcrumb 面包屑</el-tag></el-col>
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(10)" type="info">PageHeader 页头</el-tag></el-col>
-            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click(11)" type="info">Dropdown 下拉菜单</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Breadcrumb')" type="info">Breadcrumb 面包屑</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('PageHeader')" type="info">PageHeader 页头</el-tag></el-col>
+            <el-col :span="4" class="bottom"><el-tag class="tag" @click="_click('Dropdown')" type="info">Dropdown 下拉菜单</el-tag></el-col>
         </el-row>
+        <div class="comptents">
+            <ENavMenu v-if="index == 'NavMenu'"/>
+            <ETabs v-else-if="index == 'Tabs'"/>
+            <ESteps v-else-if="index == 'Steps'"/>
+            <EBreadcrumb v-else-if="index == 'Breadcrumb'"/>
+            <EPageHeader v-else-if="index == 'PageHeader'"/>
+            <EDropdown v-else-if="index == 'Dropdown'"/>
+            <div v-else></div>
+        </div>
         <div class="title">Others</div>
         <el-row >
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(7)" type="danger">Dialog 对话框</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(8)" type="danger">Tooltip 文字提示</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(9)" type="danger">Popover 弹出框</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(7)" type="danger">Carousel 走马灯</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(7)" type="danger">Image 图片</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(9)" type="danger">Timeline 时间线</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Dialog')" type="danger">Dialog 对话框</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Tooltip')" type="danger">Tooltip 文字提示</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Popover')" type="danger">Popover 弹出框</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Carousel')" type="danger">Carousel 走马灯</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Image')" type="danger">Image 图片</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Timeline')" type="danger">Timeline 时间线</el-tag></el-col>
 
-            <el-col :span="3" class="bottom"><el-tag class="tag" @click="_click(10)" type="warning">Popconfirm 气泡确认框</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(8)" type="warning">Collapse 折叠面板</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(8)" type="warning">Backtop 回到顶部</el-tag></el-col>
+            <el-col :span="3" class="bottom"><el-tag class="tag" @click="_click('Popconfirm')" type="warning">Popconfirm 气泡确认框</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Collapse')" type="warning">Collapse 折叠面板</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Backtop')" type="warning">Backtop 回到顶部</el-tag></el-col>
 
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(10)" type="info">Divider 分割线</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(11)" type="info">Calendar 日历</el-tag></el-col>
-            <el-col :span="3" class="bottom"><el-tag class="tag" @click="_click(9)" type="info">InfiniteScroll 无限滚动</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(10)" type="info">Drawer 抽屉</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(11)" type="info">Card 卡片</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Divider')" type="info">Divider 分割线</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Calendar')" type="info">Calendar 日历</el-tag></el-col>
+            <el-col :span="3" class="bottom"><el-tag class="tag" @click="_click('InfiniteScroll')" type="info">InfiniteScroll 无限滚动</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Drawer')" type="info">Drawer 抽屉</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Card')" type="info">Card 卡片</el-tag></el-col>
         </el-row>
+        <div class="comptents">
+            <EDialog v-if="index == 'Dialog'"/>
+            <ETooltip v-if="index == 'Tooltip'"/>
+            <EPopover v-if="index == 'Popover'"/>
+            <ECarousel v-if="index == 'Carousel'"/>
+            <EImage v-if="index == 'Image'"/>
+            <ETimeline v-else-if="index == 'Timeline'"/>
+            <EPopconfirm v-else-if="index == 'Popconfirm'"/>
+            <ECollapse v-else-if="index == 'Collapse'"/>
+            <EBacktop v-else-if="index == 'Backtop'"/>
+            <EDivider v-else-if="index == 'Divider'"/>
+            <ECalendar v-else-if="index == 'Calendar'"/>
+            <EInfiniteScroll v-else-if="index == 'InfiniteScroll'"/>
+            <EDrawer v-else-if="index == 'Drawer'"/>
+            <ECard v-else-if="index == 'Card'"/>
+            <div v-else></div>
+        </div>
         <div class="title">Basic</div>
         <el-row >
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(7)" type="danger">Layout 布局</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(8)" type="danger">Container 布局容器</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(8)" type="danger">Button 按钮</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(7)" type="danger">Icon 图标</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(9)" type="info">Link 文字链接</el-tag></el-col>
-            <el-col :span="3" class="bottom"><el-tag class="tag" @click="_click(10)" type="info">Typography 字体</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(9)" type="info">Color 色彩</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(11)" type="info">Border 边框</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Layout')" type="danger">Layout 布局</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Container')" type="danger">Container 布局容器</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Button')" type="danger">Button 按钮</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Icon')" type="danger">Icon 图标</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Link')" type="info">Link 文字链接</el-tag></el-col>
+            <el-col :span="3" class="bottom"><el-tag class="tag" @click="_click('Typography')" type="info">Typography 字体</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Color')" type="info">Color 色彩</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Layout')" type="info">Border 边框</el-tag></el-col>
         </el-row>
+        <div class="comptents">
+            <ELayout v-if="index == 'Layout'"/>
+            <EContainer v-else-if="index == 'Container'"/>
+            <EButton v-else-if="index == 'Button'"/>
+            <EIcon v-else-if="index == 'Icon'"/>
+            <ELink v-else-if="index == 'Link'"/>
+            <ETypography v-else-if="index == 'Typography'"/>
+            <EColor v-else-if="index == 'Color'"/>
+            <EBorder v-else-if="index == 'Border'"/>
+            <div v-else></div>
+        </div>
 
     </div>
 </template>
@@ -142,8 +187,84 @@
     import Etransfer from "../../compents/elements/from/Etransfer/Etransfer"
     import Eupload from "../../compents/elements/from/Eupload/Eupload"
 
+    //basic
+    import EBorder from "../../compents/elements/Basic/EBorder/EBorder"
+    import EButton from "../../compents/elements/Basic/EButton/EButton"
+    import EColor from "../../compents/elements/Basic/EColor/EColor"
+    import EContainer from "../../compents/elements/Basic/EContainer/EContainer"
+    import EIcon from "../../compents/elements/Basic/EIcon/EIcon"
+    import ELayout from "../../compents/elements/Basic/ELayout/ELayout"
+    import ELink from "../../compents/elements/Basic/ELink/ELink"
+    import ETypography from "../../compents/elements/Basic/ETypography/ETypography"
+
+    //Navigation
+    import EBreadcrumb from "../../compents/elements/Navigation/EBreadcrumb/EBreadcrumb"
+    import EDropdown from "../../compents/elements/Navigation/EDropdown/EDropdown"
+    import ENavMenu from "../../compents/elements/Navigation/ENavMenu/ENavMenu"
+    import EPageHeader from "../../compents/elements/Navigation/EPageHeader/EPageHeader"
+    import ESteps from "../../compents/elements/Navigation/ESteps/ESteps"
+    import ETabs from "../../compents/elements/Navigation/ETabs/ETabs"
+
+    //notice
+    import Ealert from "../../compents/elements/notice/Ealert/Ealert"
+    import Eloading from "../../compents/elements/notice/Eloading/Eloading"
+    import Emessage from "../../compents/elements/notice/Emessage/Emessage"
+    import EmessageBox from "../../compents/elements/notice/EmessageBox/EmessageBox"
+    import ENotification from "../../compents/elements/notice/ENotification/ENotification"
+
+    //Others
+    import EBacktop from "../../compents/elements/Others/EBacktop/EBacktop"
+    import ECalendar from "../../compents/elements/Others/ECalendar/ECalendar"
+    import ECard from "../../compents/elements/Others/ECard/ECard"
+    import ECarousel from "../../compents/elements/Others/ECarousel/ECarousel"
+    import ECollapse from "../../compents/elements/Others/ECollapse/ECollapse"
+    import EDialog from "../../compents/elements/Others/EDialog/EDialog"
+    import EDivider from "../../compents/elements/Others/EDivider/EDivider"
+    import EDrawer from "../../compents/elements/Others/EDrawer/EDrawer"
+    import EImage from "../../compents/elements/Others/EImage/EImage"
+    import EInfiniteScroll from "../../compents/elements/Others/EInfiniteScroll/EInfiniteScroll"
+    import EPopconfirm from "../../compents/elements/Others/EPopconfirm/EPopconfirm"
+    import EPopover from "../../compents/elements/Others/EPopover/EPopover"
+    import ETimeline from "../../compents/elements/Others/ETimeline/ETimeline"
+    import ETooltip from "../../compents/elements/Others/ETooltip/ETooltip"
+
+
     export default {
         components: {
+            Eloading,
+            ETooltip,
+            EBacktop,
+            ECalendar,
+            ECard,
+            ECarousel,
+            ECollapse,
+            EDialog,
+            EInfiniteScroll,
+            EDivider,
+            EDrawer,
+            EImage,
+            EPopconfirm,
+            EPopover,
+            ETimeline,
+            EBreadcrumb,
+            EDropdown,
+            ENavMenu,
+            EPageHeader,
+            ESteps,
+            ETabs,
+            Ealert,
+            Emessage,
+            EmessageBox,
+            ENotification,
+            EBorder,
+            EButton,
+            EColor,
+            EContainer,
+            EIcon,
+            ELayout,
+            ELink,
+            ETypography,
+
             Eavatar,
             Ebadge,
             Etable,
