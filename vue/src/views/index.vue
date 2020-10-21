@@ -66,6 +66,9 @@
     <p>
       <span class="point" @click="redirectPage(22)">22、elementUI</span>
     </p>
+      <p>
+          <span class="point" @click="redirectPage(23)">23、antd-design</span>
+      </p>
   </div>
 </template>
 
@@ -145,6 +148,9 @@ export default {
           break
         case 22:
           this.$router.push({ path: 'elementUis' })
+          break
+        case 23:
+          this.$router.push({ path: 'antds' })
           break
         default:
           break

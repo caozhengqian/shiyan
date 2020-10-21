@@ -8,11 +8,11 @@ export function getTableData (params){
                 if(fetchOk){
                     setTimeout(()=>{
                         resolve({code:'200',data:table1});
-                    },2000 || timeOut)
+                    },1500 || timeOut)
                 }else{
                     setTimeout(()=>{
                         resolve({code:'503',msg:"失败！"});
-                    },2000 || timeOut)
+                    },1500 || timeOut)
                 }
             } catch (error) {
                 reject(error)

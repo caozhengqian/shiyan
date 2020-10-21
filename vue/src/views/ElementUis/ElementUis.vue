@@ -2,22 +2,22 @@
     <div class='ElementUis'>
         <div class="title" @click="_click(-1)">Data</div>
         <el-row >
-            <el-col :span="2" class="bottom"><el-tag class="tag"  @click="_click(0)"  type="danger">Table 表格</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(4)" type="danger">Pagination 分页</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(3)" type="warning">Tree 树形控件</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(1)" type="warning">Tag 标签</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(2)" type="warning" >Progress 进度条</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(5)" type="info">Badge 标记</el-tag></el-col>
-            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click(6)" type="info">Avatar 头像</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag"  @click="_click('Table')"  type="danger">Table 表格</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Pagination')" type="danger">Pagination 分页</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Tree')" type="warning">Tree 树形控件</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Tag')" type="warning">Tag 标签</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Progress')" type="warning" >Progress 进度条</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Badge')" type="info">Badge 标记</el-tag></el-col>
+            <el-col :span="2" class="bottom"><el-tag class="tag" @click="_click('Avatar')" type="info">Avatar 头像</el-tag></el-col>
         </el-row>
         <div class="comptents">
-            <Etable v-if="index == 0"/>
-            <Etag v-else-if="index == 1"/>
-            <Eprogress v-else-if="index == 2"/>
-            <Etree v-else-if="index == 3"/>
-            <Epagination v-else-if="index == 4"/>
-            <Ebadge v-else-if="index == 5"/>
-            <Eavatar v-else-if="index == 6"/>
+            <Etable v-if="index == 'Table'"/>
+            <Etag v-else-if="index == 'Tag'"/>
+            <Eprogress v-else-if="index == 'Progress'"/>
+            <Etree v-else-if="index == 'Tree'"/>
+            <Epagination v-else-if="index == 'Pagination'"/>
+            <Ebadge v-else-if="index == 'Badge'"/>
+            <Eavatar v-else-if="index == 'Avatar'"/>
             <div v-else></div>
         </div>
         <div class="title">From</div>

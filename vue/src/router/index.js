@@ -115,6 +115,11 @@ const constantRoutes = [
     name: 'elementUis',
     path: '/elementUis',
     component: () => import('../views/ElementUis/ElementUis')
+  },
+  {
+    name: 'antds',
+    path: '/antds',
+    component: () => import('../views/Antds/Antds')
   }
 ]
 const createRouter = () => new Router({
