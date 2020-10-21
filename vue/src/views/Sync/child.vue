@@ -1,10 +1,8 @@
 <template>
-    <div class='Sync'>
+    <div class='child'>
         <div>
-            <input type="button"
-                   value="我是父组件中的按钮"
-                   @click="show">
-            <child :isShow.sync="isShow" v-show="isShow"/>
+            我是一个子组件，我在红色的海洋里！
+            <input type="button" value="点我隐身" @click="upIsShow">
         </div>
     </div>
 
@@ -12,12 +10,12 @@
 
 <script>
     //import { mapState } from "vuex";
-    import child from "./child";
+    //import All from "./comLife/All";
     export default {
         components: {
-            child
+            //       All,
         },
-        name: 'Sync',
+        name: 'child',
         props: {
             //  msg: String
         },
@@ -25,24 +23,22 @@
             // ...mapState(["activityData"])
         },
         data() {
-            return {
-                isShow:false
-            }
+            return {}
         },
         created() {
 
         },
         methods: {
-            show(){
-                this.isShow=true;
-            },
+            upIsShow(){
+                this.$emit("update:isShow",false);
+            }
         }
 
     }
 </script>
 
 <style lang="less" scoped>
-    .Sync {
+    .child {
 
     }
 </style>
