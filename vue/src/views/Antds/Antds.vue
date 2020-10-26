@@ -50,7 +50,7 @@
 <style lang="less" scoped>
     .Antds {
         .title{
-            font-size: 19px;
+            font-size: 20px;
             color:blue;
             padding-bottom: 10px;
             cursor: pointer;
