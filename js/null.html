@@ -7,6 +7,106 @@
 </head>
 <script>
     let abc;//undefined
+    function notNull(value){
+        //仅在json中使用。
+        let result = false;
+        let v = typeof(value)//判断类型
+        switch(v){
+            case 'function' : 
+                result =  false;
+                break;
+            case 'boolean' : 
+                result =  value;
+                break;
+            case 'string' : 
+                if(value === ""){
+                    result = false;
+                }else{
+                    result = true;
+                }
+                break;
+            case 'object' : 
+                if(value === null){
+                    result = false;
+                }else if( value instanceof Array){
+                    if(value.length === 0){
+                        result = false;;
+                    }else{
+                        result = true;;
+                    }
+                }else if(value instanceof Object){
+                    if(Object.keys(value).length == 0){
+                        result = false;
+                    }else{
+                        result = true;
+                    }
+                }else{
+                    result = true;
+                }
+                break;
+            case 'undefined' : 
+                result =  false;
+                break;
+           default :break;
+        }
+        return result;
+    }
+    let test = { a: {b:[ ],c:{   },d:null,e:""},b:{b:['a'],c:{c:'c'},e:'e',f:true} }
+    let resA = notNull(test.a);
+    let resB = notNull(test.a.b);//[]
+    let resC = notNull(test.a.c);//{}
+    let resD = notNull(test.a.d);//null
+    let resE = notNull(test.a.e);//""
+    let resF = notNull(test.a.f);//undefind
+    console.info("resA=====>",resA);
+    console.info("resB=====>",resB);
+    console.info("resC=====>",resC);
+    console.info("resD=====>",resD);
+    console.info("resE=====>",resE);
+    console.info("resF=====>",resF);
+
+    let resBB = notNull(test.b.b)//['a']
+    let resBC = notNull(test.b.c)//{c:'c'}
+    let resBE = notNull(test.b.e)//'e'
+    let resBF = notNull(test.b.f)//false
+    console.info("resBB=====>",resBB);
+    console.info("resBC=====>",resBC);
+    console.info("resBE=====>",resBE);
+    console.info("resBF=====>",resBF);
+
+    let tInt = 0;
+    let tTrue = false;
+    let tTrueStr = 'false';
+    let tString = "abc";
+    let tUndefind;
+    let tNull = null;
+    let tNullStr = 'null'
+    let tArray=[];
+    let tObject={};
+    let tFunction = function abc(){
+         console.info("wo 我是方法")
+    };
+    console.info("typeof-tInt-------->"+typeof(tInt))
+    console.info("notNull-tInt-------->"+notNull(tInt))
+    console.info("typeof-tTrue-------->"+typeof(tTrue))
+    console.info("notNull-tTrue-------->"+notNull(tTrue))
+    console.info("typeof-tTrueStr-------->"+typeof(tTrueStr))
+    console.info("notNull-tTrueStr-------->"+notNull(tTrueStr))
+    console.info("typeof-tString-------->"+typeof(tString))
+    console.info("notNull-tString-------->"+notNull(tString))
+    console.info("typeoft-tUndefind-------->"+typeof(tUndefind))
+    console.info("notNull-tUndefind-------->"+notNull(tUndefind))
+    console.info("typeof-tNull-------->"+typeof(tNull))
+    console.info("notNull-tNull-------->"+notNull(tNull))
+    console.info("typeof-tNullStr-------->"+typeof(tNullStr))
+    console.info("notNull-tNullStr-------->"+notNull(tNullStr))
+    console.info("typeof-tArray-------->"+typeof(tArray))
+    console.info("notNull-tArray-------->"+notNull(tArray))
+    console.info("instanceof-tArray-------->"+(tArray instanceof Array))
+    console.info("typeof-tObject-------->"+typeof(tObject))
+    console.info("notNull-tObject-------->"+notNull(tObject))
+    console.info("typeof-tFunction-------->"+typeof(tFunction))
+    console.info("notNull-tFunction-------->"+notNull(tFunction))
     if(abc){
         console.info(abc)
         console.info("abc,true")
