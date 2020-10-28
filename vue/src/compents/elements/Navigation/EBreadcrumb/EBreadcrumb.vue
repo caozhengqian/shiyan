@@ -35,6 +35,6 @@ export default {
 
 <style lang="less" scoped>
     .EBreadcrumb {
-
+      border:1px solid red;
     }
 </style>
