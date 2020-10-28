@@ -58,7 +58,7 @@ export default {
     return {
       startTime: '',
       endTime: '',
-        startsTime:'',
+      startsTime: '',
       startPickerOptions: { // 起始时间控制
         disabledDate(time) {
           return time.getTime() < moment(new Date()).subtract(1, 'day')

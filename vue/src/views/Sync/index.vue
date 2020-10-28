@@ -11,34 +11,34 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    import child from "./child";
-    export default {
-        components: {
-            child
-        },
-        name: 'Sync',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {
-                isShow:false
-            }
-        },
-        created() {
-
-        },
-        methods: {
-            show(){
-                this.isShow=true;
-            },
-        }
-
+// import { mapState } from "vuex";
+import child from './child'
+export default {
+  components: {
+    child
+  },
+  name: 'Sync',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {
+      isShow: false
     }
+  },
+  created() {
+
+  },
+  methods: {
+    show() {
+      this.isShow = true
+    }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

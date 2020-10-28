@@ -6,55 +6,32 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-a:'dd',
-a:'dd',
-a:'dd',
-a:'dd',
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  components: {
+    //       All,
 
+  },
+  name: 'ATable',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {}
+  },
+  created() {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        },
-        name: 'ATable',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {}
-        },
-        created() {
-
-        },
-        methods: {
-            aa() {
-            },
-        }
-
+  },
+  methods: {
+    aa() {
     }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

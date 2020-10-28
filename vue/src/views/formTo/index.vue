@@ -122,12 +122,12 @@ export default {
       }
     }
     return {
-        dynamicValidateForm: {
-            domains: [{
-                value: ''
-            }],
-            email: ''
-        },
+      dynamicValidateForm: {
+        domains: [{
+          value: ''
+        }],
+        email: ''
+      },
       ruleForm: {
         name: '',
         checkPass: '', // 密码
@@ -197,7 +197,7 @@ export default {
     submitForm(formName) {
       console.info(this.ruleForm)
       // 全部校验
-      this.$refs[formName].validate((valid,desc) => {
+      this.$refs[formName].validate((valid, desc) => {
         console.info('校验的结果=', valid)
         if (valid) {
           alert('submit!')
@@ -226,40 +226,38 @@ export default {
       this.$refs[formName].resetFields()
     },
 
-      submitForm1(formName) {
-        try {
-            this.$refs[formName].validate((valid,desc) => {
-                console.info("valid的值",valid)
-                if (valid) {
-                    alert('submit!');
-                } else {
-                    console.log('error submit!!');
-                    console.log(desc);
-                    return false;
-                }
-            });
-        }catch (e) {
-            console.info("e",e)
-        }
-
-      },
-      resetForm1(formName) {
-          this.$refs[formName].resetFields();
-      },
-      removeDomain(item) {
-          var index = this.dynamicValidateForm.domains.indexOf(item)
-          if (index !== -1) {
-              this.dynamicValidateForm.domains.splice(index, 1)
+    submitForm1(formName) {
+      try {
+        this.$refs[formName].validate((valid, desc) => {
+          console.info('valid的值', valid)
+          if (valid) {
+            alert('submit!')
+          } else {
+            console.log('error submit!!')
+            console.log(desc)
+            return false
           }
-      },
-      addDomain() {
-          this.dynamicValidateForm.domains.push({
-              value: '',
-              key: Date.now()
-          });
-          console.info(JSON.stringify(this.dynamicValidateForm.domains) )
+        })
+      } catch (e) {
+        console.info('e', e)
       }
-
+    },
+    resetForm1(formName) {
+      this.$refs[formName].resetFields()
+    },
+    removeDomain(item) {
+      var index = this.dynamicValidateForm.domains.indexOf(item)
+      if (index !== -1) {
+        this.dynamicValidateForm.domains.splice(index, 1)
+      }
+    },
+    addDomain() {
+      this.dynamicValidateForm.domains.push({
+        value: '',
+        key: Date.now()
+      })
+      console.info(JSON.stringify(this.dynamicValidateForm.domains))
+    }
 
   }
 

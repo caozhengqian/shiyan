@@ -6,29 +6,29 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'TextDocument',
-        props: ['title','update:title'],
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {}
-        },
-        created() {
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  components: {
+    //       All,
+  },
+  name: 'TextDocument',
+  props: ['title', 'update:title'],
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {}
+  },
+  created() {
 
-        },
-        methods: {
-            aa() {
-            },
-        }
-
+  },
+  methods: {
+    aa() {
     }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

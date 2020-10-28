@@ -12,35 +12,35 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'One',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {
-                input:"",
-                radio: '1',
-                checkList: ['复选框 A']
-            }
-        },
-        created() {
-
-        },
-        methods: {
-            aa() {
-            },
-        }
-
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  components: {
+    //       All,
+  },
+  name: 'One',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {
+      input: '',
+      radio: '1',
+      checkList: ['复选框 A']
     }
+  },
+  created() {
+
+  },
+  methods: {
+    aa() {
+    }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

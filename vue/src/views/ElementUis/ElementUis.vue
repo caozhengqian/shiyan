@@ -160,158 +160,157 @@
 </template>
 
 <script>
-    //data
-    import Epagination from "../../compents/elements/data/Epagination/Epagination"
-    import Eprogress from "../../compents/elements/data/Eprogress/Eprogress"
-    import Etag from "../../compents/elements/data/Etag/Etag"
-    import Etree from "../../compents/elements/data/Etree/Etree"
-    import Eavatar from "../../compents/elements/data/Eavatar/Eavatar"
-    import Ebadge from "../../compents/elements/data/Ebadge/Ebadge"
-    import Etable from "../../compents/elements/data/Etable/Etable"
+// data
+import Epagination from '../../compents/elements/data/Epagination/Epagination'
+import Eprogress from '../../compents/elements/data/Eprogress/Eprogress'
+import Etag from '../../compents/elements/data/Etag/Etag'
+import Etree from '../../compents/elements/data/Etree/Etree'
+import Eavatar from '../../compents/elements/data/Eavatar/Eavatar'
+import Ebadge from '../../compents/elements/data/Ebadge/Ebadge'
+import Etable from '../../compents/elements/data/Etable/Etable'
 
-    //from
-    import Ecascader from "../../compents/elements/from/Ecascader/Ecascader"
-    import Echeckbox from "../../compents/elements/from/Echeckbox/Echeckbox"
-    import EcolorPicker from "../../compents/elements/from/EcolorPicker/EcolorPicker"
-    import EdatePicker from "../../compents/elements/from/EdatePicker/EdatePicker"
-    import EdateTimePicker from "../../compents/elements/from/EdateTimePicker/EdateTimePicker"
-    import Efrom from "../../compents/elements/from/Efrom/Efrom"
-    import Einput from "../../compents/elements/from/Einput/Einput"
-    import EinputNumber from "../../compents/elements/from/EinputNumber/EinputNumber"
-    import Eradio from "../../compents/elements/from/Eradio/Eradio"
-    import Erate from "../../compents/elements/from/Erate/Erate"
-    import Eselect from "../../compents/elements/from/Eselect/Eselect"
-    import Eslider from "../../compents/elements/from/Eslider/Eslider"
-    import Eswitch from "../../compents/elements/from/Eswitch/Eswitch"
-    import EtimePicker from "../../compents/elements/from/EtimePicker/EtimePicker"
-    import Etransfer from "../../compents/elements/from/Etransfer/Etransfer"
-    import Eupload from "../../compents/elements/from/Eupload/Eupload"
+// from
+import Ecascader from '../../compents/elements/from/Ecascader/Ecascader'
+import Echeckbox from '../../compents/elements/from/Echeckbox/Echeckbox'
+import EcolorPicker from '../../compents/elements/from/EcolorPicker/EcolorPicker'
+import EdatePicker from '../../compents/elements/from/EdatePicker/EdatePicker'
+import EdateTimePicker from '../../compents/elements/from/EdateTimePicker/EdateTimePicker'
+import Efrom from '../../compents/elements/from/Efrom/Efrom'
+import Einput from '../../compents/elements/from/Einput/Einput'
+import EinputNumber from '../../compents/elements/from/EinputNumber/EinputNumber'
+import Eradio from '../../compents/elements/from/Eradio/Eradio'
+import Erate from '../../compents/elements/from/Erate/Erate'
+import Eselect from '../../compents/elements/from/Eselect/Eselect'
+import Eslider from '../../compents/elements/from/Eslider/Eslider'
+import Eswitch from '../../compents/elements/from/Eswitch/Eswitch'
+import EtimePicker from '../../compents/elements/from/EtimePicker/EtimePicker'
+import Etransfer from '../../compents/elements/from/Etransfer/Etransfer'
+import Eupload from '../../compents/elements/from/Eupload/Eupload'
 
-    //basic
-    import EBorder from "../../compents/elements/Basic/EBorder/EBorder"
-    import EButton from "../../compents/elements/Basic/EButton/EButton"
-    import EColor from "../../compents/elements/Basic/EColor/EColor"
-    import EContainer from "../../compents/elements/Basic/EContainer/EContainer"
-    import EIcon from "../../compents/elements/Basic/EIcon/EIcon"
-    import ELayout from "../../compents/elements/Basic/ELayout/ELayout"
-    import ELink from "../../compents/elements/Basic/ELink/ELink"
-    import ETypography from "../../compents/elements/Basic/ETypography/ETypography"
+// basic
+import EBorder from '../../compents/elements/Basic/EBorder/EBorder'
+import EButton from '../../compents/elements/Basic/EButton/EButton'
+import EColor from '../../compents/elements/Basic/EColor/EColor'
+import EContainer from '../../compents/elements/Basic/EContainer/EContainer'
+import EIcon from '../../compents/elements/Basic/EIcon/EIcon'
+import ELayout from '../../compents/elements/Basic/ELayout/ELayout'
+import ELink from '../../compents/elements/Basic/ELink/ELink'
+import ETypography from '../../compents/elements/Basic/ETypography/ETypography'
 
-    //Navigation
-    import EBreadcrumb from "../../compents/elements/Navigation/EBreadcrumb/EBreadcrumb"
-    import EDropdown from "../../compents/elements/Navigation/EDropdown/EDropdown"
-    import ENavMenu from "../../compents/elements/Navigation/ENavMenu/ENavMenu"
-    import EPageHeader from "../../compents/elements/Navigation/EPageHeader/EPageHeader"
-    import ESteps from "../../compents/elements/Navigation/ESteps/ESteps"
-    import ETabs from "../../compents/elements/Navigation/ETabs/ETabs"
+// Navigation
+import EBreadcrumb from '../../compents/elements/Navigation/EBreadcrumb/EBreadcrumb'
+import EDropdown from '../../compents/elements/Navigation/EDropdown/EDropdown'
+import ENavMenu from '../../compents/elements/Navigation/ENavMenu/ENavMenu'
+import EPageHeader from '../../compents/elements/Navigation/EPageHeader/EPageHeader'
+import ESteps from '../../compents/elements/Navigation/ESteps/ESteps'
+import ETabs from '../../compents/elements/Navigation/ETabs/ETabs'
 
-    //notice
-    import Ealert from "../../compents/elements/notice/Ealert/Ealert"
-    import Eloading from "../../compents/elements/notice/Eloading/Eloading"
-    import Emessage from "../../compents/elements/notice/Emessage/Emessage"
-    import EmessageBox from "../../compents/elements/notice/EmessageBox/EmessageBox"
-    import ENotification from "../../compents/elements/notice/ENotification/ENotification"
+// notice
+import Ealert from '../../compents/elements/notice/Ealert/Ealert'
+import Eloading from '../../compents/elements/notice/Eloading/Eloading'
+import Emessage from '../../compents/elements/notice/Emessage/Emessage'
+import EmessageBox from '../../compents/elements/notice/EmessageBox/EmessageBox'
+import ENotification from '../../compents/elements/notice/ENotification/ENotification'
 
-    //Others
-    import EBacktop from "../../compents/elements/Others/EBacktop/EBacktop"
-    import ECalendar from "../../compents/elements/Others/ECalendar/ECalendar"
-    import ECard from "../../compents/elements/Others/ECard/ECard"
-    import ECarousel from "../../compents/elements/Others/ECarousel/ECarousel"
-    import ECollapse from "../../compents/elements/Others/ECollapse/ECollapse"
-    import EDialog from "../../compents/elements/Others/EDialog/EDialog"
-    import EDivider from "../../compents/elements/Others/EDivider/EDivider"
-    import EDrawer from "../../compents/elements/Others/EDrawer/EDrawer"
-    import EImage from "../../compents/elements/Others/EImage/EImage"
-    import EInfiniteScroll from "../../compents/elements/Others/EInfiniteScroll/EInfiniteScroll"
-    import EPopconfirm from "../../compents/elements/Others/EPopconfirm/EPopconfirm"
-    import EPopover from "../../compents/elements/Others/EPopover/EPopover"
-    import ETimeline from "../../compents/elements/Others/ETimeline/ETimeline"
-    import ETooltip from "../../compents/elements/Others/ETooltip/ETooltip"
+// Others
+import EBacktop from '../../compents/elements/Others/EBacktop/EBacktop'
+import ECalendar from '../../compents/elements/Others/ECalendar/ECalendar'
+import ECard from '../../compents/elements/Others/ECard/ECard'
+import ECarousel from '../../compents/elements/Others/ECarousel/ECarousel'
+import ECollapse from '../../compents/elements/Others/ECollapse/ECollapse'
+import EDialog from '../../compents/elements/Others/EDialog/EDialog'
+import EDivider from '../../compents/elements/Others/EDivider/EDivider'
+import EDrawer from '../../compents/elements/Others/EDrawer/EDrawer'
+import EImage from '../../compents/elements/Others/EImage/EImage'
+import EInfiniteScroll from '../../compents/elements/Others/EInfiniteScroll/EInfiniteScroll'
+import EPopconfirm from '../../compents/elements/Others/EPopconfirm/EPopconfirm'
+import EPopover from '../../compents/elements/Others/EPopover/EPopover'
+import ETimeline from '../../compents/elements/Others/ETimeline/ETimeline'
+import ETooltip from '../../compents/elements/Others/ETooltip/ETooltip'
 
+export default {
+  components: {
+    Eloading,
+    ETooltip,
+    EBacktop,
+    ECalendar,
+    ECard,
+    ECarousel,
+    ECollapse,
+    EDialog,
+    EInfiniteScroll,
+    EDivider,
+    EDrawer,
+    EImage,
+    EPopconfirm,
+    EPopover,
+    ETimeline,
+    EBreadcrumb,
+    EDropdown,
+    ENavMenu,
+    EPageHeader,
+    ESteps,
+    ETabs,
+    Ealert,
+    Emessage,
+    EmessageBox,
+    ENotification,
+    EBorder,
+    EButton,
+    EColor,
+    EContainer,
+    EIcon,
+    ELayout,
+    ELink,
+    ETypography,
 
-    export default {
-        components: {
-            Eloading,
-            ETooltip,
-            EBacktop,
-            ECalendar,
-            ECard,
-            ECarousel,
-            ECollapse,
-            EDialog,
-            EInfiniteScroll,
-            EDivider,
-            EDrawer,
-            EImage,
-            EPopconfirm,
-            EPopover,
-            ETimeline,
-            EBreadcrumb,
-            EDropdown,
-            ENavMenu,
-            EPageHeader,
-            ESteps,
-            ETabs,
-            Ealert,
-            Emessage,
-            EmessageBox,
-            ENotification,
-            EBorder,
-            EButton,
-            EColor,
-            EContainer,
-            EIcon,
-            ELayout,
-            ELink,
-            ETypography,
+    Eavatar,
+    Ebadge,
+    Etable,
+    Etree,
+    Etag,
+    Epagination,
+    Eprogress,
 
-            Eavatar,
-            Ebadge,
-            Etable,
-            Etree,
-            Etag,
-            Epagination,
-            Eprogress,
-
-            Ecascader,
-            Echeckbox,
-            EcolorPicker,
-            EdatePicker,
-            EdateTimePicker,
-            Efrom,
-            Einput,
-            EinputNumber,
-            Eradio,
-            Erate,
-            Eselect,
-            Eslider,
-            Eswitch,
-            EtimePicker,
-            Etransfer,
-            Eupload,
-        },
-        name: 'ElementUis',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {
-                index:0,
-            }
-        },
-        created() {
-
-        },
-        methods: {
-            _click(index) {
-                this.index = index;
-            },
-        }
-
+    Ecascader,
+    Echeckbox,
+    EcolorPicker,
+    EdatePicker,
+    EdateTimePicker,
+    Efrom,
+    Einput,
+    EinputNumber,
+    Eradio,
+    Erate,
+    Eselect,
+    Eslider,
+    Eswitch,
+    EtimePicker,
+    Etransfer,
+    Eupload
+  },
+  name: 'ElementUis',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {
+      index: 0
     }
+  },
+  created() {
+
+  },
+  methods: {
+    _click(index) {
+      this.index = index
+    }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

@@ -45,68 +45,68 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'TableSelect',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {
-                tableData: [{
-                    date: '2016-05-02',
-                    name: '王小虎',
-                    address: '上海市普陀区金沙江路 1518 弄',
-                    tag: '家'
-                }, {
-                    date: '2016-05-04',
-                    name: '王小虎',
-                    address: '上海市普陀区金沙江路 1517 弄',
-                    tag: '公司'
-                }, {
-                    date: '2016-05-01',
-                    name: '王小虎',
-                    address: '上海市普陀区金沙江路 1519 弄',
-                    tag: '家'
-                }, {
-                    date: '2016-05-03',
-                    name: '王小虎',
-                    address: '上海市普陀区金沙江路 1516 弄',
-                    tag: '公司'
-                }]
-            }
-        },
-        created() {
-
-        },
-        methods: {
-            resetDateFilter() {
-                this.$refs.filterTable.clearFilter('date');
-            },
-            clearFilter() {
-                this.$refs.filterTable.clearFilter();
-            },
-            formatter(row, column) {
-                return row.address;
-            },
-            filterTag(value, row) {
-                console.info(value,row)
-                return row.tag === value;
-            },
-            filterHandler(value, row, column) {
-                const property = column['property'];
-                return row[property] === value;
-            }
-        }
-
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  components: {
+    //       All,
+  },
+  name: 'TableSelect',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {
+      tableData: [{
+        date: '2016-05-02',
+        name: '王小虎',
+        address: '上海市普陀区金沙江路 1518 弄',
+        tag: '家'
+      }, {
+        date: '2016-05-04',
+        name: '王小虎',
+        address: '上海市普陀区金沙江路 1517 弄',
+        tag: '公司'
+      }, {
+        date: '2016-05-01',
+        name: '王小虎',
+        address: '上海市普陀区金沙江路 1519 弄',
+        tag: '家'
+      }, {
+        date: '2016-05-03',
+        name: '王小虎',
+        address: '上海市普陀区金沙江路 1516 弄',
+        tag: '公司'
+      }]
     }
+  },
+  created() {
+
+  },
+  methods: {
+    resetDateFilter() {
+      this.$refs.filterTable.clearFilter('date')
+    },
+    clearFilter() {
+      this.$refs.filterTable.clearFilter()
+    },
+    formatter(row, column) {
+      return row.address
+    },
+    filterTag(value, row) {
+      console.info(value, row)
+      return row.tag === value
+    },
+    filterHandler(value, row, column) {
+      const property = column['property']
+      return row[property] === value
+    }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

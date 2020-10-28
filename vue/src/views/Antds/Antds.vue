@@ -15,36 +15,36 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    import ATable from "../../compents/antd/DataDisplay/ATable/ATable"
-    import APagination from "../../compents/antd/Navigation/APagination/APagination"
-    export default {
-        components: {
-            ATable,
-            APagination
-        },
-        name: 'Antds',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {
-                index:0,
-            }
-        },
-        created() {
-
-        },
-        methods: {
-            _click(index) {
-                this.index = index;
-            },
-        }
-
+// import { mapState } from "vuex";
+import ATable from '../../compents/antd/DataDisplay/ATable/ATable'
+import APagination from '../../compents/antd/Navigation/APagination/APagination'
+export default {
+  components: {
+    ATable,
+    APagination
+  },
+  name: 'Antds',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {
+      index: 0
     }
+  },
+  created() {
+
+  },
+  methods: {
+    _click(index) {
+      this.index = index
+    }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

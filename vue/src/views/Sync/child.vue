@@ -9,32 +9,32 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    //import All from "./comLife/All";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'child',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {}
-        },
-        created() {
+// import { mapState } from "vuex";
+// import All from "./comLife/All";
+export default {
+  components: {
+    //       All,
+  },
+  name: 'child',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {}
+  },
+  created() {
 
-        },
-        methods: {
-            upIsShow(){
-                this.$emit("update:isShow",false);
-            }
-        }
-
+  },
+  methods: {
+    upIsShow() {
+      this.$emit('update:isShow', false)
     }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

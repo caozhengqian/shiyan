@@ -47,43 +47,43 @@
 </template>
 
 <script>
-    //import { mapState } from "vuex";
-    import {getTableData} from "../../../../api/table/table";
-    export default {
-        components: {
-            //       All,
-        },
-        name: 'Etable',
-        props: {
-            //  msg: String
-        },
-        computed: {
-            // ...mapState(["activityData"])
-        },
-        data() {
-            return {
-                tableData:null//请求返回的结果
-            }
-        },
-        created() {
-            getTableData("请求").then((res)=>{
-                this.tableData = res.data
-            });
-        },
-        
-        methods: {
-            tableRowClassName({row, rowIndex}) {
-                debugger;
-                if (rowIndex === 1) {
-                    return 'warning-row';
-                } else if (rowIndex === 3) {
-                    return 'success-row';
-                }
-                return '';
-            }
-        }
-
+// import { mapState } from "vuex";
+import { getTableData } from '../../../../api/table/table'
+export default {
+  components: {
+    //       All,
+  },
+  name: 'Etable',
+  props: {
+    //  msg: String
+  },
+  computed: {
+    // ...mapState(["activityData"])
+  },
+  data() {
+    return {
+      tableData: null// 请求返回的结果
     }
+  },
+  created() {
+    getTableData('请求').then((res) => {
+      this.tableData = res.data
+    })
+  },
+
+  methods: {
+    tableRowClassName({ row, rowIndex }) {
+      debugger
+      if (rowIndex === 1) {
+        return 'warning-row'
+      } else if (rowIndex === 3) {
+        return 'success-row'
+      }
+      return ''
+    }
+  }
+
+}
 </script>
 
 <style lang="less" scoped>

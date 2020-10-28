@@ -30,7 +30,7 @@ const getters = {
 // actions
 const actions = {
 
-  checkout ({ commit, state }, products) {
+  checkout({ commit, state }, products) {
     const savedCartItems = [...state.items]
     commit('setCheckoutStatus', null)
     // empty cart
@@ -46,7 +46,7 @@ const actions = {
     )
   },
 
-  addProductToCart ({ state, commit }, product) {
+  addProductToCart({ state, commit }, product) {
     commit('setCheckoutStatus', null)
     if (product.inventory > 0) {
       const cartItem = state.items.find(item => item.id === product.id)
@@ -63,23 +63,23 @@ const actions = {
 
 // mutations
 const mutations = {
-  pushProductToCart (state, { id }) {
+  pushProductToCart(state, { id }) {
     state.items.push({
       id,
       quantity: 1
     })
   },
 
-  incrementItemQuantity (state, { id }) {
+  incrementItemQuantity(state, { id }) {
     const cartItem = state.items.find(item => item.id === id)
     cartItem.quantity++
   },
 
-  setCartItems (state, { items }) {
+  setCartItems(state, { items }) {
     state.items = items
   },
 
-  setCheckoutStatus (state, status) {
+  setCheckoutStatus(state, status) {
     state.checkoutStatus = status
   }
 }

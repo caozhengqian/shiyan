@@ -27,68 +27,68 @@
 </template>
 
 <script>
-import { mapState,mapActions } from "vuex";
-import One from "./One";
-import Two from "./Two";
+import { mapState, mapActions } from 'vuex'
+import One from './One'
+import Two from './Two'
 export default {
   name: 'VuexTo',
   components: {
-      One,
-      Two
+    One,
+    Two
   },
   props: {
     //  msg: String
   },
   data() {
     return {
-        inId:  10
+      inId: 10
     }
   },
   computed: {
     ...mapState({
-        products: store => store.products.products,
-        products0(store) {
-             return store.products.products.length > 0 && store.products.products[0].id + this.inId;
-        },
-        twoAdd: store=>store.products.twoAdd,
-        threeAdd: store=>store.products.threeAdd,
-        bigObj:store=>store.products.bigObj,
-        small:store=>store.products.small,
+      products: store => store.products.products,
+      products0(store) {
+        return store.products.products.length > 0 && store.products.products[0].id + this.inId
+      },
+      twoAdd: store => store.products.twoAdd,
+      threeAdd: store => store.products.threeAdd,
+      bigObj: store => store.products.bigObj,
+      small: store => store.products.small
 
-    }),
+    })
   },
-    async created() {
-        await this._getProducts();
-        console.info("created=>",this.products[0].obj.a.aa);
+  async created() {
+    await this._getProducts()
+    console.info('created=>', this.products[0].obj.a.aa)
   },
   methods: {
-      ...mapActions(["getNewProducts","twoAdd1","twoAdd2","twoAdd3","twoAdd6","_bigObj","_small"]),
-      async _getProducts() {
-          await this.getNewProducts("请求的字符串");
-          console.info("click=>",this.products);
+    ...mapActions(['getNewProducts', 'twoAdd1', 'twoAdd2', 'twoAdd3', 'twoAdd6', '_bigObj', '_small']),
+    async _getProducts() {
+      await this.getNewProducts('请求的字符串')
+      console.info('click=>', this.products)
     },
-      _addTwo(){
-          this.twoAdd2();
-      },
+    _addTwo() {
+      this.twoAdd2()
+    },
 
-      //  _addThree(){ //瞬间变成9
-      //      this.twoAdd3();
-      //      this.twoAdd6();
-      // },
-      async _addThree(){//先是3，再变9
-          await this.twoAdd3();
-          await this.twoAdd6();
-      },
-      _changeBigObj(){
-          let bigObj = this.bigObj;
-          console.info(bigObj);
-          bigObj.b.bbK.bbbK1.bbbbK = "abc";
-          this._bigObj(Object.assign({},bigObj))
-          // this._bigObj(bigObj)
-      },
-      _changeSmall(){
-          this._small(this.small+"b")
-      },
+    //  _addThree(){ //瞬间变成9
+    //      this.twoAdd3();
+    //      this.twoAdd6();
+    // },
+    async _addThree() { // 先是3，再变9
+      await this.twoAdd3()
+      await this.twoAdd6()
+    },
+    _changeBigObj() {
+      let bigObj = this.bigObj
+      console.info(bigObj)
+      bigObj.b.bbK.bbbK1.bbbbK = 'abc'
+      this._bigObj(Object.assign({}, bigObj))
+      // this._bigObj(bigObj)
+    },
+    _changeSmall() {
+      this._small(this.small + 'b')
+    }
   }
 
 }
