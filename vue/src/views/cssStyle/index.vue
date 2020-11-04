@@ -39,7 +39,7 @@
       <p>div :class="[isTrue ?activeClass:'none', errorClass]</p>
     </div>
     <p>-------------------------------------------------------------</p>
-    <div :style="{ color: activeColor, fontSize: fontSize + 'px' }">
+    <div :style="{ color: activeColor, fontSize: fontSize + 'px' ,float:'right'}">
       绑定内联样式
       <p>:style="{ color: activeColor, fontSize: fontSize + 'px' }"</p>
     </div>

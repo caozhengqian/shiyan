@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="test git">
+    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="add connectObj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/comLife/All/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/comLife/All/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/dan-ye-mian/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/dan-ye-mian/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/cssStyle/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/cssStyle/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,14 +264,12 @@
       <workItem from="1604299453168" duration="4061000" />
       <workItem from="1604306808158" duration="3056000" />
       <workItem from="1604366331273" duration="5275000" />
-      <workItem from="1604387512476" duration="10000" />
-    </task>
-    <task id="LOCAL-00094" summary="react conf 2018 介绍reacthooks基本提取方法">
-      <created>1597169792117</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1597169792118</updated>
+      <workItem from="1604387512476" duration="155000" />
+      <workItem from="1604387850079" duration="684000" />
+      <workItem from="1604391666284" duration="1832000" />
+      <workItem from="1604398043694" duration="5351000" />
+      <workItem from="1604469510481" duration="37000" />
+      <workItem from="1604472241878" duration="157000" />
     </task>
     <task id="LOCAL-00095" summary="加注释">
       <created>1597173389512</created>
@@ -611,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603712321004</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="add connectObj">
+      <created>1604387549986</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1604387549987</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add for循环和if判断" />
     <MESSAGE value="add 表单绑定" />
     <MESSAGE value="add" />
     <MESSAGE value="add 新增路由（element的时间、table）" />
@@ -653,13 +655,26 @@
     <MESSAGE value="test vscode的解决冲突" />
     <MESSAGE value="test git你大爷12" />
     <MESSAGE value="test git" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git" />
+    <MESSAGE value="add connectObj" />
+    <option name="LAST_COMMIT_MESSAGE" value="add connectObj" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="398" y="0" key="CommitChangelistDialog2" timestamp="1604387546795">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="398" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604387546795" />
+    <state x="152" y="67" width="1280" height="716" key="DiffContextDialog" timestamp="1604387667438">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="152" y="67" width="1280" height="716" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1604387667438" />
     <state x="632" y="131" key="RollbackChangesDialog" timestamp="1604304132568">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="632" y="131" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1604304132568" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1604387635899">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604387635899" />
     <state x="593" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604301912446">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
