@@ -69,6 +69,9 @@
       <p>
           <span class="point" @click="redirectPage(23)">23、antd-design</span>
       </p>
+      <p>
+          <span class="point" @click="redirectPage(24)">24、v-slot</span>
+      </p>
   </div>
 </template>
 
@@ -151,6 +154,9 @@ export default {
           break
         case 23:
           this.$router.push({ path: 'antds' })
+          break
+        case 24:
+          this.$router.push({ path: 'vSlot' })
           break
         default:
           break

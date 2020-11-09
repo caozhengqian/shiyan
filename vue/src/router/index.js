@@ -120,6 +120,11 @@ const constantRoutes = [
     name: 'antds',
     path: '/antds',
     component: () => import('../views/Antds/Antds')
+  },
+  {
+    name: 'vSlot',
+    path: '/vSlot',
+    component: () => import('../views/VSlot/VSlot')
   }
 ]
 const createRouter = () => new Router({
