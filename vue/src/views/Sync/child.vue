@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     upIsShow() {
-      this.$emit('update:isShow', false)
+      this.$emit('update:isShowss', false)
     }
   }
 

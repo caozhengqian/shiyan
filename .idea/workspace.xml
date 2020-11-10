@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="add connectObj">
+    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="add style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/cssStyle/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/cssStyle/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Sync/TextDocument.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Sync/child.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Sync/child.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Sync/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Sync/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,21 +271,20 @@
       <workItem from="1604391666284" duration="1832000" />
       <workItem from="1604398043694" duration="5351000" />
       <workItem from="1604469510481" duration="37000" />
-      <workItem from="1604472241878" duration="157000" />
-    </task>
-    <task id="LOCAL-00095" summary="加注释">
-      <created>1597173389512</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1597173389512</updated>
-    </task>
-    <task id="LOCAL-00096" summary="加注释">
-      <created>1597228992442</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1597228992443</updated>
+      <workItem from="1604472241878" duration="1516000" />
+      <workItem from="1604491529831" duration="654000" />
+      <workItem from="1604496898178" duration="595000" />
+      <workItem from="1604500505654" duration="595000" />
+      <workItem from="1604533462062" duration="605000" />
+      <workItem from="1604623551923" duration="2099000" />
+      <workItem from="1604631697481" duration="597000" />
+      <workItem from="1604643784506" duration="1028000" />
+      <workItem from="1604734484883" duration="702000" />
+      <workItem from="1604739976123" duration="591000" />
+      <workItem from="1604880305171" duration="317000" />
+      <workItem from="1604913365410" duration="730000" />
+      <workItem from="1604923506221" duration="9000" />
+      <workItem from="1604972449399" duration="2166000" />
     </task>
     <task id="LOCAL-00097" summary="加注释">
       <created>1597477137994</created>
@@ -614,7 +615,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604387549987</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="add style">
+      <created>1604472416465</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1604472416465</updated>
+    </task>
+    <task id="LOCAL-00145" summary="add 添加vslot">
+      <created>1604880585195</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1604880585195</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,8 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 表单绑定" />
-    <MESSAGE value="add" />
     <MESSAGE value="add 新增路由（element的时间、table）" />
     <MESSAGE value="add date-pick日期框的使用。" />
     <MESSAGE value="add watch改变data值" />
@@ -656,33 +669,35 @@
     <MESSAGE value="test git你大爷12" />
     <MESSAGE value="test git" />
     <MESSAGE value="add connectObj" />
-    <option name="LAST_COMMIT_MESSAGE" value="add connectObj" />
+    <MESSAGE value="add style" />
+    <MESSAGE value="add 添加vslot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 添加vslot" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="0" key="CommitChangelistDialog2" timestamp="1604387546795">
+    <state x="398" y="0" key="CommitChangelistDialog2" timestamp="1604880581804">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="398" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604387546795" />
-    <state x="152" y="67" width="1280" height="716" key="DiffContextDialog" timestamp="1604387667438">
+    <state x="398" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604880581804" />
+    <state x="152" y="67" width="1280" height="716" key="DiffContextDialog" timestamp="1604880511007">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="152" y="67" width="1280" height="716" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1604387667438" />
-    <state x="632" y="131" key="RollbackChangesDialog" timestamp="1604304132568">
+    <state x="152" y="67" width="1280" height="716" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1604880511007" />
+    <state x="632" y="131" key="RollbackChangesDialog" timestamp="1604880516638">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="632" y="131" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1604304132568" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1604387635899">
+    <state x="632" y="131" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1604880516638" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1604880588125">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604387635899" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604880588125" />
     <state x="593" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604301912446">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="593" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1604301912446" />
-    <state x="502" y="164" width="596" height="532" key="find.popup" timestamp="1604367245121">
+    <state x="502" y="164" width="596" height="532" key="find.popup" timestamp="1604734562876">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="502" y="164" width="596" height="532" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1604367245121" />
+    <state x="502" y="164" width="596" height="532" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1604734562876" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />

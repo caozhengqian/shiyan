@@ -4,7 +4,7 @@
             <input type="button"
                    value="我是父组件中的按钮"
                    @click="show">
-            <child :isShow.sync="isShow" v-show="isShow"/>
+            <child :isShowss.sync="isShow" v-show="isShow"/>
         </div>
     </div>
 
