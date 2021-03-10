@@ -1,6 +1,7 @@
 <template>
 
   <div class="EventTo">
+    <el-button @click="_clicks">测试海波接口跨域</el-button>
     <p>@click="_click(<span class="red">data</span>, <span class="red">event</span>")</p>
     <button @click="_click(data, $event)">参数+e(BUTTON)</button>
     <el-button @click="_click(data, $event)">参数+e(文本处为SPAN)</el-button>
@@ -51,6 +52,7 @@
 <script>
 // import { mapState } from "vuex";
 // import All from "./comLife/All";
+import axios from 'axios'
 export default {
   name: 'EventTo',
   components: {
@@ -71,6 +73,19 @@ export default {
 
   },
   methods: {
+    _clicks() {
+      let params = { 'payWay': 'NOT_MONTH_END', 'linkManName': '廖健忠', 'linkManPhone': '0769-22119478', 'linkManMobile': '13712342484', 'resultDate': '', 'contractBeginDate': '', 'contractendDate': '', 'application': '', 'deptId': '49311', 'custId': null, 'custNumber': '000001', 'custType': 'PERSONAL', 'taxregNum': null, 'idCard': '44190019780820203', 'contractSubject': '', 'custCompany': '', 'debtDays': '', 'ifForeignGoods': 0, 'ifElectContract': 0, 'copeUnification': false, 'signCompany': '', 'invoiceType': 'INVOICE_TYPE_02', 'bothPayWay': 'NOT_MONTH_END', 'exPayWay': 'NOT_MONTH_END', 'volumePotential': '3000-5000' }
+      // axiosinsertContractForAgileClues(params).then((res) => {
+      //   console.info('xx', '------------>', res)
+      // })
+      axios({
+        method: 'post', url: 'http://10.230.103.73:8280/crm-customer-sync/contracts/insertContractForAgileClues',
+        data: params,
+        timeout: 1000
+      }).then(res => {
+        console.info('海波的跨域接口', '------------>')
+      })
+    },
     // 键盘事件
     _enter(data, e) {
       console.info('键盘enter触发-》' + data + '-》' + e.target.tagName)
