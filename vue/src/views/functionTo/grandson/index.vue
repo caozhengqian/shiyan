@@ -4,7 +4,6 @@
       Grandson
     </p>
     <p style="cursor: pointer" @click="_grandson">孙组件<span style="color:red">this.$parent.$parent</span>调用父组件的方法</p>
-    <p style="cursor: pointer" @click="_grandson1">孙组件<span style="color:red">this.$parent.$parent</span>调用父组件的方法</p>
   </div>
 
 </template>
@@ -34,7 +33,8 @@ export default {
       this.sonFun('孙组件调用了父组件')
     },
     _grandson1() {
-      this.fatherFun('孙子能掉了')
+      // this.fatherFun('孙子能掉了')
+      // this.$parent._father('使用$parent')
     }
   }
 

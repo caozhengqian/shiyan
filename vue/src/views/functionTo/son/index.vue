@@ -8,7 +8,7 @@
     <p style="cursor: pointer" @click="_son1">使用<span style="color:red">:xx 和props</span>调用父组件方法</p>
     <p style="cursor: pointer" @click="_son2">使用<span style="color:red">@xx和$emit</span>调用父组件方法</p>
     <p style="cursor: pointer" @click="_son3">使用<span style="color:red">this.$listeners</span>调用父组件方法，孙组件无法获取</p>
-    <Grandson :sonFun="father" />
+    <Grandson :sonFun="father" :fatherFun="fatherFun"/>
   </div>
 </template>
 
@@ -45,6 +45,9 @@ export default {
     },
     _son3() {
       this.$listeners.father('使用$listeners调用父组件方法')
+    },
+    fatherFun() {
+      this.$parent._father('孙组件调用父组件方法')
     }
   }
 

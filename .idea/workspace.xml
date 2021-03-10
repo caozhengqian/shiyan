@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="add elemtTree">
+    <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="fix 孙组件掉用父组件的方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/eventTo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/eventTo/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/grandson/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/grandson/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,14 +330,7 @@
       <workItem from="1611650779036" duration="1278000" />
       <workItem from="1611707493854" duration="1360000" />
       <workItem from="1611730211642" duration="7000" />
-      <workItem from="1615343220782" duration="1417000" />
-    </task>
-    <task id="LOCAL-00101" summary="加注释">
-      <created>1597843197613</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1597843197615</updated>
+      <workItem from="1615343220782" duration="4499000" />
     </task>
     <task id="LOCAL-00102" summary="加注释">
       <created>1597968484571</created>
@@ -677,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606041141913</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="fix 孙组件掉用父组件的方法">
+      <created>1615344666560</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1615344666560</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,7 +692,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 基本能搞定文本和单选。" />
     <MESSAGE value="fix 精简代码，准备述职" />
     <MESSAGE value="add action异步处理，解决&amp;&amp;" />
     <MESSAGE value="add click(e)，如何绑定的" />
@@ -719,7 +716,8 @@
     <MESSAGE value="add 删除偶数的方法" />
     <MESSAGE value="add elemtTree" />
     <MESSAGE value="add vue2.6组件生命周期问题。" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vue2.6组件生命周期问题。" />
+    <MESSAGE value="fix 孙组件掉用父组件的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 孙组件掉用父组件的方法" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
