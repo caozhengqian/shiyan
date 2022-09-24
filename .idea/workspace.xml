@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fcee568-48ca-4595-8cb1-7715b4fe13e3" name="Default" comment="fix 孙组件掉用父组件的方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/grandson/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/grandson/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/functionTo/son/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/compents/elements/Navigation/ETabs/ETabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/compents/elements/Navigation/ETabs/ETabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +40,8 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/vue/src/views/first/index.vue" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/react-compent/src/App.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vue/src/views/first/index.vue" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1jYCdTXFrVCSFLeOl99iFs6Q0XW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,10 +58,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\workSpace\shiyan\vue\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="D:\workSpace\shiyan\vue\node_modules\eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -331,6 +333,8 @@
       <workItem from="1611707493854" duration="1360000" />
       <workItem from="1611730211642" duration="7000" />
       <workItem from="1615343220782" duration="4499000" />
+      <workItem from="1648376644811" duration="1026000" />
+      <workItem from="1663984086779" duration="8186000" />
     </task>
     <task id="LOCAL-00102" summary="加注释">
       <created>1597968484571</created>
@@ -718,6 +722,20 @@
     <MESSAGE value="add vue2.6组件生命周期问题。" />
     <MESSAGE value="fix 孙组件掉用父组件的方法" />
     <option name="LAST_COMMIT_MESSAGE" value="fix 孙组件掉用父组件的方法" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="131" key="RollbackChangesDialog" timestamp="1664002366576">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="651" y="131" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1664002366576" />
+    <state x="502" y="162" width="596" height="536" key="find.popup" timestamp="1664002495976">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="502" y="162" width="596" height="536" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1664002495976" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1664004527142">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1664004527142" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
