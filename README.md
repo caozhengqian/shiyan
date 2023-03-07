@@ -17,7 +17,7 @@
  - 条件判断
  -
  - computed与watch与$watch
-
+![img_2.png](img_2.png)
 
 2、elemeUI  
 - 用于实验antdegin和elemeUI的组件功能。  
@@ -26,5 +26,6 @@
 
 antdUI
 *3、css实验室  
-
+![img_1.png](img_1.png)
 *4、js实验室
+![img.png](img.png)
